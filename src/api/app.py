@@ -309,6 +309,31 @@ async def predict_by_location(request: LocationPredictionRequest):
         results = []
         pipe_result.warnings.append("Model not loaded; returning data only")
 
+    # Re-compute export suggestion now that we have ML-recommended crops
+    from src.location.export_scorer import get_export_suggestion as _get_export_suggestion
+    ml_top_crops = [p.crop for p in results]
+    loc_state = pipe_result.location_info.get("state")
+    try:
+        candidate_crops = list(dict.fromkeys(
+            (pipe_result.model_input.get("target_crops") or [])
+            + [c["crop"] for c in (pipe_result.regional_crops or [])[:5]]
+            + ml_top_crops
+        ))
+        if not candidate_crops:
+            candidate_crops = ml_top_crops
+        refined_export = _get_export_suggestion(
+            candidate_crops,
+            pipe_result.location_info.get("latitude", 0),
+            pipe_result.location_info.get("longitude", 0),
+            state=loc_state,
+            model_recommended=ml_top_crops,
+        )
+    except Exception:
+        refined_export = pipe_result.export_suggestion
+
+    if refined_export is None:
+        refined_export = pipe_result.export_suggestion
+
     return LocationPredictionResponse(
         top_3=results,
         model_version=model_version,
@@ -324,7 +349,7 @@ async def predict_by_location(request: LocationPredictionRequest):
         ),
         regional_crops=pipe_result.regional_crops,
         satellite_data=pipe_result.satellite_data,
-        export_suggestion=ExportSuggestion(**pipe_result.export_suggestion) if pipe_result.export_suggestion else None,
+        export_suggestion=ExportSuggestion(**refined_export) if refined_export else None,
     )
 
 

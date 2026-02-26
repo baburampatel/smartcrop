@@ -133,9 +133,14 @@ class LocationPipeline:
         logger.info("Step 7: Computing export scores")
         export_suggestion = None
         try:
+            # Combine target crops + regionally grown crops (deduplicated)
+            candidate_crops = list(dict.fromkeys(
+                config.target_crops + [c["crop"] for c in (regional_crops or [])[:5]]
+            ))
             export_suggestion = get_export_suggestion(
-                config.target_crops + [c["crop"] for c in regional_crops[:3]],
+                candidate_crops,
                 loc_info.latitude, loc_info.longitude,
+                state=loc_info.state,
             )
             if export_suggestion:
                 data_sources.append("APEDA/MoC Export Statistics (export scoring)")
