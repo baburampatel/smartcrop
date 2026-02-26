@@ -25,9 +25,8 @@ env/
 Thumbs.db
 desktop.ini
 
-# ML artifacts (large files)
-models/*.joblib
-models/*.pkl
+# ML artifacts — include models for deployment
+# mlruns/ (excluded — large experiment tracking files)
 mlruns/
 
 # Data (keep catalog JSONs, ignore large files)
