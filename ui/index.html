@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation System — Field Officer Portal</title>
+    <meta name="description" content="AI-powered crop recommendation system for Indian agriculture field officers">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0f1c;
+            --bg-secondary: #111827;
+            --bg-card: #1a2332;
+            --bg-input: #0d1520;
+            --accent: #10b981;
+            --accent-hover: #34d399;
+            --accent-glow: rgba(16, 185, 129, 0.15);
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border: #1e293b;
+            --border-accent: rgba(16, 185, 129, 0.3);
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --info: #3b82f6;
+            --gradient-start: #10b981;
+            --gradient-end: #06b6d4;
+            --radius: 12px;
+            --radius-lg: 16px;
+            --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .app-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px 20px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 20px 32px;
+            position: relative;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 400px;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header p {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-top: 6px;
+        }
+
+        /* Main grid */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Card */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            box-shadow: var(--shadow);
+            transition: border-color 0.3s;
+        }
+
+        .card:hover {
+            border-color: var(--border-accent);
+        }
+
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-title .icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .icon-soil {
+            background: rgba(139, 92, 246, 0.15);
+        }
+
+        .icon-climate {
+            background: rgba(59, 130, 246, 0.15);
+        }
+
+        .icon-results {
+            background: rgba(16, 185, 129, 0.15);
+        }
+
+        .icon-location {
+            background: rgba(245, 158, 11, 0.15);
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 4px;
+            background: var(--bg-input);
+            border-radius: 10px;
+            padding: 4px;
+            margin-bottom: 20px;
+            grid-column: 1 / -1;
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            background: transparent;
+            color: var(--text-muted);
+            transition: all 0.2s;
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.25);
+        }
+
+        .tab-btn:hover:not(.active) {
+            color: var(--text-primary);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Location input */
+        .location-input-wrapper {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .location-input-wrapper input[type="text"] {
+            flex: 1;
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 14px 18px;
+            color: var(--text-primary);
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            transition: all 0.2s;
+            outline: none;
+        }
+
+        .location-input-wrapper input[type="text"]:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .location-hints {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 4px;
+        }
+
+        .hint-chip {
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 11px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .hint-chip:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* Location info card */
+        .location-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-top: 16px;
+            padding: 16px;
+            background: var(--bg-input);
+            border-radius: 10px;
+            border: 1px solid var(--border);
+        }
+
+        .loc-item-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+        }
+
+        .loc-item-value {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 2px;
+        }
+
+        /* Form */
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        label {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        input[type="number"] {
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 10px 14px;
+            color: var(--text-primary);
+            font-size: 14px;
+            font-family: 'Inter', sans-serif;
+            transition: all 0.2s;
+            outline: none;
+            width: 100%;
+        }
+
+        input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        input::placeholder {
+            color: var(--text-muted);
+        }
+
+        /* Buttons */
+        .btn-predict {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: var(--radius);
+            font-size: 15px;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            color: #fff;
+            margin-top: 20px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-predict:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-predict:active {
+            transform: translateY(0);
+        }
+
+        .btn-predict:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-predict .spinner {
+            display: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top-color: #fff;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 8px;
+        }
+
+        .btn-predict.loading .spinner {
+            display: inline-block;
+        }
+
+        .btn-predict.loading .btn-text {
+            display: none;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .btn-sample {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            border-radius: 8px;
+            padding: 8px 14px;
+            font-size: 12px;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-top: 10px;
+        }
+
+        .btn-sample:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* Results */
+        .results-container {
+            grid-column: 1 / -1;
+        }
+
+        .results-empty {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+
+        .results-empty .empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        .crop-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .crop-cards {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .crop-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+            animation: slideUp 0.4s ease-out;
+        }
+
+        .crop-card:nth-child(2) {
+            animation-delay: 0.1s;
+        }
+
+        .crop-card:nth-child(3) {
+            animation-delay: 0.2s;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .crop-card:hover {
+            border-color: var(--border-accent);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .crop-card.rank-1 {
+            border-top: 3px solid var(--accent);
+        }
+
+        .crop-card.rank-2 {
+            border-top: 3px solid var(--info);
+        }
+
+        .crop-card.rank-3 {
+            border-top: 3px solid var(--warning);
+        }
+
+        .rank-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .rank-1 .rank-badge {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent);
+        }
+
+        .rank-2 .rank-badge {
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--info);
+        }
+
+        .rank-3 .rank-badge {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--warning);
+        }
+
+        .crop-name {
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin-bottom: 4px;
+        }
+
+        .confidence-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--bg-input);
+            border-radius: 3px;
+            margin: 12px 0;
+            overflow: hidden;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 1s ease-out;
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+        }
+
+        .crop-stats {
+            display: flex;
+            justify-content: space-between;
+            gap: 8px;
+            margin: 12px 0;
+        }
+
+        .stat {
+            text-align: center;
+            flex: 1;
+        }
+
+        .stat-value {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .stat-label {
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .explanation-title {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 16px 0 8px;
+        }
+
+        .explanation-list {
+            list-style: none;
+            font-size: 12px;
+        }
+
+        .explanation-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+        }
+
+        .explanation-feature {
+            color: var(--text-secondary);
+        }
+
+        .explanation-value {
+            font-weight: 500;
+            font-family: 'SF Mono', 'Consolas', monospace;
+            font-size: 11px;
+        }
+
+        .contribution-positive {
+            color: var(--accent);
+        }
+
+        .contribution-negative {
+            color: var(--danger);
+        }
+
+        /* Regional crops box */
+        .regional-crops-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            margin-top: 16px;
+            animation: slideUp 0.4s ease-out;
+        }
+
+        .regional-crops-card .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .crop-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .crop-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 6px 14px;
+            font-size: 13px;
+            color: var(--text-primary);
+            transition: all 0.2s;
+        }
+
+        .crop-chip:hover {
+            border-color: var(--accent);
+            transform: translateY(-1px);
+        }
+
+        .crop-chip .season-tag {
+            font-size: 10px;
+            padding: 1px 6px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .season-kharif {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent);
+        }
+
+        .season-rabi {
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--info);
+        }
+
+        .season-annual {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--warning);
+        }
+
+        .season-zaid {
+            background: rgba(168, 85, 247, 0.15);
+            color: #a855f7;
+        }
+
+        .satellite-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            margin-top: 14px;
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .satellite-badge .score {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .satellite-badge .score.high {
+            color: var(--accent);
+        }
+
+        .satellite-badge .score.moderate {
+            color: var(--warning);
+        }
+
+        .satellite-badge .score.low {
+            color: var(--danger);
+        }
+
+        .area-name {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .area-name strong {
+            color: var(--text-primary);
+        }
+
+        /* Export Opportunity box */
+        .export-box {
+            background: var(--bg-card);
+            border: 2px solid transparent;
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            margin-top: 20px;
+            position: relative;
+            overflow: hidden;
+            animation: slideUp 0.5s ease-out;
+        }
+
+        .export-box::before {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            border-radius: var(--radius-lg);
+            padding: 2px;
+            background: linear-gradient(135deg, #10b981, #3b82f6, #8b5cf6);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+
+        .export-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .export-header .icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(59, 130, 246, 0.2));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .export-header h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 0;
+        }
+
+        .export-header h3 small {
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-muted);
+            display: block;
+            margin-top: 2px;
+        }
+
+        .export-crop-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(59, 130, 246, 0.12));
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 12px;
+            padding: 10px 18px;
+            margin-bottom: 14px;
+        }
+
+        .export-crop-name {
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: capitalize;
+            background: linear-gradient(135deg, var(--accent), var(--info));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .export-confidence {
+            font-size: 12px;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 6px;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent);
+        }
+
+        .export-reasons {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 14px 0;
+        }
+
+        .export-reasons li {
+            font-size: 13px;
+            color: var(--text-secondary);
+            padding: 4px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .export-reasons li::before {
+            content: '>';
+            color: var(--accent);
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .export-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border);
+        }
+
+        .export-meta-item {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .export-meta-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+        }
+
+        .export-meta-value {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .export-disclaimer {
+            font-size: 10px;
+            color: var(--text-muted);
+            margin-top: 12px;
+            font-style: italic;
+        }
+
+        /* Status bar */
+        .status-bar {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            padding: 12px 0;
+            margin-top: 24px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+
+        .status-dot.offline {
+            background: var(--danger);
+        }
+
+        /* Error */
+        .error-msg {
+            text-align: center;
+            padding: 20px;
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            border-radius: var(--radius);
+            color: var(--danger);
+            margin-top: 16px;
+            animation: slideUp 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <div class="logo-icon">&#127806;</div>
+                <h1>Crop Recommendation System</h1>
+            </div>
+            <p>AI-powered crop recommendations for Indian agriculture &mdash; Enter a location or soil test values</p>
+        </div>
+
+        <!-- Tab Switcher -->
+        <div class="main-grid">
+            <div class="tabs">
+                <button class="tab-btn active" id="tabLocation" onclick="switchTab('location')">&#128205; By
+                    Location</button>
+                <button class="tab-btn" id="tabManual" onclick="switchTab('manual')">&#129514; Manual Input</button>
+            </div>
+
+            <!-- TAB: By Location -->
+            <div class="tab-content active" id="contentLocation" style="grid-column: 1 / -1;">
+                <div class="card">
+                    <div class="card-title">
+                        <div class="icon icon-location">&#128205;</div>
+                        Enter Location
+                    </div>
+                    <div class="location-input-wrapper">
+                        <input type="text" id="locationInput"
+                            placeholder="PIN code (e.g. 560001) or lat,lon (e.g. 12.97,77.59)" autocomplete="off">
+                    </div>
+                    <div class="location-hints">
+                        <span class="hint-chip" onclick="setLocation('560001')">Bangalore - 560001</span>
+                        <span class="hint-chip" onclick="setLocation('110001')">Delhi - 110001</span>
+                        <span class="hint-chip" onclick="setLocation('400001')">Mumbai - 400001</span>
+                        <span class="hint-chip" onclick="setLocation('600001')">Chennai - 600001</span>
+                        <span class="hint-chip" onclick="setLocation('12.9716,77.5946')">12.97, 77.59</span>
+                    </div>
+                    <button class="btn-predict" id="predictLocationBtn" onclick="predictByLocation()"
+                        style="margin-top:16px">
+                        <span class="spinner"></span>
+                        <span class="btn-text">&#128269; Get Crop Recommendations</span>
+                    </button>
+                </div>
+                <!-- Location info (revealed after fetch) -->
+                <div id="locationInfoCard" style="display:none; margin-top:16px;">
+                    <div class="location-info" id="locationInfoContent"></div>
+                </div>
+                <!-- Regional crops box (revealed after fetch) -->
+                <div id="regionalCropsCard" class="regional-crops-card" style="display:none;">
+                    <div class="card-title">
+                        <div class="icon" style="background:rgba(245,158,11,0.15)">&#127793;</div>
+                        Crops Currently Grown in This Area
+                    </div>
+                    <div id="regionalCropsContent"></div>
+                </div>
+            </div>
+
+            <!-- TAB: Manual Input -->
+            <div class="tab-content" id="contentManual">
+                <div class="main-grid" style="margin-top:0">
+                    <div class="card">
+                        <div class="card-title">
+                            <div class="icon icon-soil">&#129514;</div>
+                            Soil Parameters
+                        </div>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="nitrogen">Nitrogen (kg/ha)</label>
+                                <input type="number" id="nitrogen" placeholder="e.g. 90" step="0.1" min="0" max="500">
+                            </div>
+                            <div class="form-group">
+                                <label for="phosphorus">Phosphorus (kg/ha)</label>
+                                <input type="number" id="phosphorus" placeholder="e.g. 42" step="0.1" min="0" max="500">
+                            </div>
+                            <div class="form-group">
+                                <label for="potassium">Potassium (kg/ha)</label>
+                                <input type="number" id="potassium" placeholder="e.g. 43" step="0.1" min="0" max="500">
+                            </div>
+                            <div class="form-group">
+                                <label for="ph">pH Value</label>
+                                <input type="number" id="ph" placeholder="e.g. 6.5" step="0.01" min="0" max="14">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-title">
+                            <div class="icon icon-climate">&#127780;&#65039;</div>
+                            Climate &amp; Environment
+                        </div>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="temperature">Temperature (&deg;C)</label>
+                                <input type="number" id="temperature" placeholder="e.g. 25.5" step="0.1" min="-10"
+                                    max="60">
+                            </div>
+                            <div class="form-group">
+                                <label for="humidity">Humidity (%)</label>
+                                <input type="number" id="humidity" placeholder="e.g. 80" step="0.1" min="0" max="100">
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="rainfall">Annual Rainfall (mm)</label>
+                                <input type="number" id="rainfall" placeholder="e.g. 200" step="0.1" min="0" max="5000">
+                            </div>
+                        </div>
+                        <button class="btn-sample" onclick="fillSample()">&#9889; Fill sample values</button>
+                    </div>
+
+                    <div style="grid-column: 1 / -1;">
+                        <button class="btn-predict" id="predictBtn" onclick="predict()">
+                            <span class="spinner"></span>
+                            <span class="btn-text">&#128269; Get Crop Recommendations</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div class="results-container card" id="resultsCard" style="display:none;">
+                <div class="card-title">
+                    <div class="icon icon-results">&#128202;</div>
+                    Recommendations
+                </div>
+                <div id="resultsContent"></div>
+            </div>
+
+            <!-- Error -->
+            <div class="results-container" id="errorContainer" style="display:none;">
+                <div class="error-msg" id="errorMsg"></div>
+            </div>
+
+            <!-- Export Opportunity -->
+            <div id="exportBox" class="export-box" style="display:none;">
+                <div class="export-header">
+                    <div class="icon">&#128640;</div>
+                    <h3>Export Opportunity <small>AI-powered export suggestion for next quarter</small></h3>
+                </div>
+                <div id="exportContent"></div>
+            </div>
+        </div>
+
+        <!-- Status bar -->
+        <div class="status-bar">
+            <div class="status-item">
+                <div class="status-dot" id="statusDot"></div>
+                <span id="statusText">Checking API...</span>
+            </div>
+            <div class="status-item">
+                <span id="modelVersion">—</span>
+            </div>
+            <div class="status-item">
+                <span id="latencyDisplay">—</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin;
+        let activeTab = 'location';
+
+        // Tab switching
+        function switchTab(tab) {
+            activeTab = tab;
+            document.getElementById('tabLocation').classList.toggle('active', tab === 'location');
+            document.getElementById('tabManual').classList.toggle('active', tab === 'manual');
+            document.getElementById('contentLocation').classList.toggle('active', tab === 'location');
+            document.getElementById('contentManual').classList.toggle('active', tab === 'manual');
+            // Hide results when switching
+            document.getElementById('resultsCard').style.display = 'none';
+            document.getElementById('errorContainer').style.display = 'none';
+        }
+
+        function setLocation(loc) {
+            document.getElementById('locationInput').value = loc;
+        }
+
+        // Check health on load
+        async function checkHealth() {
+            try {
+                const res = await fetch(`${API_BASE}/health`);
+                const data = await res.json();
+                document.getElementById('statusDot').className = data.model_loaded ? 'status-dot' : 'status-dot offline';
+                document.getElementById('statusText').textContent = data.model_loaded ? 'Model Ready' : 'Model Not Loaded';
+                document.getElementById('modelVersion').textContent = `v${data.version}`;
+            } catch {
+                document.getElementById('statusDot').className = 'status-dot offline';
+                document.getElementById('statusText').textContent = 'API Offline';
+            }
+        }
+        checkHealth();
+
+        function fillSample() {
+            document.getElementById('nitrogen').value = 90;
+            document.getElementById('phosphorus').value = 42;
+            document.getElementById('potassium').value = 43;
+            document.getElementById('ph').value = 6.5;
+            document.getElementById('temperature').value = 20.87;
+            document.getElementById('humidity').value = 82.0;
+            document.getElementById('rainfall').value = 202.9;
+        }
+
+        // ---- Predict by Location ----
+        async function predictByLocation() {
+            const btn = document.getElementById('predictLocationBtn');
+            const resultsCard = document.getElementById('resultsCard');
+            const errorContainer = document.getElementById('errorContainer');
+            const locInfoCard = document.getElementById('locationInfoCard');
+
+            const location = document.getElementById('locationInput').value.trim();
+            if (!location) {
+                showError('Please enter a PIN code or coordinates.');
+                return;
+            }
+
+            btn.classList.add('loading');
+            btn.disabled = true;
+            resultsCard.style.display = 'none';
+            errorContainer.style.display = 'none';
+            locInfoCard.style.display = 'none';
+            document.getElementById('regionalCropsCard').style.display = 'none';
+            document.getElementById('exportBox').style.display = 'none';
+
+            const start = performance.now();
+
+            try {
+                const res = await fetch(`${API_BASE}/predict-by-location`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ location: location, pipeline: 'Tertiary' }),
+                });
+
+                const latency = Math.round(performance.now() - start);
+                document.getElementById('latencyDisplay').textContent = `${latency}ms`;
+
+                if (!res.ok) {
+                    const err = await res.json();
+                    throw new Error(err.detail || 'Prediction failed');
+                }
+
+                const data = await res.json();
+
+                // Show location info
+                showLocationInfo(data);
+
+                // Show regional crops
+                showRegionalCrops(data);
+
+                // Render crop results
+                renderResults(data);
+
+                // Show export suggestion
+                showExportSuggestion(data);
+            } catch (err) {
+                showError(err.message || 'Failed to fetch data for this location');
+            } finally {
+                btn.classList.remove('loading');
+                btn.disabled = false;
+            }
+        }
+
+        function showLocationInfo(data) {
+            const card = document.getElementById('locationInfoCard');
+            const content = document.getElementById('locationInfoContent');
+            const loc = data.location_info || {};
+            const soil = data.soil_data || {};
+            const weather = data.weather_data || {};
+            const ds = data.data_sources || {};
+
+            content.innerHTML = `
+                <div><div class="loc-item-label">Coordinates</div><div class="loc-item-value">${loc.latitude || '?'}, ${loc.longitude || '?'}</div></div>
+                <div><div class="loc-item-label">State</div><div class="loc-item-value">${loc.state || 'Unknown'}</div></div>
+                <div><div class="loc-item-label">District</div><div class="loc-item-value">${loc.district || 'Unknown'}</div></div>
+                <div><div class="loc-item-label">Soil pH</div><div class="loc-item-value">${soil.pH || '?'}</div></div>
+                <div><div class="loc-item-label">N / P / K (kg/ha)</div><div class="loc-item-value">${soil.N_kg_ha || '?'} / ${soil.P_kg_ha || '?'} / ${soil.K_kg_ha || '?'}</div></div>
+                <div><div class="loc-item-label">Avg Temp</div><div class="loc-item-value">${weather.avg_temp_c || '?'} &deg;C</div></div>
+                <div><div class="loc-item-label">Humidity</div><div class="loc-item-value">${weather.humidity_pct || '?'}%</div></div>
+                <div><div class="loc-item-label">Rainfall</div><div class="loc-item-value">${weather.avg_precip_mm || '?'} mm/yr</div></div>
+            `;
+            card.style.display = 'block';
+        }
+
+        function showRegionalCrops(data) {
+            const card = document.getElementById('regionalCropsCard');
+            const content = document.getElementById('regionalCropsContent');
+            const crops = data.regional_crops || [];
+            const sat = data.satellite_data;
+            const loc = data.location_info || {};
+
+            if (crops.length === 0 && !sat) {
+                card.style.display = 'none';
+                return;
+            }
+
+            let html = '';
+
+            // Area name
+            const area = [loc.district, loc.state].filter(Boolean).join(', ') || 'this area';
+            html += `<div class="area-name">Major crops grown in <strong>${area}</strong>:</div>`;
+
+            // Crop chips
+            if (crops.length > 0) {
+                html += '<div class="crop-chips">';
+                crops.forEach(c => {
+                    const seasonClass = 'season-' + (c.season || 'annual');
+                    const label = c.season_label || c.season || '';
+                    html += `<div class="crop-chip">
+                        <span style="text-transform:capitalize;font-weight:600">${c.crop}</span>
+                        <span class="season-tag ${seasonClass}">${label}</span>
+                    </div>`;
+                });
+                html += '</div>';
+            }
+
+            // Satellite vegetation badge
+            if (sat) {
+                const activity = sat.vegetation_activity || 'Unknown';
+                const score = sat.vegetation_score || 0;
+                const scoreClass = activity.toLowerCase();
+                html += `<div class="satellite-badge">
+                    <span>&#128752; Satellite Data:</span>
+                    <span>Vegetation Activity</span>
+                    <span class="score ${scoreClass}">${activity} (${score}/100)</span>
+                    <span style="color:var(--text-muted);font-size:10px">via ${sat.source || 'NASA POWER'}</span>
+                </div>`;
+            }
+
+            content.innerHTML = html;
+            card.style.display = 'block';
+        }
+
+        // ---- Predict by Manual Input ----
+        async function predict() {
+            const btn = document.getElementById('predictBtn');
+            const resultsCard = document.getElementById('resultsCard');
+            const errorContainer = document.getElementById('errorContainer');
+
+            const payload = {
+                N: parseFloat(document.getElementById('nitrogen').value),
+                P: parseFloat(document.getElementById('phosphorus').value),
+                K: parseFloat(document.getElementById('potassium').value),
+                ph: parseFloat(document.getElementById('ph').value),
+                temperature: parseFloat(document.getElementById('temperature').value),
+                humidity: parseFloat(document.getElementById('humidity').value),
+                rainfall: parseFloat(document.getElementById('rainfall').value),
+            };
+
+            for (const [key, val] of Object.entries(payload)) {
+                if (isNaN(val)) {
+                    showError(`Please fill in all fields. "${key}" is missing.`);
+                    return;
+                }
+            }
+
+            btn.classList.add('loading');
+            btn.disabled = true;
+            resultsCard.style.display = 'none';
+            errorContainer.style.display = 'none';
+
+            const start = performance.now();
+
+            try {
+                const res = await fetch(`${API_BASE}/predict`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+
+                const latency = Math.round(performance.now() - start);
+                document.getElementById('latencyDisplay').textContent = `${latency}ms`;
+
+                if (!res.ok) {
+                    const err = await res.json();
+                    throw new Error(err.detail || 'Prediction failed');
+                }
+
+                const data = await res.json();
+                renderResults(data);
+            } catch (err) {
+                showError(err.message || 'Failed to connect to API');
+            } finally {
+                btn.classList.remove('loading');
+                btn.disabled = false;
+            }
+        }
+
+        function renderResults(data) {
+            const resultsCard = document.getElementById('resultsCard');
+            const content = document.getElementById('resultsContent');
+
+            let html = '<div class="crop-cards">';
+            data.top_3.forEach((pred, i) => {
+                const rank = i + 1;
+                const pct = (pred.probability * 100).toFixed(1);
+                const yieldVal = pred.expected_yield_kg_ha ? pred.expected_yield_kg_ha.toLocaleString() : '--';
+
+                html += `
+                    <div class="crop-card rank-${rank}">
+                        <div class="rank-badge">#${rank}</div>
+                        <div class="crop-name">${pred.crop}</div>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" style="width: 0%;" data-target="${pct}"></div>
+                        </div>
+                        <div class="crop-stats">
+                            <div class="stat">
+                                <div class="stat-value">${pct}%</div>
+                                <div class="stat-label">Confidence</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-value">${yieldVal}</div>
+                                <div class="stat-label">Yield kg/ha</div>
+                            </div>
+                        </div>
+                        <div class="explanation-title">Key Factors</div>
+                        <ul class="explanation-list">
+                            ${pred.explanation.map(e => `
+                                <li class="explanation-item">
+                                    <span class="explanation-feature">${e.feature}</span>
+                                    <span class="explanation-value ${e.contribution >= 0 ? 'contribution-positive' : 'contribution-negative'}">
+                                        ${e.contribution >= 0 ? '+' : ''}${e.contribution.toFixed(4)}
+                                    </span>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            html += `<div style="margin-top:16px;font-size:11px;color:var(--text-muted);text-align:right;">
+                Model: ${data.model_version} &middot; Data: ${data.data_checksum}
+            </div>`;
+
+            content.innerHTML = html;
+            resultsCard.style.display = 'block';
+
+            // Animate bars
+            setTimeout(() => {
+                document.querySelectorAll('.confidence-fill').forEach(bar => {
+                    bar.style.width = bar.dataset.target + '%';
+                });
+            }, 100);
+        }
+
+        function showExportSuggestion(data) {
+            const box = document.getElementById('exportBox');
+            const content = document.getElementById('exportContent');
+            const exp = data.export_suggestion;
+
+            if (!exp) {
+                box.style.display = 'none';
+                return;
+            }
+
+            let html = '';
+
+            // Crop badge with confidence
+            html += `<div class="export-crop-badge">
+                <span class="export-crop-name">${exp.crop}</span>
+                <span class="export-confidence">${exp.confidence.toFixed(0)}% confidence</span>
+            </div>`;
+
+            // Reason bullets
+            const bullets = exp.reason_bullets || exp.reason.split(' | ');
+            if (bullets.length > 0) {
+                html += '<ul class="export-reasons">';
+                bullets.forEach(b => {
+                    html += `<li>${b}</li>`;
+                });
+                html += '</ul>';
+            }
+
+            // Meta grid
+            html += '<div class="export-meta">';
+
+            if (exp.avg_price_usd_ton) {
+                html += `<div class="export-meta-item">
+                    <span class="export-meta-label">Export Price</span>
+                    <span class="export-meta-value">$${exp.avg_price_usd_ton}/ton</span>
+                </div>`;
+            }
+
+            if (exp.nearest_port) {
+                html += `<div class="export-meta-item">
+                    <span class="export-meta-label">Nearest Port</span>
+                    <span class="export-meta-value">${exp.nearest_port}</span>
+                </div>`;
+            }
+
+            if (exp.port_distance_km) {
+                html += `<div class="export-meta-item">
+                    <span class="export-meta-label">Distance</span>
+                    <span class="export-meta-value">${exp.port_distance_km.toFixed(0)} km</span>
+                </div>`;
+            }
+
+            html += `<div class="export-meta-item">
+                <span class="export-meta-label">Export Score</span>
+                <span class="export-meta-value">${exp.export_score.toFixed(1)} / 100</span>
+            </div>`;
+
+            html += `<div class="export-meta-item">
+                <span class="export-meta-label">Export Window</span>
+                <span class="export-meta-value">Next Quarter</span>
+            </div>`;
+
+            if (exp.cold_chain_required) {
+                html += `<div class="export-meta-item">
+                    <span class="export-meta-label">Cold Chain</span>
+                    <span class="export-meta-value" style="color:var(--warning)">Required</span>
+                </div>`;
+            }
+
+            html += '</div>';
+
+            html += '<div class="export-disclaimer">* Export recommendations are research-grade suggestions based on public trade data (APEDA/MoC). Not financial advice. Actual export feasibility depends on market conditions, regulations, and logistics.</div>';
+
+            content.innerHTML = html;
+            box.style.display = 'block';
+        }
+
+        function showError(msg) {
+            const container = document.getElementById('errorContainer');
+            document.getElementById('errorMsg').textContent = msg;
+            container.style.display = 'block';
+        }
+
+        // Enter key submits based on active tab
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Enter') {
+                if (activeTab === 'location') predictByLocation();
+                else predict();
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+{
+  "datasets": [
+    {
+      "id": "kaggle_crop_recommendation",
+      "name": "Crop Recommendation Dataset",
+      "source": "Kaggle",
+      "url": "https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset",
+      "license": "CC0: Public Domain",
+      "retrieval_date": "2026-02-24",
+      "description": "Expert-curated crop recommendation dataset for Indian agriculture with soil nutrient ratios, climate parameters, and recommended crop labels for 22 crops.",
+      "variables": [
+        {"name": "N", "description": "Ratio of Nitrogen content in soil", "unit": "kg/ha", "type": "float"},
+        {"name": "P", "description": "Ratio of Phosphorous content in soil", "unit": "kg/ha", "type": "float"},
+        {"name": "K", "description": "Ratio of Potassium content in soil", "unit": "kg/ha", "type": "float"},
+        {"name": "temperature", "description": "Temperature in degree Celsius", "unit": "°C", "type": "float"},
+        {"name": "humidity", "description": "Relative humidity", "unit": "%", "type": "float"},
+        {"name": "ph", "description": "pH value of the soil", "unit": "dimensionless", "type": "float"},
+        {"name": "rainfall", "description": "Rainfall", "unit": "mm", "type": "float"},
+        {"name": "label", "description": "Recommended crop", "unit": "categorical", "type": "string"}
+      ],
+      "sample_count": 2200,
+      "sample_density": "100 samples per crop (22 crops)",
+      "crops": ["rice", "maize", "chickpea", "kidneybeans", "pigeonpeas", "mothbeans", "mungbean", "blackgram", "lentil", "pomegranate", "banana", "mango", "grapes", "watermelon", "muskmelon", "apple", "orange", "papaya", "coconut", "cotton", "jute", "coffee"],
+      "contact": "Kaggle community dataset",
+      "notes": "Primary dataset for crop classification. Lacks lat/lon coordinates and yield data."
+    },
+    {
+      "id": "india_crop_production",
+      "name": "District-wise Season-wise Crop Production Statistics",
+      "source": "Open Government Data Platform India (data.gov.in)",
+      "url": "https://data.gov.in/resource/district-wise-season-wise-crop-production-statistics",
+      "license": "Government Open Data License - India (GODL)",
+      "retrieval_date": "2026-02-24",
+      "description": "District-level crop area, production, and computed yield for multiple crops across all Indian states and seasons.",
+      "variables": [
+        {"name": "State_Name", "description": "Indian state", "unit": "categorical", "type": "string"},
+        {"name": "District_Name", "description": "District within state", "unit": "categorical", "type": "string"},
+        {"name": "Crop_Year", "description": "Year of harvest", "unit": "year", "type": "int"},
+        {"name": "Season", "description": "Cropping season (Kharif/Rabi/Whole Year)", "unit": "categorical", "type": "string"},
+        {"name": "Crop", "description": "Crop name", "unit": "categorical", "type": "string"},
+        {"name": "Area", "description": "Area under cultivation", "unit": "hectares", "type": "float"},
+        {"name": "Production", "description": "Total production", "unit": "tonnes", "type": "float"}
+      ],
+      "sample_count": "~250,000+ records",
+      "sample_density": "District-level, all India",
+      "contact": "Ministry of Agriculture & Farmers Welfare, Government of India",
+      "notes": "Used for yield estimation (Production/Area). District serves as location_id for geographic grouping."
+    },
+    {
+      "id": "kaggle_crop_yield_india",
+      "name": "Agricultural Crop Yield in Indian States Dataset",
+      "source": "Kaggle",
+      "url": "https://www.kaggle.com/datasets/akshatgupta7/crop-yield-in-indian-states-dataset",
+      "license": "CC0: Public Domain",
+      "retrieval_date": "2026-02-24",
+      "description": "Agricultural data for multiple crops across Indian states from 1997-2020, including rainfall, fertilizer, and pesticide usage with computed yield.",
+      "variables": [
+        {"name": "Crop", "description": "Crop type", "unit": "categorical", "type": "string"},
+        {"name": "Crop_Year", "description": "Year of cultivation", "unit": "year", "type": "int"},
+        {"name": "Season", "description": "Cropping season", "unit": "categorical", "type": "string"},
+        {"name": "State", "description": "Indian state", "unit": "categorical", "type": "string"},
+        {"name": "Area", "description": "Area under cultivation", "unit": "hectares", "type": "float"},
+        {"name": "Production", "description": "Total production", "unit": "tonnes", "type": "float"},
+        {"name": "Annual_Rainfall", "description": "Annual rainfall", "unit": "mm", "type": "float"},
+        {"name": "Fertilizer", "description": "Fertilizer usage", "unit": "kg/ha", "type": "float"},
+        {"name": "Pesticide", "description": "Pesticide usage", "unit": "kg/ha", "type": "float"},
+        {"name": "Yield", "description": "Crop yield", "unit": "kg/ha", "type": "float"}
+      ],
+      "sample_count": "~10,000+ records",
+      "sample_density": "State-level, 1997-2020",
+      "contact": "Kaggle community dataset",
+      "notes": "Supplementary dataset for yield modeling with rainfall and input correlations."
+    }
+  ],
+  "catalog_version": "1.0.0",
+  "created_date": "2026-02-24",
+  "created_by": "AntiGravity ML Agent"
+}

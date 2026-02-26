@@ -1,0 +1,129 @@
+{
+  "summary": {
+    "best_pipeline": "Primary (Lab + SoilGrids + Sentinel-2 + Weather)",
+    "expected_confidence": "High (Top-3 >= 0.85 with 500+ geo-referenced samples)",
+    "estimated_cost_usd": "580-630 (Primary) | 50 (Secondary) | 20 (Tertiary)",
+    "estimated_timeline": "4-8 weeks",
+    "fallback": "Secondary pipeline (SHC scraping + remote sensing, $50, medium-high confidence)"
+  },
+  "mechanics_list": [
+    "Soil Health Card Portal Scraper — web scraping — lab-tested N/P/K/pH/EC/OC for target district",
+    "ISRIC SoilGrids v2.0 REST API — remote API — modeled clay/sand/silt/pH/SOC/nitrogen at 250m",
+    "Sentinel-2 via Google Earth Engine — remote sensing — NDVI/EVI/NDMI at 10m resolution",
+    "Open-Meteo Archive API — weather API — temperature/precipitation/humidity (free, no key)",
+    "Kaggle Crop Recommendation Dataset — static dataset — 2200 samples, 22 crops, CC0",
+    "India Crop Production (data.gov.in) — government portal — district-level yield, 250K+ records, GODL",
+    "Agmarknet Market Prices — government API — daily mandi prices for 200+ commodities, 3000+ markets",
+    "Local Soil Testing Labs (KVK/SAU/Govt) — physical lab — gold-standard soil analysis, $4-6/sample",
+    "Portable pH/EC Meters — field sensor — quick screening, +-0.1 pH accuracy, $19-38",
+    "NASA SMAP L4 — satellite — root-zone soil moisture at 9km, Earthdata login required",
+    "FAO Global Soil Map — global dataset — soil type/texture/pH at 1km, OGC WMS/WFS",
+    "OpenLandMap — global dataset — soil texture/pH/SOC/bulk density at 250m, WCS public"
+  ],
+  "pipelines": {
+    "Primary": {
+      "name": "Lab + SoilGrids + Sentinel-2 + Weather",
+      "required_inputs": {
+        "soil": ["pH (1-14)", "EC (dS/m)", "N_kg_ha", "P_kg_ha", "K_kg_ha", "OC_pct", "texture_class"],
+        "climate": ["avg_temp_c (C)", "humidity_pct (%)", "avg_precip_mm (mm)"],
+        "remote_sensing": ["ndvi_mean (0-1)"],
+        "location": ["latitude", "longitude", "season"]
+      },
+      "steps": [
+        "Geocode LOCATION to lat/lon",
+        "Collect 10-50 soil samples in RADIUS_KM, send to nearest lab",
+        "Fetch SoilGrids modeled values for gap-filling",
+        "Fetch 3-year weather from Open-Meteo",
+        "Extract Sentinel-2 NDVI time series via GEE",
+        "Pull district yield history from data.gov.in",
+        "Pull Agmarknet mandi prices for economic ranking",
+        "Harmonize units, impute missing values, engineer features",
+        "Fine-tune XGBoost classifier + yield regressors",
+        "Evaluate on geo-held-out test set",
+        "Deploy as FastAPI + Docker endpoint"
+      ],
+      "cost_usd": "580-630",
+      "time": "6-8 weeks",
+      "confidence": "HIGH (Top-3 >= 0.85)"
+    },
+    "Secondary": {
+      "name": "Soil Health Card (Scraped) + Remote Sensing + Weather",
+      "required_inputs": {
+        "soil": ["pH", "EC", "N", "P", "K", "OC (from SHC portal scraping)"],
+        "climate": ["avg_temp_c", "humidity_pct", "avg_precip_mm"],
+        "remote_sensing": ["ndvi_mean"],
+        "location": ["latitude", "longitude", "season"]
+      },
+      "steps": [
+        "Geocode LOCATION to state + district",
+        "Scrape SHC portal for all cards in target district(s)",
+        "Parse card metadata/OCR for soil values",
+        "Fetch weather and NDVI as in Primary",
+        "Match SHC records to district yield data",
+        "Harmonize, clean OCR errors, engineer features",
+        "Train/fine-tune models",
+        "Deploy"
+      ],
+      "cost_usd": "50",
+      "time": "4-5 weeks",
+      "confidence": "MEDIUM-HIGH (Top-3 >= 0.78)"
+    },
+    "Tertiary": {
+      "name": "SoilGrids + Kaggle Baseline + Weather (Zero-Cost)",
+      "required_inputs": {
+        "soil": ["SoilGrids modeled: clay/sand/silt/pH/SOC/nitrogen"],
+        "climate": ["avg_temp_c", "humidity_pct", "avg_precip_mm"],
+        "location": ["latitude", "longitude", "season"]
+      },
+      "steps": [
+        "Geocode LOCATION to lat/lon",
+        "Query SoilGrids for soil properties",
+        "Apply pedotransfer functions for N/P/K approximation",
+        "Fetch weather from Open-Meteo",
+        "Use pre-trained XGBoost model with SoilGrids input",
+        "Yield from district-level historical data"
+      ],
+      "cost_usd": "20",
+      "time": "1-2 weeks",
+      "confidence": "MEDIUM (Top-3 ~0.70-0.75)"
+    }
+  },
+  "sampling_protocol": [
+    "1. Define sampling unit: one composite sample per 1-2 hectare plot",
+    "2. Select 15-20 subsampling points per plot in zigzag/W pattern",
+    "3. Collect from 0-15 cm depth (plough layer) using soil auger or khurpi",
+    "4. Avoid edges (>=10m from boundaries, bunds, tree canopy, manure heaps)",
+    "5. Mix all subsamples in clean plastic bucket, mix thoroughly",
+    "6. Quarter: flatten into circle, divide into 4, discard 2 opposite, repeat until ~500g",
+    "7. Air dry on clean paper in shade for 24-48 hours",
+    "8. Pack in clean cloth/poly bag, label with sample_id, GPS, date, depth",
+    "9. Send to nearest lab within 7 days"
+  ],
+  "api_snippets": {
+    "geocode_pin": "requests.get(f'https://nominatim.openstreetmap.org/search?postalcode={LOCATION}&country=IN&format=json')",
+    "isric_soilgrids": "requests.get(f'https://rest.isric.org/soilgrids/v2.0/properties/query?lat={lat}&lon={lon}&property=phh2o&property=clay&property=nitrogen&depth=0-5cm&value=mean')",
+    "open_meteo_weather": "requests.get(f'https://archive-api.open-meteo.com/v1/archive?latitude={lat}&longitude={lon}&start_date=2024-01-01&end_date=2024-12-31&daily=temperature_2m_max,temperature_2m_min,precipitation_sum')",
+    "gee_sentinel2_ndvi": "ee.ImageCollection('COPERNICUS/S2_SR').filterBounds(ee.Geometry.Point(lon,lat)).filterDate('2024-01-01','2024-12-31').map(lambda img: img.addBands(img.normalizedDifference(['B8','B4']).rename('NDVI')))",
+    "agmarknet_prices": "curl 'https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070?api-key=KEY&format=json&filters[State.keyword]=Karnataka&filters[Commodity]=Rice'",
+    "predict_endpoint": "curl -X POST http://localhost:8000/predict -H 'Content-Type: application/json' -d '{\"N\":90,\"P\":42,\"K\":43,\"temperature\":20.87,\"humidity\":82.0,\"ph\":6.5,\"rainfall\":202.9}'"
+  },
+  "permissions_templates": {
+    "permission_email_subject": "Data Sharing Request - AI Crop Recommendation Research for {DISTRICT}",
+    "permission_email_available": true,
+    "consent_form_path": "docs/consent_template.md",
+    "consent_form_available": true
+  },
+  "cost_timeline": {
+    "primary_pipeline": {"cost_usd": "580-630", "duration_weeks": "6-8"},
+    "secondary_pipeline": {"cost_usd": "50", "duration_weeks": "4-5"},
+    "tertiary_pipeline": {"cost_usd": "20", "duration_weeks": "1-2"},
+    "acceptance_tests": {
+      "top3_accuracy_target": ">=0.75",
+      "p95_latency_target_ms": 300,
+      "current_p95_latency_ms": 33.9,
+      "docker_health_check": true,
+      "shap_explanations": true
+    }
+  },
+  "execution_prompt": "RUN_LOCATION_PIPELINE LOCATION={LOCATION} PIPELINE=Primary TARGET_CROPS=rice,maize,wheat,soybean,groundnut,sugarcane PRIORITIZE=data_quality RADIUS_KM=50 MODE=full_run"
+}

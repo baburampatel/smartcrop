@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ML artifacts (large files)
+models/*.joblib
+models/*.pkl
+mlruns/
+
+# Data (keep catalog JSONs, ignore large files)
+data/*.csv
+data/*.parquet
+!data/trade_catalog.json
+
+# Secrets
+.env
+*.key
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage

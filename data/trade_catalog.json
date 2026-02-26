@@ -1,0 +1,670 @@
+{
+  "metadata": {
+    "title": "India Agricultural Export Trade Catalog",
+    "description": "Curated export statistics for Indian agricultural commodities",
+    "created_at": "2026-02-26T18:06:03.454457Z",
+    "version": "1.0.0",
+    "sources": [
+      {
+        "name": "APEDA ExportStat",
+        "url": "https://apeda.gov.in/apedawebsite/trade_Promotion/Export_statistic.htm",
+        "license": "Government of India - Open Data",
+        "accessed": "2025-01"
+      },
+      {
+        "name": "Ministry of Commerce - Export Data",
+        "url": "https://commerce.gov.in/trade-statistics/",
+        "license": "Government of India - Open Data",
+        "accessed": "2025-01"
+      },
+      {
+        "name": "DGCI&S - Directorate General of Comm. Intelligence",
+        "url": "https://dgciskol.gov.in",
+        "license": "Requires registration for detailed data",
+        "accessed": "2025-01",
+        "note": "Detailed commodity-level data requires paid subscription"
+      },
+      {
+        "name": "UN COMTRADE",
+        "url": "https://comtradeplus.un.org/",
+        "license": "Free for public use (registration required)",
+        "accessed": "2025-01",
+        "note": "API key required for programmatic access"
+      },
+      {
+        "name": "FAOSTAT",
+        "url": "https://www.fao.org/faostat/en/#data/TCL",
+        "license": "CC BY-NC-SA 3.0 IGO",
+        "accessed": "2025-01"
+      }
+    ],
+    "variables": [
+      "export_volume_mt",
+      "export_value_usd_mn",
+      "quarterly_growth_pct",
+      "avg_price_usd_ton",
+      "price_trend",
+      "top_destinations",
+      "peak_export_months",
+      "harvest_to_export_weeks",
+      "cold_chain_required",
+      "processing_required",
+      "apeda_registered",
+      "phytosanitary_complexity",
+      "certification_days"
+    ]
+  },
+  "crops": {
+    "rice": {
+      "export_volume_mt": 17800000,
+      "export_value_usd_mn": 10200,
+      "quarterly_growth_pct": 5.2,
+      "avg_price_usd_ton": 573,
+      "price_trend": "stable",
+      "top_destinations": [
+        "Bangladesh",
+        "Saudi Arabia",
+        "Iran",
+        "Iraq",
+        "Nepal"
+      ],
+      "peak_export_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "harvest_to_export_weeks": 4,
+      "cold_chain_required": false,
+      "processing_required": "milling",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "low",
+      "certification_days": 7,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "wheat": {
+      "export_volume_mt": 2100000,
+      "export_value_usd_mn": 780,
+      "quarterly_growth_pct": -12.5,
+      "avg_price_usd_ton": 371,
+      "price_trend": "falling",
+      "top_destinations": [
+        "Bangladesh",
+        "Sri Lanka",
+        "UAE",
+        "Indonesia"
+      ],
+      "peak_export_months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "harvest_to_export_weeks": 3,
+      "cold_chain_required": false,
+      "processing_required": "cleaning",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "low",
+      "certification_days": 7,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "maize": {
+      "export_volume_mt": 3500000,
+      "export_value_usd_mn": 1050,
+      "quarterly_growth_pct": 8.7,
+      "avg_price_usd_ton": 300,
+      "price_trend": "rising",
+      "top_destinations": [
+        "Vietnam",
+        "Bangladesh",
+        "Nepal",
+        "Malaysia",
+        "Indonesia"
+      ],
+      "peak_export_months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "harvest_to_export_weeks": 3,
+      "cold_chain_required": false,
+      "processing_required": "drying",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "low",
+      "certification_days": 5,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "soybean": {
+      "export_volume_mt": 450000,
+      "export_value_usd_mn": 280,
+      "quarterly_growth_pct": 3.1,
+      "avg_price_usd_ton": 622,
+      "price_trend": "stable",
+      "top_destinations": [
+        "Japan",
+        "South Korea",
+        "Thailand",
+        "Vietnam"
+      ],
+      "peak_export_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "harvest_to_export_weeks": 4,
+      "cold_chain_required": false,
+      "processing_required": "cleaning",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "medium",
+      "certification_days": 10,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "groundnut": {
+      "export_volume_mt": 680000,
+      "export_value_usd_mn": 920,
+      "quarterly_growth_pct": 14.3,
+      "avg_price_usd_ton": 1353,
+      "price_trend": "rising",
+      "top_destinations": [
+        "Vietnam",
+        "Indonesia",
+        "Philippines",
+        "Malaysia",
+        "China"
+      ],
+      "peak_export_months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "harvest_to_export_weeks": 5,
+      "cold_chain_required": false,
+      "processing_required": "shelling, sorting",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "medium",
+      "certification_days": 10,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "sugarcane": {
+      "export_volume_mt": 5200000,
+      "export_value_usd_mn": 2800,
+      "quarterly_growth_pct": -3.4,
+      "avg_price_usd_ton": 538,
+      "price_trend": "stable",
+      "top_destinations": [
+        "UAE",
+        "Bangladesh",
+        "Sri Lanka",
+        "Indonesia",
+        "Somalia"
+      ],
+      "peak_export_months": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "harvest_to_export_weeks": 8,
+      "cold_chain_required": false,
+      "processing_required": "sugar mill processing",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "low",
+      "certification_days": 7,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "cotton": {
+      "export_volume_mt": 1200000,
+      "export_value_usd_mn": 2100,
+      "quarterly_growth_pct": 6.8,
+      "avg_price_usd_ton": 1750,
+      "price_trend": "rising",
+      "top_destinations": [
+        "Bangladesh",
+        "China",
+        "Vietnam",
+        "Indonesia"
+      ],
+      "peak_export_months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "harvest_to_export_weeks": 6,
+      "cold_chain_required": false,
+      "processing_required": "ginning",
+      "apeda_registered": false,
+      "phytosanitary_complexity": "low",
+      "certification_days": 5,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "coffee": {
+      "export_volume_mt": 400000,
+      "export_value_usd_mn": 1250,
+      "quarterly_growth_pct": 11.2,
+      "avg_price_usd_ton": 3125,
+      "price_trend": "rising",
+      "top_destinations": [
+        "Italy",
+        "Germany",
+        "Belgium",
+        "Russia",
+        "Turkey"
+      ],
+      "peak_export_months": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "harvest_to_export_weeks": 8,
+      "cold_chain_required": false,
+      "processing_required": "pulping, drying, grading",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "medium",
+      "certification_days": 14,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "banana": {
+      "export_volume_mt": 220000,
+      "export_value_usd_mn": 180,
+      "quarterly_growth_pct": 18.5,
+      "avg_price_usd_ton": 818,
+      "price_trend": "rising",
+      "top_destinations": [
+        "UAE",
+        "Saudi Arabia",
+        "Bahrain",
+        "Iran",
+        "Iraq"
+      ],
+      "peak_export_months": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "harvest_to_export_weeks": 2,
+      "cold_chain_required": true,
+      "processing_required": "ripening rooms, packing",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "high",
+      "certification_days": 14,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "coconut": {
+      "export_volume_mt": 150000,
+      "export_value_usd_mn": 350,
+      "quarterly_growth_pct": 7.2,
+      "avg_price_usd_ton": 2333,
+      "price_trend": "rising",
+      "top_destinations": [
+        "UAE",
+        "USA",
+        "UK",
+        "Netherlands"
+      ],
+      "peak_export_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "harvest_to_export_weeks": 3,
+      "cold_chain_required": false,
+      "processing_required": "drying, copra processing",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "low",
+      "certification_days": 7,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "chickpea": {
+      "export_volume_mt": 180000,
+      "export_value_usd_mn": 140,
+      "quarterly_growth_pct": 4.5,
+      "avg_price_usd_ton": 778,
+      "price_trend": "stable",
+      "top_destinations": [
+        "UAE",
+        "Algeria",
+        "Turkey",
+        "Pakistan"
+      ],
+      "peak_export_months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "harvest_to_export_weeks": 3,
+      "cold_chain_required": false,
+      "processing_required": "cleaning, grading",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "low",
+      "certification_days": 7,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "mustard": {
+      "export_volume_mt": 95000,
+      "export_value_usd_mn": 85,
+      "quarterly_growth_pct": 2.1,
+      "avg_price_usd_ton": 895,
+      "price_trend": "stable",
+      "top_destinations": [
+        "Nepal",
+        "Bangladesh",
+        "UAE"
+      ],
+      "peak_export_months": [
+        4,
+        5,
+        6
+      ],
+      "harvest_to_export_weeks": 3,
+      "cold_chain_required": false,
+      "processing_required": "oil extraction or seed cleaning",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "low",
+      "certification_days": 7,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "potato": {
+      "export_volume_mt": 350000,
+      "export_value_usd_mn": 120,
+      "quarterly_growth_pct": 9.3,
+      "avg_price_usd_ton": 343,
+      "price_trend": "stable",
+      "top_destinations": [
+        "Nepal",
+        "Sri Lanka",
+        "Malaysia",
+        "UAE"
+      ],
+      "peak_export_months": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "harvest_to_export_weeks": 2,
+      "cold_chain_required": true,
+      "processing_required": "grading, cold storage",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "medium",
+      "certification_days": 10,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "jute": {
+      "export_volume_mt": 200000,
+      "export_value_usd_mn": 160,
+      "quarterly_growth_pct": -1.5,
+      "avg_price_usd_ton": 800,
+      "price_trend": "falling",
+      "top_destinations": [
+        "Bangladesh",
+        "China",
+        "Thailand"
+      ],
+      "peak_export_months": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "harvest_to_export_weeks": 6,
+      "cold_chain_required": false,
+      "processing_required": "retting, baling",
+      "apeda_registered": false,
+      "phytosanitary_complexity": "low",
+      "certification_days": 5,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    },
+    "lentil": {
+      "export_volume_mt": 120000,
+      "export_value_usd_mn": 110,
+      "quarterly_growth_pct": 5.8,
+      "avg_price_usd_ton": 917,
+      "price_trend": "stable",
+      "top_destinations": [
+        "Sri Lanka",
+        "UAE",
+        "Bangladesh"
+      ],
+      "peak_export_months": [
+        4,
+        5,
+        6
+      ],
+      "harvest_to_export_weeks": 3,
+      "cold_chain_required": false,
+      "processing_required": "cleaning, grading",
+      "apeda_registered": true,
+      "phytosanitary_complexity": "low",
+      "certification_days": 7,
+      "data_quality": "curated",
+      "last_updated": "2025-01"
+    }
+  },
+  "rankings": {
+    "by_value": [
+      {
+        "crop": "rice",
+        "value_usd_mn": 10200
+      },
+      {
+        "crop": "sugarcane",
+        "value_usd_mn": 2800
+      },
+      {
+        "crop": "cotton",
+        "value_usd_mn": 2100
+      },
+      {
+        "crop": "coffee",
+        "value_usd_mn": 1250
+      },
+      {
+        "crop": "maize",
+        "value_usd_mn": 1050
+      },
+      {
+        "crop": "groundnut",
+        "value_usd_mn": 920
+      },
+      {
+        "crop": "wheat",
+        "value_usd_mn": 780
+      },
+      {
+        "crop": "coconut",
+        "value_usd_mn": 350
+      },
+      {
+        "crop": "soybean",
+        "value_usd_mn": 280
+      },
+      {
+        "crop": "banana",
+        "value_usd_mn": 180
+      },
+      {
+        "crop": "jute",
+        "value_usd_mn": 160
+      },
+      {
+        "crop": "chickpea",
+        "value_usd_mn": 140
+      },
+      {
+        "crop": "potato",
+        "value_usd_mn": 120
+      },
+      {
+        "crop": "lentil",
+        "value_usd_mn": 110
+      },
+      {
+        "crop": "mustard",
+        "value_usd_mn": 85
+      }
+    ],
+    "by_volume": [
+      {
+        "crop": "rice",
+        "volume_mt": 17800000
+      },
+      {
+        "crop": "sugarcane",
+        "volume_mt": 5200000
+      },
+      {
+        "crop": "maize",
+        "volume_mt": 3500000
+      },
+      {
+        "crop": "wheat",
+        "volume_mt": 2100000
+      },
+      {
+        "crop": "cotton",
+        "volume_mt": 1200000
+      },
+      {
+        "crop": "groundnut",
+        "volume_mt": 680000
+      },
+      {
+        "crop": "soybean",
+        "volume_mt": 450000
+      },
+      {
+        "crop": "coffee",
+        "volume_mt": 400000
+      },
+      {
+        "crop": "potato",
+        "volume_mt": 350000
+      },
+      {
+        "crop": "banana",
+        "volume_mt": 220000
+      },
+      {
+        "crop": "jute",
+        "volume_mt": 200000
+      },
+      {
+        "crop": "chickpea",
+        "volume_mt": 180000
+      },
+      {
+        "crop": "coconut",
+        "volume_mt": 150000
+      },
+      {
+        "crop": "lentil",
+        "volume_mt": 120000
+      },
+      {
+        "crop": "mustard",
+        "volume_mt": 95000
+      }
+    ],
+    "by_growth": [
+      {
+        "crop": "banana",
+        "growth_pct": 18.5
+      },
+      {
+        "crop": "groundnut",
+        "growth_pct": 14.3
+      },
+      {
+        "crop": "coffee",
+        "growth_pct": 11.2
+      },
+      {
+        "crop": "potato",
+        "growth_pct": 9.3
+      },
+      {
+        "crop": "maize",
+        "growth_pct": 8.7
+      },
+      {
+        "crop": "coconut",
+        "growth_pct": 7.2
+      },
+      {
+        "crop": "cotton",
+        "growth_pct": 6.8
+      },
+      {
+        "crop": "lentil",
+        "growth_pct": 5.8
+      },
+      {
+        "crop": "rice",
+        "growth_pct": 5.2
+      },
+      {
+        "crop": "chickpea",
+        "growth_pct": 4.5
+      },
+      {
+        "crop": "soybean",
+        "growth_pct": 3.1
+      },
+      {
+        "crop": "mustard",
+        "growth_pct": 2.1
+      },
+      {
+        "crop": "jute",
+        "growth_pct": -1.5
+      },
+      {
+        "crop": "sugarcane",
+        "growth_pct": -3.4
+      },
+      {
+        "crop": "wheat",
+        "growth_pct": -12.5
+      }
+    ]
+  }
+}

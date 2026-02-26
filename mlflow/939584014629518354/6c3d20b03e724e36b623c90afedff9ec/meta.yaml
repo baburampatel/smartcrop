@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/smart/.gemini/antigravity/scratch/crop-recommendation-system/mlflow/939584014629518354/6c3d20b03e724e36b623c90afedff9ec/artifacts
+end_time: 1771958413351
+entry_point_name: ''
+experiment_id: '939584014629518354'
+lifecycle_stage: active
+run_id: 6c3d20b03e724e36b623c90afedff9ec
+run_name: xgboost_20260225_001011
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771958411722
+status: 3
+tags: []
+user_id: smart

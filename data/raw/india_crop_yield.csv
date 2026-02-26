@@ -1,0 +1,2289 @@
+State_Name,District_Name,Crop_Year,Season,Crop,Area,Production
+Andhra Pradesh,Andhra Pradesh_District,2015,Whole Year,rice,35676.47,127165.1
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,maize,36001.5,88838.06
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,chickpea,49040.13,46035.92
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,cotton,20110.78,16026.32
+Andhra Pradesh,Andhra Pradesh_District,2015,Kharif,jute,36479.58,70348.88
+Andhra Pradesh,Andhra Pradesh_District,2015,Kharif,banana,29735.73,877990.69
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,mango,9206.34,66774.04
+Andhra Pradesh,Andhra Pradesh_District,2015,Kharif,coconut,21450.39,115768.22
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,coffee,42486.65,40254.98
+Andhra Pradesh,Andhra Pradesh_District,2015,Kharif,papaya,20918.78,1086225.38
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,grapes,18153.25,308775.86
+Andhra Pradesh,Andhra Pradesh_District,2015,Kharif,orange,38323.2,288873.79
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,watermelon,21741.69,515754.23
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,lentil,3946.62,948.3
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,pigeonpeas,34700.82,6554.45
+Andhra Pradesh,Andhra Pradesh_District,2015,Whole Year,mungbean,5869.36,4407.24
+Andhra Pradesh,Andhra Pradesh_District,2015,Whole Year,blackgram,24915.71,17045.34
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,mothbeans,24203.41,10278.31
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,kidneybeans,11718.51,19587.5
+Andhra Pradesh,Andhra Pradesh_District,2015,Kharif,pomegranate,41334.41,298062.25
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,muskmelon,14206.88,204419.61
+Andhra Pradesh,Andhra Pradesh_District,2015,Rabi,apple,34494.67,411072.6
+Bihar,Bihar_District,2015,Rabi,rice,25570.07,77590.44
+Bihar,Bihar_District,2015,Kharif,maize,26550.09,97636.46
+Bihar,Bihar_District,2015,Rabi,chickpea,4251.43,3265.89
+Bihar,Bihar_District,2015,Kharif,cotton,24766.38,15336.07
+Bihar,Bihar_District,2015,Whole Year,jute,4876.05,11286.22
+Bihar,Bihar_District,2015,Rabi,banana,904.85,31071.18
+Bihar,Bihar_District,2015,Kharif,mango,15563.19,52461.41
+Bihar,Bihar_District,2015,Kharif,coconut,5516.26,44788.03
+Bihar,Bihar_District,2015,Rabi,coffee,34629.32,12999.15
+Bihar,Bihar_District,2015,Whole Year,papaya,42763.14,2066221.73
+Bihar,Bihar_District,2015,Whole Year,grapes,17934.14,353893.82
+Bihar,Bihar_District,2015,Kharif,orange,27503.19,264301.25
+Bihar,Bihar_District,2015,Whole Year,watermelon,49768.39,1556565.41
+Bihar,Bihar_District,2015,Kharif,lentil,2247.04,1488.05
+Bihar,Bihar_District,2015,Kharif,pigeonpeas,7641.26,3932.65
+Bihar,Bihar_District,2015,Whole Year,mungbean,25705.09,13276.44
+Bihar,Bihar_District,2015,Kharif,blackgram,27646.98,18460.05
+Bihar,Bihar_District,2015,Whole Year,mothbeans,9739.2,3598.94
+Bihar,Bihar_District,2015,Rabi,kidneybeans,27707.54,30464.35
+Bihar,Bihar_District,2015,Rabi,pomegranate,17777.81,178884.37
+Bihar,Bihar_District,2015,Whole Year,muskmelon,20957.82,312205.32
+Bihar,Bihar_District,2015,Kharif,apple,28969.72,286444.63
+Gujarat,Gujarat_District,2015,Rabi,rice,15529.03,40971.89
+Gujarat,Gujarat_District,2015,Rabi,maize,10461.03,32552.05
+Gujarat,Gujarat_District,2015,Whole Year,chickpea,22507.76,15871.3
+Gujarat,Gujarat_District,2015,Whole Year,cotton,12951.35,4439.51
+Gujarat,Gujarat_District,2015,Whole Year,jute,25929.17,70349.52
+Gujarat,Gujarat_District,2015,Whole Year,banana,8137.34,185958.23
+Gujarat,Gujarat_District,2015,Rabi,mango,43306.64,184404.12
+Gujarat,Gujarat_District,2015,Kharif,coconut,45574.77,334293.23
+Gujarat,Gujarat_District,2015,Kharif,coffee,1474.81,1013.08
+Gujarat,Gujarat_District,2015,Whole Year,papaya,22924.86,1044453.47
+Gujarat,Gujarat_District,2015,Rabi,grapes,23746.21,222595.8
+Gujarat,Gujarat_District,2015,Whole Year,orange,41978.24,451376.46
+Gujarat,Gujarat_District,2015,Kharif,watermelon,40388.48,1127344.21
+Gujarat,Gujarat_District,2015,Rabi,lentil,33296.55,33117.51
+Gujarat,Gujarat_District,2015,Rabi,pigeonpeas,9589.67,9126.26
+Gujarat,Gujarat_District,2015,Rabi,mungbean,22072.36,2207.24
+Gujarat,Gujarat_District,2015,Rabi,blackgram,28325.54,17672.9
+Gujarat,Gujarat_District,2015,Kharif,mothbeans,23925.28,7654.35
+Gujarat,Gujarat_District,2015,Rabi,kidneybeans,46386.07,62012.67
+Gujarat,Gujarat_District,2015,Rabi,pomegranate,22088.08,244936.73
+Gujarat,Gujarat_District,2015,Kharif,muskmelon,42983.51,607723.81
+Gujarat,Gujarat_District,2015,Whole Year,apple,43468.21,387053.97
+Haryana,Haryana_District,2015,Kharif,rice,6199.95,17560.21
+Haryana,Haryana_District,2015,Rabi,maize,40416.12,102441.22
+Haryana,Haryana_District,2015,Whole Year,chickpea,32810.74,56330.96
+Haryana,Haryana_District,2015,Kharif,cotton,10384.18,3055.79
+Haryana,Haryana_District,2015,Rabi,jute,19011.39,41615.63
+Haryana,Haryana_District,2015,Whole Year,banana,1706.68,51284.38
+Haryana,Haryana_District,2015,Kharif,mango,19634.82,196300.52
+Haryana,Haryana_District,2015,Rabi,coconut,15267.81,138180.12
+Haryana,Haryana_District,2015,Whole Year,coffee,33092.28,8886.5
+Haryana,Haryana_District,2015,Rabi,papaya,34008.56,1542875.07
+Haryana,Haryana_District,2015,Whole Year,grapes,24103.21,429141.24
+Haryana,Haryana_District,2015,Kharif,orange,9426.5,71215.83
+Haryana,Haryana_District,2015,Whole Year,watermelon,5546.91,102617.15
+Haryana,Haryana_District,2015,Whole Year,lentil,45928.03,36603.8
+Haryana,Haryana_District,2015,Rabi,pigeonpeas,31298.69,24466.35
+Haryana,Haryana_District,2015,Whole Year,mungbean,2462.24,741.68
+Haryana,Haryana_District,2015,Rabi,blackgram,6153.34,3177.99
+Haryana,Haryana_District,2015,Whole Year,mothbeans,44759.42,17611.72
+Haryana,Haryana_District,2015,Whole Year,kidneybeans,18688.72,28359.83
+Haryana,Haryana_District,2015,Rabi,pomegranate,27735.97,191832.02
+Haryana,Haryana_District,2015,Kharif,muskmelon,24296.98,358148.03
+Haryana,Haryana_District,2015,Rabi,apple,24018.78,222271.64
+Karnataka,Karnataka_District,2015,Whole Year,rice,39966.24,85702.65
+Karnataka,Karnataka_District,2015,Rabi,maize,35808.5,111133.83
+Karnataka,Karnataka_District,2015,Rabi,chickpea,29142.56,37825.53
+Karnataka,Karnataka_District,2015,Whole Year,cotton,1359.59,914.19
+Karnataka,Karnataka_District,2015,Whole Year,jute,2657.62,6989.85
+Karnataka,Karnataka_District,2015,Rabi,banana,11899.47,237074.4
+Karnataka,Karnataka_District,2015,Kharif,mango,16196.13,114809.19
+Karnataka,Karnataka_District,2015,Rabi,coconut,20110.51,172290.01
+Karnataka,Karnataka_District,2015,Kharif,coffee,14133.62,12874.23
+Karnataka,Karnataka_District,2015,Kharif,papaya,27492.13,616434.61
+Karnataka,Karnataka_District,2015,Kharif,grapes,14728.31,280025.45
+Karnataka,Karnataka_District,2015,Kharif,orange,32616.96,331778.8
+Karnataka,Karnataka_District,2015,Kharif,watermelon,6435.21,173464.72
+Karnataka,Karnataka_District,2015,Rabi,lentil,48714.18,45710.58
+Karnataka,Karnataka_District,2015,Rabi,pigeonpeas,43656.66,40112.35
+Karnataka,Karnataka_District,2015,Whole Year,mungbean,49899.21,28449.19
+Karnataka,Karnataka_District,2015,Rabi,blackgram,41652.54,23551.08
+Karnataka,Karnataka_District,2015,Rabi,mothbeans,4113.6,1664.36
+Karnataka,Karnataka_District,2015,Whole Year,kidneybeans,4332.63,5765.7
+Karnataka,Karnataka_District,2015,Whole Year,pomegranate,17809.66,131116.25
+Karnataka,Karnataka_District,2015,Rabi,muskmelon,11350.62,233695.48
+Karnataka,Karnataka_District,2015,Rabi,apple,20989.48,304456.11
+Kerala,Kerala_District,2015,Whole Year,rice,24624.61,79080.09
+Kerala,Kerala_District,2015,Kharif,maize,44460.59,92129.73
+Kerala,Kerala_District,2015,Whole Year,chickpea,9998.45,9634.16
+Kerala,Kerala_District,2015,Kharif,cotton,27072.84,11166.72
+Kerala,Kerala_District,2015,Rabi,jute,1427.89,3276.11
+Kerala,Kerala_District,2015,Rabi,banana,26139.86,855806.11
+Kerala,Kerala_District,2015,Kharif,mango,40616.47,185748.48
+Kerala,Kerala_District,2015,Kharif,coconut,20080.56,107371.27
+Kerala,Kerala_District,2015,Kharif,coffee,20173.01,15807.04
+Kerala,Kerala_District,2015,Whole Year,papaya,17504.99,566522.19
+Kerala,Kerala_District,2015,Kharif,grapes,23980.69,420747.0
+Kerala,Kerala_District,2015,Whole Year,orange,38588.27,227709.72
+Kerala,Kerala_District,2015,Rabi,watermelon,35510.2,872045.48
+Kerala,Kerala_District,2015,Rabi,lentil,36021.98,32597.8
+Kerala,Kerala_District,2015,Whole Year,pigeonpeas,37252.31,33592.63
+Kerala,Kerala_District,2015,Rabi,mungbean,18272.95,5458.14
+Kerala,Kerala_District,2015,Whole Year,blackgram,9647.65,4233.25
+Kerala,Kerala_District,2015,Rabi,mothbeans,4227.71,1973.63
+Kerala,Kerala_District,2015,Whole Year,kidneybeans,28030.92,38029.27
+Kerala,Kerala_District,2015,Kharif,pomegranate,4310.98,17186.28
+Kerala,Kerala_District,2015,Kharif,muskmelon,29077.59,502901.69
+Kerala,Kerala_District,2015,Whole Year,apple,22304.75,212185.83
+Madhya Pradesh,Madhya Pradesh_District,2015,Whole Year,rice,41046.65,139607.8
+Madhya Pradesh,Madhya Pradesh_District,2015,Kharif,maize,6901.83,18675.47
+Madhya Pradesh,Madhya Pradesh_District,2015,Whole Year,chickpea,32924.97,40117.55
+Madhya Pradesh,Madhya Pradesh_District,2015,Whole Year,cotton,25981.18,17101.47
+Madhya Pradesh,Madhya Pradesh_District,2015,Kharif,jute,40467.3,85003.08
+Madhya Pradesh,Madhya Pradesh_District,2015,Rabi,banana,6542.15,174359.78
+Madhya Pradesh,Madhya Pradesh_District,2015,Kharif,mango,13581.8,62527.36
+Madhya Pradesh,Madhya Pradesh_District,2015,Kharif,coconut,35370.78,242080.98
+Madhya Pradesh,Madhya Pradesh_District,2015,Whole Year,coffee,42303.05,18990.67
+Madhya Pradesh,Madhya Pradesh_District,2015,Kharif,papaya,24237.88,901919.23
+Madhya Pradesh,Madhya Pradesh_District,2015,Kharif,grapes,45494.76,396811.07
+Madhya Pradesh,Madhya Pradesh_District,2015,Whole Year,orange,2130.09,16964.24
+Madhya Pradesh,Madhya Pradesh_District,2015,Rabi,watermelon,23345.2,653538.91
+Madhya Pradesh,Madhya Pradesh_District,2015,Rabi,lentil,30637.65,28010.44
+Madhya Pradesh,Madhya Pradesh_District,2015,Rabi,pigeonpeas,23520.7,17784.52
+Madhya Pradesh,Madhya Pradesh_District,2015,Rabi,mungbean,25519.15,17422.89
+Madhya Pradesh,Madhya Pradesh_District,2015,Rabi,blackgram,7339.95,5513.6
+Madhya Pradesh,Madhya Pradesh_District,2015,Rabi,mothbeans,4546.13,2088.08
+Madhya Pradesh,Madhya Pradesh_District,2015,Whole Year,kidneybeans,32830.56,24565.42
+Madhya Pradesh,Madhya Pradesh_District,2015,Rabi,pomegranate,19352.54,132158.77
+Madhya Pradesh,Madhya Pradesh_District,2015,Whole Year,muskmelon,13646.84,154643.17
+Madhya Pradesh,Madhya Pradesh_District,2015,Whole Year,apple,971.09,10507.25
+Maharashtra,Maharashtra_District,2015,Whole Year,rice,31297.91,39895.36
+Maharashtra,Maharashtra_District,2015,Kharif,maize,29457.38,59551.65
+Maharashtra,Maharashtra_District,2015,Whole Year,chickpea,1126.75,1190.12
+Maharashtra,Maharashtra_District,2015,Whole Year,cotton,49422.78,11510.52
+Maharashtra,Maharashtra_District,2015,Rabi,jute,17613.61,56163.96
+Maharashtra,Maharashtra_District,2015,Whole Year,banana,12332.02,353324.56
+Maharashtra,Maharashtra_District,2015,Kharif,mango,32870.46,184698.11
+Maharashtra,Maharashtra_District,2015,Whole Year,coconut,27188.74,88757.19
+Maharashtra,Maharashtra_District,2015,Whole Year,coffee,11725.7,8256.95
+Maharashtra,Maharashtra_District,2015,Rabi,papaya,6035.82,258818.5
+Maharashtra,Maharashtra_District,2015,Rabi,grapes,12015.29,193479.77
+Maharashtra,Maharashtra_District,2015,Whole Year,orange,30287.21,403262.96
+Maharashtra,Maharashtra_District,2015,Rabi,watermelon,2126.74,49488.39
+Maharashtra,Maharashtra_District,2015,Whole Year,lentil,31047.12,25517.03
+Maharashtra,Maharashtra_District,2015,Whole Year,pigeonpeas,4582.61,4857.41
+Maharashtra,Maharashtra_District,2015,Rabi,mungbean,2689.86,1948.63
+Maharashtra,Maharashtra_District,2015,Rabi,blackgram,28388.24,18818.87
+Maharashtra,Maharashtra_District,2015,Whole Year,mothbeans,49411.93,31536.23
+Maharashtra,Maharashtra_District,2015,Rabi,kidneybeans,214.0,293.15
+Maharashtra,Maharashtra_District,2015,Rabi,pomegranate,44147.38,294891.95
+Maharashtra,Maharashtra_District,2015,Whole Year,muskmelon,20833.63,261993.98
+Maharashtra,Maharashtra_District,2015,Rabi,apple,37026.69,520788.06
+Punjab,Punjab_District,2015,Rabi,rice,44703.88,37689.95
+Punjab,Punjab_District,2015,Kharif,maize,45850.75,125390.75
+Punjab,Punjab_District,2015,Whole Year,chickpea,40220.92,27662.51
+Punjab,Punjab_District,2015,Rabi,cotton,38669.43,11924.8
+Punjab,Punjab_District,2015,Kharif,jute,37261.59,84697.6
+Punjab,Punjab_District,2015,Kharif,banana,49624.67,1212340.5
+Punjab,Punjab_District,2015,Rabi,mango,41187.09,310147.84
+Punjab,Punjab_District,2015,Rabi,coconut,14282.54,90719.73
+Punjab,Punjab_District,2015,Rabi,coffee,17474.58,8965.25
+Punjab,Punjab_District,2015,Rabi,papaya,28226.86,945609.15
+Punjab,Punjab_District,2015,Kharif,grapes,1642.38,35911.49
+Punjab,Punjab_District,2015,Kharif,orange,18057.38,193864.0
+Punjab,Punjab_District,2015,Kharif,watermelon,23955.77,484599.89
+Punjab,Punjab_District,2015,Kharif,lentil,8873.83,8108.89
+Punjab,Punjab_District,2015,Whole Year,pigeonpeas,19961.31,18467.61
+Punjab,Punjab_District,2015,Kharif,mungbean,26750.42,14842.4
+Punjab,Punjab_District,2015,Rabi,blackgram,40192.86,22247.38
+Punjab,Punjab_District,2015,Rabi,mothbeans,43800.98,21172.25
+Punjab,Punjab_District,2015,Rabi,kidneybeans,14335.52,14137.03
+Punjab,Punjab_District,2015,Whole Year,pomegranate,22149.78,216550.62
+Punjab,Punjab_District,2015,Rabi,muskmelon,43645.93,619507.4
+Punjab,Punjab_District,2015,Kharif,apple,32443.34,468103.96
+Rajasthan,Rajasthan_District,2015,Kharif,rice,16828.39,45455.29
+Rajasthan,Rajasthan_District,2015,Whole Year,maize,40359.05,93826.58
+Rajasthan,Rajasthan_District,2015,Rabi,chickpea,30300.82,39268.11
+Rajasthan,Rajasthan_District,2015,Kharif,cotton,25853.93,16781.04
+Rajasthan,Rajasthan_District,2015,Kharif,jute,36667.51,88748.49
+Rajasthan,Rajasthan_District,2015,Kharif,banana,20199.08,627182.88
+Rajasthan,Rajasthan_District,2015,Kharif,mango,32667.61,290899.23
+Rajasthan,Rajasthan_District,2015,Rabi,coconut,1692.71,17960.16
+Rajasthan,Rajasthan_District,2015,Kharif,coffee,35408.3,44265.16
+Rajasthan,Rajasthan_District,2015,Whole Year,papaya,38747.92,1372929.43
+Rajasthan,Rajasthan_District,2015,Rabi,grapes,18896.18,400728.93
+Rajasthan,Rajasthan_District,2015,Rabi,orange,29880.43,245191.88
+Rajasthan,Rajasthan_District,2015,Whole Year,watermelon,1680.28,38085.06
+Rajasthan,Rajasthan_District,2015,Rabi,lentil,49390.41,31539.12
+Rajasthan,Rajasthan_District,2015,Rabi,pigeonpeas,49057.78,41789.43
+Rajasthan,Rajasthan_District,2015,Rabi,mungbean,44042.3,37166.04
+Rajasthan,Rajasthan_District,2015,Rabi,blackgram,27774.3,7836.02
+Rajasthan,Rajasthan_District,2015,Rabi,mothbeans,9051.57,4460.32
+Rajasthan,Rajasthan_District,2015,Rabi,kidneybeans,25976.41,45637.64
+Rajasthan,Rajasthan_District,2015,Rabi,pomegranate,21200.63,191480.12
+Rajasthan,Rajasthan_District,2015,Whole Year,muskmelon,49793.47,584300.17
+Rajasthan,Rajasthan_District,2015,Kharif,apple,11124.33,152464.64
+Tamil Nadu,Tamil Nadu_District,2015,Whole Year,rice,47244.41,114642.08
+Tamil Nadu,Tamil Nadu_District,2015,Whole Year,maize,37641.42,105974.54
+Tamil Nadu,Tamil Nadu_District,2015,Rabi,chickpea,43785.45,15907.7
+Tamil Nadu,Tamil Nadu_District,2015,Rabi,cotton,49933.77,19528.24
+Tamil Nadu,Tamil Nadu_District,2015,Kharif,jute,32210.76,50966.25
+Tamil Nadu,Tamil Nadu_District,2015,Rabi,banana,38256.74,1014300.72
+Tamil Nadu,Tamil Nadu_District,2015,Whole Year,mango,24826.89,122506.95
+Tamil Nadu,Tamil Nadu_District,2015,Whole Year,coconut,22293.34,222345.0
+Tamil Nadu,Tamil Nadu_District,2015,Rabi,coffee,29286.72,32731.24
+Tamil Nadu,Tamil Nadu_District,2015,Rabi,papaya,6014.1,245983.52
+Tamil Nadu,Tamil Nadu_District,2015,Kharif,grapes,47629.19,558629.56
+Tamil Nadu,Tamil Nadu_District,2015,Whole Year,orange,40211.78,400492.34
+Tamil Nadu,Tamil Nadu_District,2015,Whole Year,watermelon,8369.54,171774.35
+Tamil Nadu,Tamil Nadu_District,2015,Whole Year,lentil,17119.42,15766.55
+Tamil Nadu,Tamil Nadu_District,2015,Kharif,pigeonpeas,21172.74,15313.19
+Tamil Nadu,Tamil Nadu_District,2015,Kharif,mungbean,4948.26,3257.17
+Tamil Nadu,Tamil Nadu_District,2015,Kharif,blackgram,13647.44,3867.2
+Tamil Nadu,Tamil Nadu_District,2015,Rabi,mothbeans,22628.37,8584.98
+Tamil Nadu,Tamil Nadu_District,2015,Whole Year,kidneybeans,43531.49,66187.37
+Tamil Nadu,Tamil Nadu_District,2015,Whole Year,pomegranate,28278.26,245639.57
+Tamil Nadu,Tamil Nadu_District,2015,Rabi,muskmelon,12643.3,234121.6
+Tamil Nadu,Tamil Nadu_District,2015,Kharif,apple,36696.43,305839.84
+Uttar Pradesh,Uttar Pradesh_District,2015,Whole Year,rice,33773.09,114159.13
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,maize,47155.29,159192.56
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,chickpea,44945.76,38710.57
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,cotton,28227.4,14632.72
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,jute,1464.3,4000.85
+Uttar Pradesh,Uttar Pradesh_District,2015,Whole Year,banana,6896.78,214365.54
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,mango,33185.84,164630.87
+Uttar Pradesh,Uttar Pradesh_District,2015,Whole Year,coconut,48226.68,486351.33
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,coffee,3592.11,4260.12
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,papaya,37650.28,1563686.21
+Uttar Pradesh,Uttar Pradesh_District,2015,Whole Year,grapes,28225.04,600084.11
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,orange,28016.79,314681.6
+Uttar Pradesh,Uttar Pradesh_District,2015,Rabi,watermelon,26241.65,733281.55
+Uttar Pradesh,Uttar Pradesh_District,2015,Whole Year,lentil,807.38,861.18
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,pigeonpeas,37827.4,37399.45
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,mungbean,45776.19,28069.62
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,blackgram,16925.66,7170.45
+Uttar Pradesh,Uttar Pradesh_District,2015,Whole Year,mothbeans,32917.25,13324.38
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,kidneybeans,40071.51,54917.14
+Uttar Pradesh,Uttar Pradesh_District,2015,Rabi,pomegranate,29336.51,154689.06
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,muskmelon,29326.73,539895.43
+Uttar Pradesh,Uttar Pradesh_District,2015,Kharif,apple,27286.18,439469.24
+West Bengal,West Bengal_District,2015,Rabi,rice,39580.75,99760.53
+West Bengal,West Bengal_District,2015,Rabi,maize,22166.45,55909.26
+West Bengal,West Bengal_District,2015,Rabi,chickpea,11373.58,12294.77
+West Bengal,West Bengal_District,2015,Rabi,cotton,48335.81,26269.7
+West Bengal,West Bengal_District,2015,Rabi,jute,6456.68,14288.4
+West Bengal,West Bengal_District,2015,Whole Year,banana,15425.52,535742.79
+West Bengal,West Bengal_District,2015,Whole Year,mango,16596.05,107333.28
+West Bengal,West Bengal_District,2015,Rabi,coconut,12387.52,105694.73
+West Bengal,West Bengal_District,2015,Whole Year,coffee,10546.72,10344.12
+West Bengal,West Bengal_District,2015,Rabi,papaya,5100.7,272495.25
+West Bengal,West Bengal_District,2015,Rabi,grapes,47610.67,1090759.68
+West Bengal,West Bengal_District,2015,Kharif,orange,34869.92,554814.21
+West Bengal,West Bengal_District,2015,Kharif,watermelon,805.78,13349.8
+West Bengal,West Bengal_District,2015,Rabi,lentil,39307.69,34334.07
+West Bengal,West Bengal_District,2015,Kharif,pigeonpeas,1927.07,1778.37
+West Bengal,West Bengal_District,2015,Whole Year,mungbean,48332.31,27026.3
+West Bengal,West Bengal_District,2015,Kharif,blackgram,21670.81,6808.99
+West Bengal,West Bengal_District,2015,Whole Year,mothbeans,18426.55,9342.34
+West Bengal,West Bengal_District,2015,Whole Year,kidneybeans,19713.33,16144.47
+West Bengal,West Bengal_District,2015,Kharif,pomegranate,37148.79,398716.77
+West Bengal,West Bengal_District,2015,Whole Year,muskmelon,4151.83,54772.21
+West Bengal,West Bengal_District,2015,Whole Year,apple,8746.0,147231.42
+Andhra Pradesh,Andhra Pradesh_District,2016,Kharif,rice,47079.2,55918.25
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,maize,49253.77,139068.07
+Andhra Pradesh,Andhra Pradesh_District,2016,Kharif,chickpea,9897.69,9871.25
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,cotton,32362.53,18986.1
+Andhra Pradesh,Andhra Pradesh_District,2016,Kharif,jute,29418.25,68452.22
+Andhra Pradesh,Andhra Pradesh_District,2016,Rabi,banana,12438.45,376611.98
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,mango,858.36,5606.28
+Andhra Pradesh,Andhra Pradesh_District,2016,Kharif,coconut,40635.08,204641.64
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,coffee,43578.9,41384.66
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,papaya,29860.56,649947.63
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,grapes,27838.71,696593.86
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,orange,48507.92,539109.34
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,watermelon,41103.86,1051607.05
+Andhra Pradesh,Andhra Pradesh_District,2016,Rabi,lentil,17095.76,12624.28
+Andhra Pradesh,Andhra Pradesh_District,2016,Rabi,pigeonpeas,40881.61,39129.34
+Andhra Pradesh,Andhra Pradesh_District,2016,Kharif,mungbean,23972.95,15484.12
+Andhra Pradesh,Andhra Pradesh_District,2016,Rabi,blackgram,1085.83,870.55
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,mothbeans,8806.21,2194.05
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,kidneybeans,37580.95,54184.01
+Andhra Pradesh,Andhra Pradesh_District,2016,Rabi,pomegranate,25856.68,256127.54
+Andhra Pradesh,Andhra Pradesh_District,2016,Rabi,muskmelon,43795.6,794936.71
+Andhra Pradesh,Andhra Pradesh_District,2016,Whole Year,apple,21490.31,241061.27
+Bihar,Bihar_District,2016,Whole Year,rice,49101.87,170509.56
+Bihar,Bihar_District,2016,Kharif,maize,9848.08,34441.42
+Bihar,Bihar_District,2016,Rabi,chickpea,43040.59,45669.94
+Bihar,Bihar_District,2016,Kharif,cotton,19245.27,12350.69
+Bihar,Bihar_District,2016,Rabi,jute,9666.7,22351.72
+Bihar,Bihar_District,2016,Kharif,banana,46611.23,1246525.07
+Bihar,Bihar_District,2016,Rabi,mango,8044.91,34901.85
+Bihar,Bihar_District,2016,Rabi,coconut,35073.48,278808.12
+Bihar,Bihar_District,2016,Whole Year,coffee,26022.95,26851.71
+Bihar,Bihar_District,2016,Rabi,papaya,902.18,29188.89
+Bihar,Bihar_District,2016,Whole Year,grapes,24984.54,460099.74
+Bihar,Bihar_District,2016,Kharif,orange,43452.2,430359.15
+Bihar,Bihar_District,2016,Whole Year,watermelon,7960.93,193639.92
+Bihar,Bihar_District,2016,Rabi,lentil,18289.55,10910.93
+Bihar,Bihar_District,2016,Rabi,pigeonpeas,15532.04,14016.55
+Bihar,Bihar_District,2016,Kharif,mungbean,885.7,569.92
+Bihar,Bihar_District,2016,Kharif,blackgram,4750.55,3298.52
+Bihar,Bihar_District,2016,Rabi,mothbeans,41179.26,17334.65
+Bihar,Bihar_District,2016,Kharif,kidneybeans,37750.69,30387.07
+Bihar,Bihar_District,2016,Kharif,pomegranate,35731.43,191357.55
+Bihar,Bihar_District,2016,Whole Year,muskmelon,36386.83,344725.36
+Bihar,Bihar_District,2016,Kharif,apple,17079.72,261397.93
+Gujarat,Gujarat_District,2016,Whole Year,rice,44488.98,115803.33
+Gujarat,Gujarat_District,2016,Kharif,maize,32681.27,91237.03
+Gujarat,Gujarat_District,2016,Kharif,chickpea,17591.91,24093.21
+Gujarat,Gujarat_District,2016,Rabi,cotton,42909.67,12397.02
+Gujarat,Gujarat_District,2016,Kharif,jute,20879.09,39654.0
+Gujarat,Gujarat_District,2016,Kharif,banana,13410.56,221405.2
+Gujarat,Gujarat_District,2016,Whole Year,mango,17360.63,43873.17
+Gujarat,Gujarat_District,2016,Kharif,coconut,8055.47,46813.99
+Gujarat,Gujarat_District,2016,Kharif,coffee,12127.93,15929.36
+Gujarat,Gujarat_District,2016,Kharif,papaya,13957.89,583876.52
+Gujarat,Gujarat_District,2016,Kharif,grapes,40390.89,819899.88
+Gujarat,Gujarat_District,2016,Whole Year,orange,24212.52,330247.32
+Gujarat,Gujarat_District,2016,Rabi,watermelon,21674.74,711674.15
+Gujarat,Gujarat_District,2016,Rabi,lentil,10369.3,6073.62
+Gujarat,Gujarat_District,2016,Whole Year,pigeonpeas,4431.41,2931.3
+Gujarat,Gujarat_District,2016,Kharif,mungbean,15781.63,9332.94
+Gujarat,Gujarat_District,2016,Rabi,blackgram,31740.83,23283.88
+Gujarat,Gujarat_District,2016,Rabi,mothbeans,20703.17,6006.34
+Gujarat,Gujarat_District,2016,Whole Year,kidneybeans,14815.25,17733.7
+Gujarat,Gujarat_District,2016,Whole Year,pomegranate,32035.59,202103.31
+Gujarat,Gujarat_District,2016,Kharif,muskmelon,1898.64,27789.42
+Gujarat,Gujarat_District,2016,Whole Year,apple,5333.08,31861.1
+Haryana,Haryana_District,2016,Rabi,rice,43329.67,88458.31
+Haryana,Haryana_District,2016,Rabi,maize,3524.31,5297.57
+Haryana,Haryana_District,2016,Whole Year,chickpea,13963.48,8862.82
+Haryana,Haryana_District,2016,Whole Year,cotton,19567.25,8302.13
+Haryana,Haryana_District,2016,Whole Year,jute,40507.3,115749.64
+Haryana,Haryana_District,2016,Kharif,banana,22423.23,727720.45
+Haryana,Haryana_District,2016,Rabi,mango,32198.94,254029.45
+Haryana,Haryana_District,2016,Kharif,coconut,49923.11,437326.62
+Haryana,Haryana_District,2016,Rabi,coffee,9733.43,9272.38
+Haryana,Haryana_District,2016,Whole Year,papaya,47301.8,1208041.97
+Haryana,Haryana_District,2016,Whole Year,grapes,46815.39,828753.14
+Haryana,Haryana_District,2016,Rabi,orange,33911.53,302434.77
+Haryana,Haryana_District,2016,Rabi,watermelon,15546.45,256967.75
+Haryana,Haryana_District,2016,Whole Year,lentil,44046.67,27893.04
+Haryana,Haryana_District,2016,Rabi,pigeonpeas,24678.52,25158.86
+Haryana,Haryana_District,2016,Whole Year,mungbean,41108.5,25520.5
+Haryana,Haryana_District,2016,Rabi,blackgram,12686.62,2828.77
+Haryana,Haryana_District,2016,Kharif,mothbeans,16861.39,6643.6
+Haryana,Haryana_District,2016,Kharif,kidneybeans,24628.44,31164.73
+Haryana,Haryana_District,2016,Rabi,pomegranate,4197.32,39565.8
+Haryana,Haryana_District,2016,Rabi,muskmelon,19511.29,403814.56
+Haryana,Haryana_District,2016,Whole Year,apple,46106.75,461036.77
+Karnataka,Karnataka_District,2016,Whole Year,rice,42554.21,114487.3
+Karnataka,Karnataka_District,2016,Rabi,maize,49591.05,206480.94
+Karnataka,Karnataka_District,2016,Whole Year,chickpea,2502.97,3240.15
+Karnataka,Karnataka_District,2016,Rabi,cotton,35576.15,16569.55
+Karnataka,Karnataka_District,2016,Whole Year,jute,11142.75,24504.68
+Karnataka,Karnataka_District,2016,Rabi,banana,14685.21,489001.2
+Karnataka,Karnataka_District,2016,Kharif,mango,22059.08,156629.23
+Karnataka,Karnataka_District,2016,Rabi,coconut,46109.89,266586.11
+Karnataka,Karnataka_District,2016,Whole Year,coffee,34014.42,27432.29
+Karnataka,Karnataka_District,2016,Rabi,papaya,9465.93,327256.88
+Karnataka,Karnataka_District,2016,Rabi,grapes,42146.56,791280.54
+Karnataka,Karnataka_District,2016,Kharif,orange,6411.64,41843.43
+Karnataka,Karnataka_District,2016,Whole Year,watermelon,30164.56,597496.46
+Karnataka,Karnataka_District,2016,Whole Year,lentil,39639.11,39663.89
+Karnataka,Karnataka_District,2016,Rabi,pigeonpeas,46260.8,41771.55
+Karnataka,Karnataka_District,2016,Kharif,mungbean,25273.04,16384.14
+Karnataka,Karnataka_District,2016,Rabi,blackgram,19624.0,9347.4
+Karnataka,Karnataka_District,2016,Kharif,mothbeans,15816.99,8586.51
+Karnataka,Karnataka_District,2016,Whole Year,kidneybeans,36034.72,34548.87
+Karnataka,Karnataka_District,2016,Rabi,pomegranate,20517.7,185287.82
+Karnataka,Karnataka_District,2016,Rabi,muskmelon,44135.01,345780.46
+Karnataka,Karnataka_District,2016,Kharif,apple,43382.08,785156.76
+Kerala,Kerala_District,2016,Kharif,rice,44092.84,110266.9
+Kerala,Kerala_District,2016,Kharif,maize,1151.66,2634.0
+Kerala,Kerala_District,2016,Kharif,chickpea,968.27,1026.24
+Kerala,Kerala_District,2016,Kharif,cotton,41149.82,25156.28
+Kerala,Kerala_District,2016,Kharif,jute,41408.29,108057.51
+Kerala,Kerala_District,2016,Whole Year,banana,42658.83,1234960.98
+Kerala,Kerala_District,2016,Rabi,mango,35717.04,229160.22
+Kerala,Kerala_District,2016,Whole Year,coconut,43302.35,336291.97
+Kerala,Kerala_District,2016,Kharif,coffee,18215.1,13124.04
+Kerala,Kerala_District,2016,Whole Year,papaya,11953.92,477668.69
+Kerala,Kerala_District,2016,Whole Year,grapes,5111.75,102066.15
+Kerala,Kerala_District,2016,Whole Year,orange,43711.85,349767.04
+Kerala,Kerala_District,2016,Kharif,watermelon,14840.33,359600.44
+Kerala,Kerala_District,2016,Rabi,lentil,14968.37,11638.11
+Kerala,Kerala_District,2016,Whole Year,pigeonpeas,8293.92,5740.41
+Kerala,Kerala_District,2016,Kharif,mungbean,14349.82,10537.15
+Kerala,Kerala_District,2016,Whole Year,blackgram,1375.27,657.96
+Kerala,Kerala_District,2016,Whole Year,mothbeans,4394.98,2400.53
+Kerala,Kerala_District,2016,Rabi,kidneybeans,9746.82,11763.58
+Kerala,Kerala_District,2016,Rabi,pomegranate,49435.4,527794.12
+Kerala,Kerala_District,2016,Kharif,muskmelon,29702.57,513039.61
+Kerala,Kerala_District,2016,Kharif,apple,47808.35,439330.59
+Madhya Pradesh,Madhya Pradesh_District,2016,Whole Year,rice,48865.46,116751.33
+Madhya Pradesh,Madhya Pradesh_District,2016,Whole Year,maize,38820.29,65292.45
+Madhya Pradesh,Madhya Pradesh_District,2016,Kharif,chickpea,37657.53,24348.29
+Madhya Pradesh,Madhya Pradesh_District,2016,Kharif,cotton,24656.47,14924.52
+Madhya Pradesh,Madhya Pradesh_District,2016,Whole Year,jute,36239.55,90427.67
+Madhya Pradesh,Madhya Pradesh_District,2016,Rabi,banana,37678.25,1154299.76
+Madhya Pradesh,Madhya Pradesh_District,2016,Whole Year,mango,19713.96,141970.08
+Madhya Pradesh,Madhya Pradesh_District,2016,Kharif,coconut,48633.96,459644.69
+Madhya Pradesh,Madhya Pradesh_District,2016,Whole Year,coffee,33885.46,22550.21
+Madhya Pradesh,Madhya Pradesh_District,2016,Whole Year,papaya,10845.61,422585.25
+Madhya Pradesh,Madhya Pradesh_District,2016,Whole Year,grapes,42218.64,709456.98
+Madhya Pradesh,Madhya Pradesh_District,2016,Rabi,orange,43084.59,556603.97
+Madhya Pradesh,Madhya Pradesh_District,2016,Kharif,watermelon,290.98,7705.61
+Madhya Pradesh,Madhya Pradesh_District,2016,Kharif,lentil,24096.16,22001.71
+Madhya Pradesh,Madhya Pradesh_District,2016,Rabi,pigeonpeas,21099.92,12139.09
+Madhya Pradesh,Madhya Pradesh_District,2016,Rabi,mungbean,46059.39,24800.91
+Madhya Pradesh,Madhya Pradesh_District,2016,Whole Year,blackgram,32756.63,18715.03
+Madhya Pradesh,Madhya Pradesh_District,2016,Rabi,mothbeans,11051.14,4079.15
+Madhya Pradesh,Madhya Pradesh_District,2016,Whole Year,kidneybeans,45001.99,37444.24
+Madhya Pradesh,Madhya Pradesh_District,2016,Kharif,pomegranate,12217.1,76039.03
+Madhya Pradesh,Madhya Pradesh_District,2016,Rabi,muskmelon,21443.27,326891.32
+Madhya Pradesh,Madhya Pradesh_District,2016,Kharif,apple,27376.51,324492.77
+Maharashtra,Maharashtra_District,2016,Kharif,rice,27215.89,74359.44
+Maharashtra,Maharashtra_District,2016,Whole Year,maize,14014.11,41620.98
+Maharashtra,Maharashtra_District,2016,Kharif,chickpea,14678.13,18596.5
+Maharashtra,Maharashtra_District,2016,Rabi,cotton,13921.35,6955.1
+Maharashtra,Maharashtra_District,2016,Whole Year,jute,28972.3,81631.42
+Maharashtra,Maharashtra_District,2016,Whole Year,banana,43041.12,1364824.54
+Maharashtra,Maharashtra_District,2016,Whole Year,mango,20494.23,161184.54
+Maharashtra,Maharashtra_District,2016,Rabi,coconut,21466.88,223440.72
+Maharashtra,Maharashtra_District,2016,Whole Year,coffee,28573.52,25204.02
+Maharashtra,Maharashtra_District,2016,Whole Year,papaya,9084.62,306658.91
+Maharashtra,Maharashtra_District,2016,Whole Year,grapes,37136.24,663303.13
+Maharashtra,Maharashtra_District,2016,Kharif,orange,39745.77,336403.52
+Maharashtra,Maharashtra_District,2016,Kharif,watermelon,42383.7,1512644.03
+Maharashtra,Maharashtra_District,2016,Kharif,lentil,17505.13,13653.36
+Maharashtra,Maharashtra_District,2016,Rabi,pigeonpeas,40181.16,26590.28
+Maharashtra,Maharashtra_District,2016,Kharif,mungbean,38257.74,25109.99
+Maharashtra,Maharashtra_District,2016,Kharif,blackgram,22681.05,13085.26
+Maharashtra,Maharashtra_District,2016,Kharif,mothbeans,45781.09,18490.58
+Maharashtra,Maharashtra_District,2016,Whole Year,kidneybeans,3038.2,3377.51
+Maharashtra,Maharashtra_District,2016,Kharif,pomegranate,12515.02,78583.65
+Maharashtra,Maharashtra_District,2016,Whole Year,muskmelon,32067.04,513064.62
+Maharashtra,Maharashtra_District,2016,Kharif,apple,44663.06,625944.88
+Punjab,Punjab_District,2016,Whole Year,rice,36802.75,104478.12
+Punjab,Punjab_District,2016,Rabi,maize,44380.7,125915.53
+Punjab,Punjab_District,2016,Rabi,chickpea,11501.0,9427.58
+Punjab,Punjab_District,2016,Kharif,cotton,8420.54,4036.51
+Punjab,Punjab_District,2016,Kharif,jute,3576.91,4875.82
+Punjab,Punjab_District,2016,Rabi,banana,28776.22,785450.77
+Punjab,Punjab_District,2016,Whole Year,mango,47047.58,414853.39
+Punjab,Punjab_District,2016,Whole Year,coconut,47854.0,456493.18
+Punjab,Punjab_District,2016,Rabi,coffee,32430.46,37990.81
+Punjab,Punjab_District,2016,Whole Year,papaya,24805.54,873470.42
+Punjab,Punjab_District,2016,Whole Year,grapes,47255.91,777180.84
+Punjab,Punjab_District,2016,Rabi,orange,30396.07,461978.83
+Punjab,Punjab_District,2016,Kharif,watermelon,49112.61,1303010.24
+Punjab,Punjab_District,2016,Rabi,lentil,12833.2,9343.47
+Punjab,Punjab_District,2016,Whole Year,pigeonpeas,4518.69,2701.62
+Punjab,Punjab_District,2016,Rabi,mungbean,34460.27,21943.95
+Punjab,Punjab_District,2016,Whole Year,blackgram,47108.6,27201.95
+Punjab,Punjab_District,2016,Rabi,mothbeans,5506.07,1569.02
+Punjab,Punjab_District,2016,Rabi,kidneybeans,2199.18,2107.25
+Punjab,Punjab_District,2016,Rabi,pomegranate,39831.82,195246.64
+Punjab,Punjab_District,2016,Kharif,muskmelon,49716.03,717881.59
+Punjab,Punjab_District,2016,Kharif,apple,37420.97,535960.86
+Rajasthan,Rajasthan_District,2016,Rabi,rice,2860.44,6952.13
+Rajasthan,Rajasthan_District,2016,Rabi,maize,38653.54,127974.09
+Rajasthan,Rajasthan_District,2016,Whole Year,chickpea,37767.67,55976.42
+Rajasthan,Rajasthan_District,2016,Rabi,cotton,35746.45,21829.42
+Rajasthan,Rajasthan_District,2016,Whole Year,jute,7453.41,20898.43
+Rajasthan,Rajasthan_District,2016,Rabi,banana,30445.54,913290.89
+Rajasthan,Rajasthan_District,2016,Rabi,mango,30594.3,235283.61
+Rajasthan,Rajasthan_District,2016,Whole Year,coconut,16333.25,131787.75
+Rajasthan,Rajasthan_District,2016,Rabi,coffee,48275.57,45849.89
+Rajasthan,Rajasthan_District,2016,Rabi,papaya,45609.42,1774153.61
+Rajasthan,Rajasthan_District,2016,Whole Year,grapes,17106.51,351522.88
+Rajasthan,Rajasthan_District,2016,Whole Year,orange,21554.03,298349.52
+Rajasthan,Rajasthan_District,2016,Whole Year,watermelon,15367.2,247650.95
+Rajasthan,Rajasthan_District,2016,Kharif,lentil,27425.51,21526.07
+Rajasthan,Rajasthan_District,2016,Kharif,pigeonpeas,31311.97,29407.45
+Rajasthan,Rajasthan_District,2016,Kharif,mungbean,48594.09,31491.22
+Rajasthan,Rajasthan_District,2016,Whole Year,blackgram,36237.28,31221.27
+Rajasthan,Rajasthan_District,2016,Kharif,mothbeans,36826.57,10807.45
+Rajasthan,Rajasthan_District,2016,Whole Year,kidneybeans,7681.89,11079.66
+Rajasthan,Rajasthan_District,2016,Rabi,pomegranate,2244.47,22547.8
+Rajasthan,Rajasthan_District,2016,Kharif,muskmelon,6066.79,88432.87
+Rajasthan,Rajasthan_District,2016,Whole Year,apple,47430.39,525900.01
+Tamil Nadu,Tamil Nadu_District,2016,Rabi,rice,42683.94,116311.66
+Tamil Nadu,Tamil Nadu_District,2016,Rabi,maize,3998.22,6633.54
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,chickpea,18371.54,31464.79
+Tamil Nadu,Tamil Nadu_District,2016,Rabi,cotton,14688.83,3641.6
+Tamil Nadu,Tamil Nadu_District,2016,Rabi,jute,36443.16,75652.69
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,banana,19063.27,519269.68
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,mango,46789.76,504804.22
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,coconut,12096.76,70869.12
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,coffee,9422.02,5517.34
+Tamil Nadu,Tamil Nadu_District,2016,Whole Year,papaya,9370.43,352902.1
+Tamil Nadu,Tamil Nadu_District,2016,Rabi,grapes,17832.45,292074.11
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,orange,45723.01,447111.0
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,watermelon,25547.55,560032.7
+Tamil Nadu,Tamil Nadu_District,2016,Whole Year,lentil,36681.95,28653.29
+Tamil Nadu,Tamil Nadu_District,2016,Rabi,pigeonpeas,31148.0,21639.99
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,mungbean,40427.32,21113.05
+Tamil Nadu,Tamil Nadu_District,2016,Rabi,blackgram,27166.52,20761.68
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,mothbeans,37264.74,15204.89
+Tamil Nadu,Tamil Nadu_District,2016,Whole Year,kidneybeans,1296.07,1840.74
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,pomegranate,42321.59,384406.39
+Tamil Nadu,Tamil Nadu_District,2016,Rabi,muskmelon,49454.02,682243.49
+Tamil Nadu,Tamil Nadu_District,2016,Kharif,apple,5551.66,48529.42
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,rice,30466.62,80378.42
+Uttar Pradesh,Uttar Pradesh_District,2016,Rabi,maize,43962.79,98452.19
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,chickpea,6586.31,4571.22
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,cotton,43288.12,20607.5
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,jute,17511.46,35410.25
+Uttar Pradesh,Uttar Pradesh_District,2016,Kharif,banana,719.2,22834.49
+Uttar Pradesh,Uttar Pradesh_District,2016,Kharif,mango,6571.19,48110.88
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,coconut,17116.94,110859.83
+Uttar Pradesh,Uttar Pradesh_District,2016,Rabi,coffee,45817.84,26339.11
+Uttar Pradesh,Uttar Pradesh_District,2016,Rabi,papaya,27326.9,1102219.81
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,grapes,15668.53,210567.95
+Uttar Pradesh,Uttar Pradesh_District,2016,Rabi,orange,43718.67,526583.3
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,watermelon,35749.9,876389.68
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,lentil,30818.41,16407.06
+Uttar Pradesh,Uttar Pradesh_District,2016,Rabi,pigeonpeas,31838.24,27543.6
+Uttar Pradesh,Uttar Pradesh_District,2016,Kharif,mungbean,44582.14,24944.25
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,blackgram,27969.04,18395.09
+Uttar Pradesh,Uttar Pradesh_District,2016,Whole Year,mothbeans,10896.78,5365.22
+Uttar Pradesh,Uttar Pradesh_District,2016,Rabi,kidneybeans,923.32,609.45
+Uttar Pradesh,Uttar Pradesh_District,2016,Kharif,pomegranate,36769.93,324541.12
+Uttar Pradesh,Uttar Pradesh_District,2016,Rabi,muskmelon,49819.36,843157.19
+Uttar Pradesh,Uttar Pradesh_District,2016,Rabi,apple,49973.76,538557.28
+West Bengal,West Bengal_District,2016,Rabi,rice,15574.66,44922.61
+West Bengal,West Bengal_District,2016,Whole Year,maize,6285.09,17715.55
+West Bengal,West Bengal_District,2016,Kharif,chickpea,31632.28,21510.46
+West Bengal,West Bengal_District,2016,Whole Year,cotton,33813.13,16520.38
+West Bengal,West Bengal_District,2016,Rabi,jute,41911.62,89111.09
+West Bengal,West Bengal_District,2016,Whole Year,banana,24132.58,808452.85
+West Bengal,West Bengal_District,2016,Rabi,mango,21259.68,76124.07
+West Bengal,West Bengal_District,2016,Rabi,coconut,41492.74,252126.03
+West Bengal,West Bengal_District,2016,Whole Year,coffee,12350.38,12007.91
+West Bengal,West Bengal_District,2016,Kharif,papaya,38262.74,1248798.99
+West Bengal,West Bengal_District,2016,Whole Year,grapes,36543.73,581840.21
+West Bengal,West Bengal_District,2016,Whole Year,orange,19643.4,191158.84
+West Bengal,West Bengal_District,2016,Rabi,watermelon,18372.35,532976.92
+West Bengal,West Bengal_District,2016,Kharif,lentil,47039.81,45701.11
+West Bengal,West Bengal_District,2016,Kharif,pigeonpeas,33863.23,28791.02
+West Bengal,West Bengal_District,2016,Rabi,mungbean,27833.23,12195.56
+West Bengal,West Bengal_District,2016,Rabi,blackgram,36945.59,14138.83
+West Bengal,West Bengal_District,2016,Whole Year,mothbeans,38654.88,7660.0
+West Bengal,West Bengal_District,2016,Whole Year,kidneybeans,26464.28,30333.69
+West Bengal,West Bengal_District,2016,Whole Year,pomegranate,41875.79,348374.27
+West Bengal,West Bengal_District,2016,Whole Year,muskmelon,12574.78,225593.87
+West Bengal,West Bengal_District,2016,Kharif,apple,10276.43,104499.87
+Andhra Pradesh,Andhra Pradesh_District,2017,Rabi,rice,6901.53,23770.96
+Andhra Pradesh,Andhra Pradesh_District,2017,Whole Year,maize,42036.49,116976.75
+Andhra Pradesh,Andhra Pradesh_District,2017,Rabi,chickpea,44048.38,43769.47
+Andhra Pradesh,Andhra Pradesh_District,2017,Whole Year,cotton,12091.8,4089.52
+Andhra Pradesh,Andhra Pradesh_District,2017,Whole Year,jute,2986.03,6698.06
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,banana,47878.29,1679081.59
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,mango,47572.97,387544.76
+Andhra Pradesh,Andhra Pradesh_District,2017,Rabi,coconut,19419.09,199204.36
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,coffee,23423.53,14488.1
+Andhra Pradesh,Andhra Pradesh_District,2017,Rabi,papaya,911.79,35293.87
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,grapes,20789.81,495542.17
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,orange,27087.83,151413.91
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,watermelon,8261.13,196441.52
+Andhra Pradesh,Andhra Pradesh_District,2017,Rabi,lentil,9870.76,9136.03
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,pigeonpeas,15703.73,14607.06
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,mungbean,40038.83,24855.11
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,blackgram,32036.4,21882.98
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,mothbeans,45538.43,8381.61
+Andhra Pradesh,Andhra Pradesh_District,2017,Whole Year,kidneybeans,35345.54,36650.13
+Andhra Pradesh,Andhra Pradesh_District,2017,Whole Year,pomegranate,29333.66,186398.59
+Andhra Pradesh,Andhra Pradesh_District,2017,Whole Year,muskmelon,20400.24,320288.31
+Andhra Pradesh,Andhra Pradesh_District,2017,Kharif,apple,16874.76,118193.47
+Bihar,Bihar_District,2017,Rabi,rice,26523.91,73151.57
+Bihar,Bihar_District,2017,Rabi,maize,33630.05,67616.9
+Bihar,Bihar_District,2017,Whole Year,chickpea,44952.5,39783.82
+Bihar,Bihar_District,2017,Rabi,cotton,42477.5,28721.45
+Bihar,Bihar_District,2017,Rabi,jute,5846.05,17695.98
+Bihar,Bihar_District,2017,Whole Year,banana,39034.58,1157862.96
+Bihar,Bihar_District,2017,Whole Year,mango,21233.27,139397.32
+Bihar,Bihar_District,2017,Rabi,coconut,43355.97,325896.32
+Bihar,Bihar_District,2017,Rabi,coffee,3209.34,2615.96
+Bihar,Bihar_District,2017,Whole Year,papaya,44867.66,2178440.02
+Bihar,Bihar_District,2017,Rabi,grapes,35011.42,797218.25
+Bihar,Bihar_District,2017,Rabi,orange,47215.74,493638.76
+Bihar,Bihar_District,2017,Whole Year,watermelon,14788.57,262390.93
+Bihar,Bihar_District,2017,Kharif,lentil,10408.51,6957.52
+Bihar,Bihar_District,2017,Whole Year,pigeonpeas,3312.97,3204.44
+Bihar,Bihar_District,2017,Whole Year,mungbean,40817.91,25395.43
+Bihar,Bihar_District,2017,Kharif,blackgram,11024.68,6311.63
+Bihar,Bihar_District,2017,Kharif,mothbeans,26206.6,11673.16
+Bihar,Bihar_District,2017,Kharif,kidneybeans,43134.05,74343.49
+Bihar,Bihar_District,2017,Kharif,pomegranate,8552.15,70984.03
+Bihar,Bihar_District,2017,Whole Year,muskmelon,30627.88,483859.11
+Bihar,Bihar_District,2017,Whole Year,apple,11058.85,109014.75
+Gujarat,Gujarat_District,2017,Whole Year,rice,33818.37,57626.73
+Gujarat,Gujarat_District,2017,Kharif,maize,26537.81,66816.44
+Gujarat,Gujarat_District,2017,Kharif,chickpea,48723.69,56722.93
+Gujarat,Gujarat_District,2017,Rabi,cotton,39562.87,15522.7
+Gujarat,Gujarat_District,2017,Rabi,jute,37134.77,70662.44
+Gujarat,Gujarat_District,2017,Kharif,banana,3576.23,123912.18
+Gujarat,Gujarat_District,2017,Whole Year,mango,14799.51,97725.06
+Gujarat,Gujarat_District,2017,Rabi,coconut,37117.04,273239.3
+Gujarat,Gujarat_District,2017,Whole Year,coffee,25380.12,21625.77
+Gujarat,Gujarat_District,2017,Whole Year,papaya,16053.5,509149.02
+Gujarat,Gujarat_District,2017,Rabi,grapes,8270.6,80303.32
+Gujarat,Gujarat_District,2017,Kharif,orange,36646.47,414070.92
+Gujarat,Gujarat_District,2017,Whole Year,watermelon,43472.39,1089728.15
+Gujarat,Gujarat_District,2017,Kharif,lentil,42474.99,23476.77
+Gujarat,Gujarat_District,2017,Rabi,pigeonpeas,13668.68,10536.73
+Gujarat,Gujarat_District,2017,Rabi,mungbean,42808.26,25525.28
+Gujarat,Gujarat_District,2017,Rabi,blackgram,28438.9,16561.95
+Gujarat,Gujarat_District,2017,Whole Year,mothbeans,11841.08,3888.03
+Gujarat,Gujarat_District,2017,Kharif,kidneybeans,32107.39,29619.58
+Gujarat,Gujarat_District,2017,Whole Year,pomegranate,8175.28,83103.89
+Gujarat,Gujarat_District,2017,Rabi,muskmelon,49057.62,788257.35
+Gujarat,Gujarat_District,2017,Kharif,apple,2484.27,26379.81
+Haryana,Haryana_District,2017,Rabi,rice,15478.35,30778.2
+Haryana,Haryana_District,2017,Rabi,maize,30133.91,48291.66
+Haryana,Haryana_District,2017,Rabi,chickpea,21257.63,18221.32
+Haryana,Haryana_District,2017,Kharif,cotton,35639.49,29228.04
+Haryana,Haryana_District,2017,Kharif,jute,21416.1,52473.13
+Haryana,Haryana_District,2017,Whole Year,banana,47389.88,1914442.02
+Haryana,Haryana_District,2017,Kharif,mango,40483.59,216119.84
+Haryana,Haryana_District,2017,Rabi,coconut,40726.56,311830.54
+Haryana,Haryana_District,2017,Rabi,coffee,12284.25,8546.63
+Haryana,Haryana_District,2017,Rabi,papaya,10255.76,479765.95
+Haryana,Haryana_District,2017,Whole Year,grapes,36340.85,996488.84
+Haryana,Haryana_District,2017,Whole Year,orange,17579.76,195194.47
+Haryana,Haryana_District,2017,Rabi,watermelon,24112.64,440715.22
+Haryana,Haryana_District,2017,Kharif,lentil,24762.1,28702.03
+Haryana,Haryana_District,2017,Whole Year,pigeonpeas,24001.37,26758.29
+Haryana,Haryana_District,2017,Whole Year,mungbean,12080.74,6367.67
+Haryana,Haryana_District,2017,Rabi,blackgram,38901.75,11693.3
+Haryana,Haryana_District,2017,Rabi,mothbeans,48794.13,22011.95
+Haryana,Haryana_District,2017,Rabi,kidneybeans,35946.62,37585.15
+Haryana,Haryana_District,2017,Kharif,pomegranate,14645.73,149067.96
+Haryana,Haryana_District,2017,Whole Year,muskmelon,46134.63,791676.69
+Haryana,Haryana_District,2017,Rabi,apple,29769.59,321253.16
+Karnataka,Karnataka_District,2017,Kharif,rice,18945.51,45198.48
+Karnataka,Karnataka_District,2017,Kharif,maize,277.05,978.5
+Karnataka,Karnataka_District,2017,Rabi,chickpea,33836.0,45356.6
+Karnataka,Karnataka_District,2017,Rabi,cotton,45115.51,33045.23
+Karnataka,Karnataka_District,2017,Whole Year,jute,13965.21,36505.42
+Karnataka,Karnataka_District,2017,Kharif,banana,37902.8,1203455.13
+Karnataka,Karnataka_District,2017,Whole Year,mango,39209.03,226446.85
+Karnataka,Karnataka_District,2017,Kharif,coconut,33195.49,239577.7
+Karnataka,Karnataka_District,2017,Whole Year,coffee,13865.33,3712.4
+Karnataka,Karnataka_District,2017,Kharif,papaya,20713.14,872557.78
+Karnataka,Karnataka_District,2017,Kharif,grapes,5310.47,115851.18
+Karnataka,Karnataka_District,2017,Rabi,orange,15779.95,204901.9
+Karnataka,Karnataka_District,2017,Whole Year,watermelon,20160.34,535157.84
+Karnataka,Karnataka_District,2017,Whole Year,lentil,20019.15,17154.2
+Karnataka,Karnataka_District,2017,Rabi,pigeonpeas,30699.28,18607.8
+Karnataka,Karnataka_District,2017,Kharif,mungbean,3781.42,2675.03
+Karnataka,Karnataka_District,2017,Whole Year,blackgram,19837.84,10126.36
+Karnataka,Karnataka_District,2017,Rabi,mothbeans,10866.51,4799.75
+Karnataka,Karnataka_District,2017,Rabi,kidneybeans,16585.04,7219.44
+Karnataka,Karnataka_District,2017,Rabi,pomegranate,31391.66,301252.44
+Karnataka,Karnataka_District,2017,Kharif,muskmelon,39629.21,656203.1
+Karnataka,Karnataka_District,2017,Kharif,apple,22550.6,313075.26
+Kerala,Kerala_District,2017,Whole Year,rice,36609.35,112390.47
+Kerala,Kerala_District,2017,Rabi,maize,25330.54,58705.36
+Kerala,Kerala_District,2017,Kharif,chickpea,19711.61,26161.32
+Kerala,Kerala_District,2017,Whole Year,cotton,25219.27,15226.43
+Kerala,Kerala_District,2017,Whole Year,jute,25389.01,67268.08
+Kerala,Kerala_District,2017,Rabi,banana,10265.92,237351.44
+Kerala,Kerala_District,2017,Kharif,mango,26654.64,171591.12
+Kerala,Kerala_District,2017,Whole Year,coconut,8409.43,69097.06
+Kerala,Kerala_District,2017,Whole Year,coffee,45955.02,48671.37
+Kerala,Kerala_District,2017,Kharif,papaya,41952.05,2029067.71
+Kerala,Kerala_District,2017,Kharif,grapes,13005.42,177762.55
+Kerala,Kerala_District,2017,Whole Year,orange,15292.0,147260.3
+Kerala,Kerala_District,2017,Kharif,watermelon,2523.4,60553.97
+Kerala,Kerala_District,2017,Whole Year,lentil,42770.96,29227.37
+Kerala,Kerala_District,2017,Whole Year,pigeonpeas,49429.03,42081.88
+Kerala,Kerala_District,2017,Kharif,mungbean,18693.03,9537.39
+Kerala,Kerala_District,2017,Kharif,blackgram,23031.88,14088.09
+Kerala,Kerala_District,2017,Whole Year,mothbeans,29332.74,14306.2
+Kerala,Kerala_District,2017,Kharif,kidneybeans,12218.48,11885.98
+Kerala,Kerala_District,2017,Kharif,pomegranate,41114.95,278873.47
+Kerala,Kerala_District,2017,Rabi,muskmelon,30694.59,306580.47
+Kerala,Kerala_District,2017,Whole Year,apple,10240.63,119197.93
+Madhya Pradesh,Madhya Pradesh_District,2017,Rabi,rice,48903.26,131609.77
+Madhya Pradesh,Madhya Pradesh_District,2017,Kharif,maize,4158.18,13574.34
+Madhya Pradesh,Madhya Pradesh_District,2017,Rabi,chickpea,48638.45,55021.23
+Madhya Pradesh,Madhya Pradesh_District,2017,Rabi,cotton,32520.69,14529.34
+Madhya Pradesh,Madhya Pradesh_District,2017,Whole Year,jute,42288.72,108713.78
+Madhya Pradesh,Madhya Pradesh_District,2017,Rabi,banana,7363.89,247680.19
+Madhya Pradesh,Madhya Pradesh_District,2017,Whole Year,mango,36645.54,277117.12
+Madhya Pradesh,Madhya Pradesh_District,2017,Rabi,coconut,32484.05,266768.18
+Madhya Pradesh,Madhya Pradesh_District,2017,Kharif,coffee,1461.0,1587.6
+Madhya Pradesh,Madhya Pradesh_District,2017,Whole Year,papaya,38033.73,1920012.38
+Madhya Pradesh,Madhya Pradesh_District,2017,Rabi,grapes,21616.24,400514.33
+Madhya Pradesh,Madhya Pradesh_District,2017,Kharif,orange,12939.37,152023.03
+Madhya Pradesh,Madhya Pradesh_District,2017,Whole Year,watermelon,26489.06,595529.01
+Madhya Pradesh,Madhya Pradesh_District,2017,Whole Year,lentil,16175.09,16278.87
+Madhya Pradesh,Madhya Pradesh_District,2017,Rabi,pigeonpeas,31847.52,25587.81
+Madhya Pradesh,Madhya Pradesh_District,2017,Kharif,mungbean,40023.19,23014.52
+Madhya Pradesh,Madhya Pradesh_District,2017,Rabi,blackgram,6983.62,2800.5
+Madhya Pradesh,Madhya Pradesh_District,2017,Kharif,mothbeans,8081.73,2940.81
+Madhya Pradesh,Madhya Pradesh_District,2017,Kharif,kidneybeans,49623.64,53073.89
+Madhya Pradesh,Madhya Pradesh_District,2017,Whole Year,pomegranate,13760.64,119624.15
+Madhya Pradesh,Madhya Pradesh_District,2017,Whole Year,muskmelon,35395.9,530517.45
+Madhya Pradesh,Madhya Pradesh_District,2017,Rabi,apple,9246.96,128741.0
+Maharashtra,Maharashtra_District,2017,Kharif,rice,10072.86,16474.61
+Maharashtra,Maharashtra_District,2017,Whole Year,maize,48841.13,111195.92
+Maharashtra,Maharashtra_District,2017,Rabi,chickpea,8045.24,10655.01
+Maharashtra,Maharashtra_District,2017,Kharif,cotton,10824.17,6596.29
+Maharashtra,Maharashtra_District,2017,Kharif,jute,40928.32,105352.69
+Maharashtra,Maharashtra_District,2017,Kharif,banana,18370.2,466972.89
+Maharashtra,Maharashtra_District,2017,Kharif,mango,44516.43,297298.7
+Maharashtra,Maharashtra_District,2017,Kharif,coconut,31928.31,437463.09
+Maharashtra,Maharashtra_District,2017,Kharif,coffee,43798.0,37051.52
+Maharashtra,Maharashtra_District,2017,Rabi,papaya,22643.03,917871.55
+Maharashtra,Maharashtra_District,2017,Whole Year,grapes,35845.94,830987.92
+Maharashtra,Maharashtra_District,2017,Kharif,orange,35573.91,356106.38
+Maharashtra,Maharashtra_District,2017,Rabi,watermelon,39176.77,643301.86
+Maharashtra,Maharashtra_District,2017,Kharif,lentil,3908.79,2596.71
+Maharashtra,Maharashtra_District,2017,Whole Year,pigeonpeas,37797.77,29210.25
+Maharashtra,Maharashtra_District,2017,Kharif,mungbean,1291.29,618.74
+Maharashtra,Maharashtra_District,2017,Whole Year,blackgram,14944.84,9449.7
+Maharashtra,Maharashtra_District,2017,Rabi,mothbeans,48779.68,24481.95
+Maharashtra,Maharashtra_District,2017,Rabi,kidneybeans,32064.11,26120.3
+Maharashtra,Maharashtra_District,2017,Whole Year,pomegranate,28460.41,166439.99
+Maharashtra,Maharashtra_District,2017,Rabi,muskmelon,25174.9,373637.56
+Maharashtra,Maharashtra_District,2017,Whole Year,apple,37524.21,282174.32
+Punjab,Punjab_District,2017,Rabi,rice,1329.32,4347.6
+Punjab,Punjab_District,2017,Rabi,maize,17270.96,47180.05
+Punjab,Punjab_District,2017,Whole Year,chickpea,35964.25,53407.47
+Punjab,Punjab_District,2017,Whole Year,cotton,34106.55,22826.3
+Punjab,Punjab_District,2017,Kharif,jute,36271.71,67663.59
+Punjab,Punjab_District,2017,Kharif,banana,41020.66,1173077.42
+Punjab,Punjab_District,2017,Kharif,mango,1207.7,7835.83
+Punjab,Punjab_District,2017,Kharif,coconut,14342.8,101959.03
+Punjab,Punjab_District,2017,Rabi,coffee,24414.31,26879.5
+Punjab,Punjab_District,2017,Kharif,papaya,6915.6,277108.57
+Punjab,Punjab_District,2017,Rabi,grapes,33759.0,807820.55
+Punjab,Punjab_District,2017,Rabi,orange,3614.81,27964.65
+Punjab,Punjab_District,2017,Rabi,watermelon,21182.96,401882.35
+Punjab,Punjab_District,2017,Kharif,lentil,32216.15,19196.52
+Punjab,Punjab_District,2017,Kharif,pigeonpeas,21209.87,13536.57
+Punjab,Punjab_District,2017,Rabi,mungbean,11686.92,5938.5
+Punjab,Punjab_District,2017,Kharif,blackgram,47285.64,27345.22
+Punjab,Punjab_District,2017,Kharif,mothbeans,41319.19,13485.06
+Punjab,Punjab_District,2017,Rabi,kidneybeans,36736.61,53485.42
+Punjab,Punjab_District,2017,Rabi,pomegranate,26615.48,205458.87
+Punjab,Punjab_District,2017,Whole Year,muskmelon,17011.41,258144.98
+Punjab,Punjab_District,2017,Whole Year,apple,39044.44,542843.69
+Rajasthan,Rajasthan_District,2017,Rabi,rice,21900.32,59636.77
+Rajasthan,Rajasthan_District,2017,Whole Year,maize,26810.95,94990.59
+Rajasthan,Rajasthan_District,2017,Whole Year,chickpea,41306.6,28822.57
+Rajasthan,Rajasthan_District,2017,Kharif,cotton,12865.09,5343.2
+Rajasthan,Rajasthan_District,2017,Rabi,jute,10565.04,20191.09
+Rajasthan,Rajasthan_District,2017,Whole Year,banana,24488.61,707950.44
+Rajasthan,Rajasthan_District,2017,Whole Year,mango,49642.38,349013.51
+Rajasthan,Rajasthan_District,2017,Rabi,coconut,23021.36,200310.98
+Rajasthan,Rajasthan_District,2017,Whole Year,coffee,32039.66,19191.07
+Rajasthan,Rajasthan_District,2017,Whole Year,papaya,35520.72,1557293.82
+Rajasthan,Rajasthan_District,2017,Rabi,grapes,19928.09,366218.91
+Rajasthan,Rajasthan_District,2017,Whole Year,orange,43250.14,630253.05
+Rajasthan,Rajasthan_District,2017,Whole Year,watermelon,40681.01,1125888.34
+Rajasthan,Rajasthan_District,2017,Kharif,lentil,19830.53,18994.28
+Rajasthan,Rajasthan_District,2017,Whole Year,pigeonpeas,43662.87,19574.86
+Rajasthan,Rajasthan_District,2017,Kharif,mungbean,10942.92,6107.6
+Rajasthan,Rajasthan_District,2017,Whole Year,blackgram,3475.39,2196.01
+Rajasthan,Rajasthan_District,2017,Whole Year,mothbeans,23417.44,9896.95
+Rajasthan,Rajasthan_District,2017,Rabi,kidneybeans,6031.48,7714.34
+Rajasthan,Rajasthan_District,2017,Whole Year,pomegranate,2321.09,17032.6
+Rajasthan,Rajasthan_District,2017,Rabi,muskmelon,39216.68,304426.55
+Rajasthan,Rajasthan_District,2017,Rabi,apple,45055.78,727892.05
+Tamil Nadu,Tamil Nadu_District,2017,Kharif,rice,3228.36,6997.69
+Tamil Nadu,Tamil Nadu_District,2017,Rabi,maize,41169.52,85767.88
+Tamil Nadu,Tamil Nadu_District,2017,Rabi,chickpea,39208.3,36659.52
+Tamil Nadu,Tamil Nadu_District,2017,Kharif,cotton,1233.91,687.35
+Tamil Nadu,Tamil Nadu_District,2017,Kharif,jute,48518.53,92983.03
+Tamil Nadu,Tamil Nadu_District,2017,Kharif,banana,43095.84,1418633.33
+Tamil Nadu,Tamil Nadu_District,2017,Whole Year,mango,6908.78,66645.9
+Tamil Nadu,Tamil Nadu_District,2017,Whole Year,coconut,2618.7,20933.07
+Tamil Nadu,Tamil Nadu_District,2017,Whole Year,coffee,45730.75,42088.14
+Tamil Nadu,Tamil Nadu_District,2017,Whole Year,papaya,19493.73,906039.0
+Tamil Nadu,Tamil Nadu_District,2017,Rabi,grapes,6307.01,126502.11
+Tamil Nadu,Tamil Nadu_District,2017,Rabi,orange,31765.73,272672.77
+Tamil Nadu,Tamil Nadu_District,2017,Kharif,watermelon,6621.99,198513.79
+Tamil Nadu,Tamil Nadu_District,2017,Kharif,lentil,4571.86,3801.92
+Tamil Nadu,Tamil Nadu_District,2017,Kharif,pigeonpeas,39028.63,50671.18
+Tamil Nadu,Tamil Nadu_District,2017,Rabi,mungbean,35216.08,19527.88
+Tamil Nadu,Tamil Nadu_District,2017,Whole Year,blackgram,12048.1,13515.17
+Tamil Nadu,Tamil Nadu_District,2017,Whole Year,mothbeans,39103.01,13739.03
+Tamil Nadu,Tamil Nadu_District,2017,Rabi,kidneybeans,19304.25,14885.31
+Tamil Nadu,Tamil Nadu_District,2017,Whole Year,pomegranate,993.54,4987.58
+Tamil Nadu,Tamil Nadu_District,2017,Rabi,muskmelon,20962.53,389191.32
+Tamil Nadu,Tamil Nadu_District,2017,Rabi,apple,20532.17,372742.62
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,rice,31340.26,124837.42
+Uttar Pradesh,Uttar Pradesh_District,2017,Kharif,maize,5834.43,16775.39
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,chickpea,18455.4,18242.92
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,cotton,13748.23,5641.33
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,jute,7143.56,16362.43
+Uttar Pradesh,Uttar Pradesh_District,2017,Kharif,banana,48922.06,1037567.72
+Uttar Pradesh,Uttar Pradesh_District,2017,Rabi,mango,49529.19,424091.66
+Uttar Pradesh,Uttar Pradesh_District,2017,Kharif,coconut,44693.64,282585.61
+Uttar Pradesh,Uttar Pradesh_District,2017,Rabi,coffee,5376.81,3795.03
+Uttar Pradesh,Uttar Pradesh_District,2017,Rabi,papaya,35107.11,1323453.32
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,grapes,34311.73,547249.72
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,orange,6357.98,68392.41
+Uttar Pradesh,Uttar Pradesh_District,2017,Kharif,watermelon,27237.16,807719.89
+Uttar Pradesh,Uttar Pradesh_District,2017,Kharif,lentil,18782.05,14868.27
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,pigeonpeas,38267.18,23552.17
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,mungbean,6574.54,3336.3
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,blackgram,18358.93,15268.01
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,mothbeans,11296.05,3377.4
+Uttar Pradesh,Uttar Pradesh_District,2017,Rabi,kidneybeans,25249.21,32027.59
+Uttar Pradesh,Uttar Pradesh_District,2017,Rabi,pomegranate,14479.33,159072.9
+Uttar Pradesh,Uttar Pradesh_District,2017,Kharif,muskmelon,43143.55,706114.24
+Uttar Pradesh,Uttar Pradesh_District,2017,Whole Year,apple,29684.09,385942.13
+West Bengal,West Bengal_District,2017,Whole Year,rice,4510.99,13853.63
+West Bengal,West Bengal_District,2017,Kharif,maize,31882.59,80362.88
+West Bengal,West Bengal_District,2017,Kharif,chickpea,46161.53,58649.53
+West Bengal,West Bengal_District,2017,Kharif,cotton,43249.91,10145.82
+West Bengal,West Bengal_District,2017,Kharif,jute,20798.73,54722.48
+West Bengal,West Bengal_District,2017,Whole Year,banana,1411.22,42392.94
+West Bengal,West Bengal_District,2017,Rabi,mango,29882.78,220927.59
+West Bengal,West Bengal_District,2017,Rabi,coconut,25329.99,170578.88
+West Bengal,West Bengal_District,2017,Kharif,coffee,17365.95,16314.7
+West Bengal,West Bengal_District,2017,Whole Year,papaya,29541.56,1420810.09
+West Bengal,West Bengal_District,2017,Rabi,grapes,28950.34,541782.78
+West Bengal,West Bengal_District,2017,Kharif,orange,7131.11,58200.25
+West Bengal,West Bengal_District,2017,Whole Year,watermelon,19593.91,391508.49
+West Bengal,West Bengal_District,2017,Rabi,lentil,44021.29,37748.36
+West Bengal,West Bengal_District,2017,Rabi,pigeonpeas,42676.56,40745.49
+West Bengal,West Bengal_District,2017,Kharif,mungbean,21542.26,13595.58
+West Bengal,West Bengal_District,2017,Whole Year,blackgram,19949.87,18214.64
+West Bengal,West Bengal_District,2017,Whole Year,mothbeans,384.16,179.13
+West Bengal,West Bengal_District,2017,Kharif,kidneybeans,20916.07,27722.18
+West Bengal,West Bengal_District,2017,Whole Year,pomegranate,3656.42,38653.52
+West Bengal,West Bengal_District,2017,Rabi,muskmelon,3962.54,66656.94
+West Bengal,West Bengal_District,2017,Rabi,apple,48975.23,655353.44
+Andhra Pradesh,Andhra Pradesh_District,2018,Whole Year,rice,41895.31,75478.28
+Andhra Pradesh,Andhra Pradesh_District,2018,Whole Year,maize,21301.31,69367.77
+Andhra Pradesh,Andhra Pradesh_District,2018,Rabi,chickpea,1531.18,1953.78
+Andhra Pradesh,Andhra Pradesh_District,2018,Whole Year,cotton,43632.22,28050.03
+Andhra Pradesh,Andhra Pradesh_District,2018,Rabi,jute,14403.35,22800.29
+Andhra Pradesh,Andhra Pradesh_District,2018,Whole Year,banana,31887.14,881299.95
+Andhra Pradesh,Andhra Pradesh_District,2018,Kharif,mango,14083.22,75182.92
+Andhra Pradesh,Andhra Pradesh_District,2018,Kharif,coconut,7810.07,79806.88
+Andhra Pradesh,Andhra Pradesh_District,2018,Kharif,coffee,14601.58,11623.14
+Andhra Pradesh,Andhra Pradesh_District,2018,Kharif,papaya,22276.86,618502.55
+Andhra Pradesh,Andhra Pradesh_District,2018,Rabi,grapes,18292.78,275175.54
+Andhra Pradesh,Andhra Pradesh_District,2018,Rabi,orange,43371.09,379737.31
+Andhra Pradesh,Andhra Pradesh_District,2018,Kharif,watermelon,23792.9,500091.19
+Andhra Pradesh,Andhra Pradesh_District,2018,Whole Year,lentil,31806.1,28271.33
+Andhra Pradesh,Andhra Pradesh_District,2018,Rabi,pigeonpeas,35710.15,37605.87
+Andhra Pradesh,Andhra Pradesh_District,2018,Kharif,mungbean,37680.07,28339.3
+Andhra Pradesh,Andhra Pradesh_District,2018,Whole Year,blackgram,37466.47,22635.96
+Andhra Pradesh,Andhra Pradesh_District,2018,Kharif,mothbeans,28845.63,6504.18
+Andhra Pradesh,Andhra Pradesh_District,2018,Kharif,kidneybeans,4604.0,6655.91
+Andhra Pradesh,Andhra Pradesh_District,2018,Kharif,pomegranate,13587.36,114357.38
+Andhra Pradesh,Andhra Pradesh_District,2018,Whole Year,muskmelon,10842.7,201479.4
+Andhra Pradesh,Andhra Pradesh_District,2018,Whole Year,apple,17997.38,337131.9
+Bihar,Bihar_District,2018,Rabi,rice,103.39,217.92
+Bihar,Bihar_District,2018,Whole Year,maize,24041.3,75346.47
+Bihar,Bihar_District,2018,Whole Year,chickpea,6509.57,6276.28
+Bihar,Bihar_District,2018,Whole Year,cotton,40324.61,16809.35
+Bihar,Bihar_District,2018,Rabi,jute,37368.46,89891.41
+Bihar,Bihar_District,2018,Kharif,banana,33132.3,1024725.68
+Bihar,Bihar_District,2018,Kharif,mango,13530.44,126479.13
+Bihar,Bihar_District,2018,Whole Year,coconut,25160.04,252144.78
+Bihar,Bihar_District,2018,Kharif,coffee,650.51,246.54
+Bihar,Bihar_District,2018,Kharif,papaya,37121.24,1186334.76
+Bihar,Bihar_District,2018,Kharif,grapes,9206.92,215493.48
+Bihar,Bihar_District,2018,Rabi,orange,2488.04,23812.16
+Bihar,Bihar_District,2018,Whole Year,watermelon,39216.43,1109727.84
+Bihar,Bihar_District,2018,Kharif,lentil,25512.41,19252.85
+Bihar,Bihar_District,2018,Kharif,pigeonpeas,21452.9,13866.85
+Bihar,Bihar_District,2018,Rabi,mungbean,2679.6,1876.36
+Bihar,Bihar_District,2018,Rabi,blackgram,42340.72,18017.06
+Bihar,Bihar_District,2018,Whole Year,mothbeans,40673.59,20947.18
+Bihar,Bihar_District,2018,Kharif,kidneybeans,9284.83,6616.16
+Bihar,Bihar_District,2018,Rabi,pomegranate,6519.55,46247.23
+Bihar,Bihar_District,2018,Kharif,muskmelon,45658.89,521723.32
+Bihar,Bihar_District,2018,Whole Year,apple,7163.01,54565.36
+Gujarat,Gujarat_District,2018,Whole Year,rice,35677.55,115823.36
+Gujarat,Gujarat_District,2018,Kharif,maize,35640.1,75487.12
+Gujarat,Gujarat_District,2018,Rabi,chickpea,49339.15,26949.74
+Gujarat,Gujarat_District,2018,Rabi,cotton,15605.73,6791.96
+Gujarat,Gujarat_District,2018,Whole Year,jute,38089.91,37069.29
+Gujarat,Gujarat_District,2018,Kharif,banana,27105.41,630299.07
+Gujarat,Gujarat_District,2018,Whole Year,mango,35391.64,411598.11
+Gujarat,Gujarat_District,2018,Rabi,coconut,30519.33,168876.65
+Gujarat,Gujarat_District,2018,Rabi,coffee,25957.53,20948.66
+Gujarat,Gujarat_District,2018,Kharif,papaya,18386.02,730726.95
+Gujarat,Gujarat_District,2018,Rabi,grapes,48685.82,1301078.44
+Gujarat,Gujarat_District,2018,Rabi,orange,26799.67,162511.13
+Gujarat,Gujarat_District,2018,Whole Year,watermelon,40686.29,999246.33
+Gujarat,Gujarat_District,2018,Whole Year,lentil,32627.29,17824.07
+Gujarat,Gujarat_District,2018,Rabi,pigeonpeas,10550.98,8144.77
+Gujarat,Gujarat_District,2018,Kharif,mungbean,38185.68,16453.28
+Gujarat,Gujarat_District,2018,Whole Year,blackgram,10798.9,3201.12
+Gujarat,Gujarat_District,2018,Kharif,mothbeans,43352.37,14643.42
+Gujarat,Gujarat_District,2018,Whole Year,kidneybeans,17006.72,26734.61
+Gujarat,Gujarat_District,2018,Kharif,pomegranate,6819.58,70412.76
+Gujarat,Gujarat_District,2018,Whole Year,muskmelon,4812.15,61718.61
+Gujarat,Gujarat_District,2018,Kharif,apple,43364.7,611897.45
+Haryana,Haryana_District,2018,Whole Year,rice,30022.83,42379.64
+Haryana,Haryana_District,2018,Rabi,maize,24456.85,69888.37
+Haryana,Haryana_District,2018,Rabi,chickpea,48981.78,11548.33
+Haryana,Haryana_District,2018,Kharif,cotton,16472.8,6696.5
+Haryana,Haryana_District,2018,Whole Year,jute,48613.42,139580.18
+Haryana,Haryana_District,2018,Kharif,banana,27743.98,996580.38
+Haryana,Haryana_District,2018,Whole Year,mango,11095.33,92730.96
+Haryana,Haryana_District,2018,Whole Year,coconut,2500.2,12938.15
+Haryana,Haryana_District,2018,Whole Year,coffee,2262.67,1655.51
+Haryana,Haryana_District,2018,Whole Year,papaya,20686.11,910873.78
+Haryana,Haryana_District,2018,Kharif,grapes,9298.54,183346.92
+Haryana,Haryana_District,2018,Whole Year,orange,12599.44,125875.41
+Haryana,Haryana_District,2018,Kharif,watermelon,16876.81,469330.82
+Haryana,Haryana_District,2018,Whole Year,lentil,8031.09,9577.69
+Haryana,Haryana_District,2018,Rabi,pigeonpeas,5649.85,5436.54
+Haryana,Haryana_District,2018,Kharif,mungbean,16337.2,11857.65
+Haryana,Haryana_District,2018,Whole Year,blackgram,23066.9,14159.79
+Haryana,Haryana_District,2018,Kharif,mothbeans,34743.81,12151.8
+Haryana,Haryana_District,2018,Kharif,kidneybeans,35800.66,30090.24
+Haryana,Haryana_District,2018,Kharif,pomegranate,21657.83,171482.23
+Haryana,Haryana_District,2018,Kharif,muskmelon,31070.48,510126.11
+Haryana,Haryana_District,2018,Kharif,apple,26620.73,356634.55
+Karnataka,Karnataka_District,2018,Kharif,rice,48681.17,119705.46
+Karnataka,Karnataka_District,2018,Rabi,maize,31826.12,98093.94
+Karnataka,Karnataka_District,2018,Kharif,chickpea,28282.94,23123.62
+Karnataka,Karnataka_District,2018,Rabi,cotton,19483.39,5740.14
+Karnataka,Karnataka_District,2018,Whole Year,jute,32065.52,76663.21
+Karnataka,Karnataka_District,2018,Kharif,banana,47631.07,1717507.58
+Karnataka,Karnataka_District,2018,Whole Year,mango,9540.65,70563.19
+Karnataka,Karnataka_District,2018,Rabi,coconut,9628.85,61189.99
+Karnataka,Karnataka_District,2018,Rabi,coffee,13562.34,8784.25
+Karnataka,Karnataka_District,2018,Rabi,papaya,39331.61,1692110.18
+Karnataka,Karnataka_District,2018,Whole Year,grapes,25217.64,497183.33
+Karnataka,Karnataka_District,2018,Kharif,orange,13478.76,171105.27
+Karnataka,Karnataka_District,2018,Whole Year,watermelon,22773.65,712182.13
+Karnataka,Karnataka_District,2018,Kharif,lentil,23555.01,26203.33
+Karnataka,Karnataka_District,2018,Kharif,pigeonpeas,22155.02,20909.3
+Karnataka,Karnataka_District,2018,Whole Year,mungbean,15826.31,8795.92
+Karnataka,Karnataka_District,2018,Kharif,blackgram,25946.51,11534.96
+Karnataka,Karnataka_District,2018,Kharif,mothbeans,43126.46,14711.25
+Karnataka,Karnataka_District,2018,Rabi,kidneybeans,18286.74,20116.31
+Karnataka,Karnataka_District,2018,Kharif,pomegranate,25157.35,154932.19
+Karnataka,Karnataka_District,2018,Rabi,muskmelon,17450.76,216985.83
+Karnataka,Karnataka_District,2018,Kharif,apple,28205.25,284694.32
+Kerala,Kerala_District,2018,Rabi,rice,25240.83,78843.15
+Kerala,Kerala_District,2018,Whole Year,maize,43909.87,147462.77
+Kerala,Kerala_District,2018,Whole Year,chickpea,47120.56,55027.26
+Kerala,Kerala_District,2018,Whole Year,cotton,33103.14,13130.55
+Kerala,Kerala_District,2018,Kharif,jute,40146.78,103849.48
+Kerala,Kerala_District,2018,Kharif,banana,28659.86,939100.17
+Kerala,Kerala_District,2018,Whole Year,mango,21945.82,168510.03
+Kerala,Kerala_District,2018,Rabi,coconut,42375.26,445994.23
+Kerala,Kerala_District,2018,Kharif,coffee,42745.47,30480.25
+Kerala,Kerala_District,2018,Kharif,papaya,9050.96,308105.25
+Kerala,Kerala_District,2018,Rabi,grapes,15597.05,367615.3
+Kerala,Kerala_District,2018,Rabi,orange,36797.22,213259.96
+Kerala,Kerala_District,2018,Rabi,watermelon,21318.48,558840.96
+Kerala,Kerala_District,2018,Kharif,lentil,26438.6,17587.09
+Kerala,Kerala_District,2018,Whole Year,pigeonpeas,15894.35,12840.84
+Kerala,Kerala_District,2018,Rabi,mungbean,29246.9,9947.31
+Kerala,Kerala_District,2018,Rabi,blackgram,22809.88,10238.68
+Kerala,Kerala_District,2018,Rabi,mothbeans,45448.82,26025.6
+Kerala,Kerala_District,2018,Whole Year,kidneybeans,37792.74,29097.23
+Kerala,Kerala_District,2018,Rabi,pomegranate,19145.15,171551.75
+Kerala,Kerala_District,2018,Whole Year,muskmelon,40345.01,755611.79
+Kerala,Kerala_District,2018,Kharif,apple,10567.72,164354.79
+Madhya Pradesh,Madhya Pradesh_District,2018,Rabi,rice,14585.17,43255.8
+Madhya Pradesh,Madhya Pradesh_District,2018,Kharif,maize,48376.39,130960.2
+Madhya Pradesh,Madhya Pradesh_District,2018,Kharif,chickpea,49626.09,72225.65
+Madhya Pradesh,Madhya Pradesh_District,2018,Rabi,cotton,14555.86,7436.74
+Madhya Pradesh,Madhya Pradesh_District,2018,Kharif,jute,14894.79,27685.36
+Madhya Pradesh,Madhya Pradesh_District,2018,Kharif,banana,13822.28,383634.42
+Madhya Pradesh,Madhya Pradesh_District,2018,Kharif,mango,18600.33,101227.71
+Madhya Pradesh,Madhya Pradesh_District,2018,Whole Year,coconut,31559.91,293097.23
+Madhya Pradesh,Madhya Pradesh_District,2018,Whole Year,coffee,38325.37,21272.17
+Madhya Pradesh,Madhya Pradesh_District,2018,Kharif,papaya,5904.36,281715.19
+Madhya Pradesh,Madhya Pradesh_District,2018,Rabi,grapes,2003.49,48736.33
+Madhya Pradesh,Madhya Pradesh_District,2018,Rabi,orange,47883.29,264425.31
+Madhya Pradesh,Madhya Pradesh_District,2018,Rabi,watermelon,45915.2,1364949.86
+Madhya Pradesh,Madhya Pradesh_District,2018,Kharif,lentil,46397.5,35091.36
+Madhya Pradesh,Madhya Pradesh_District,2018,Kharif,pigeonpeas,11745.08,14527.05
+Madhya Pradesh,Madhya Pradesh_District,2018,Whole Year,mungbean,20341.99,13170.0
+Madhya Pradesh,Madhya Pradesh_District,2018,Rabi,blackgram,5682.88,4861.12
+Madhya Pradesh,Madhya Pradesh_District,2018,Whole Year,mothbeans,48161.08,22821.12
+Madhya Pradesh,Madhya Pradesh_District,2018,Kharif,kidneybeans,41620.2,50023.6
+Madhya Pradesh,Madhya Pradesh_District,2018,Rabi,pomegranate,43332.64,239228.84
+Madhya Pradesh,Madhya Pradesh_District,2018,Rabi,muskmelon,19204.56,232406.19
+Madhya Pradesh,Madhya Pradesh_District,2018,Whole Year,apple,19056.93,229306.4
+Maharashtra,Maharashtra_District,2018,Rabi,rice,9956.63,15561.67
+Maharashtra,Maharashtra_District,2018,Whole Year,maize,13625.6,38251.16
+Maharashtra,Maharashtra_District,2018,Whole Year,chickpea,12587.57,11672.91
+Maharashtra,Maharashtra_District,2018,Whole Year,cotton,48274.35,22238.89
+Maharashtra,Maharashtra_District,2018,Kharif,jute,34003.17,87986.47
+Maharashtra,Maharashtra_District,2018,Whole Year,banana,7961.12,166794.31
+Maharashtra,Maharashtra_District,2018,Whole Year,mango,2543.15,20234.54
+Maharashtra,Maharashtra_District,2018,Kharif,coconut,28075.64,237546.7
+Maharashtra,Maharashtra_District,2018,Whole Year,coffee,23450.29,15585.57
+Maharashtra,Maharashtra_District,2018,Whole Year,papaya,29548.83,1286853.88
+Maharashtra,Maharashtra_District,2018,Kharif,grapes,18832.18,244185.83
+Maharashtra,Maharashtra_District,2018,Kharif,orange,42762.67,430931.24
+Maharashtra,Maharashtra_District,2018,Kharif,watermelon,10524.98,175368.54
+Maharashtra,Maharashtra_District,2018,Rabi,lentil,517.05,626.02
+Maharashtra,Maharashtra_District,2018,Rabi,pigeonpeas,9176.39,7227.17
+Maharashtra,Maharashtra_District,2018,Whole Year,mungbean,41562.29,31372.28
+Maharashtra,Maharashtra_District,2018,Rabi,blackgram,30951.93,23906.32
+Maharashtra,Maharashtra_District,2018,Kharif,mothbeans,30970.51,12880.54
+Maharashtra,Maharashtra_District,2018,Kharif,kidneybeans,10293.19,12260.47
+Maharashtra,Maharashtra_District,2018,Rabi,pomegranate,21738.59,188937.05
+Maharashtra,Maharashtra_District,2018,Rabi,muskmelon,3879.18,67705.58
+Maharashtra,Maharashtra_District,2018,Whole Year,apple,19006.41,216175.57
+Punjab,Punjab_District,2018,Kharif,rice,44621.41,120703.28
+Punjab,Punjab_District,2018,Whole Year,maize,10197.01,28548.17
+Punjab,Punjab_District,2018,Whole Year,chickpea,9402.94,9408.28
+Punjab,Punjab_District,2018,Kharif,cotton,48366.19,22809.23
+Punjab,Punjab_District,2018,Kharif,jute,46870.98,118641.58
+Punjab,Punjab_District,2018,Kharif,banana,41680.28,1129687.48
+Punjab,Punjab_District,2018,Rabi,mango,3987.49,27906.38
+Punjab,Punjab_District,2018,Rabi,coconut,3287.82,24319.18
+Punjab,Punjab_District,2018,Whole Year,coffee,21658.28,22403.87
+Punjab,Punjab_District,2018,Whole Year,papaya,45393.82,1362557.27
+Punjab,Punjab_District,2018,Whole Year,grapes,3639.07,57711.91
+Punjab,Punjab_District,2018,Kharif,orange,33348.54,485446.62
+Punjab,Punjab_District,2018,Kharif,watermelon,21949.8,625278.3
+Punjab,Punjab_District,2018,Rabi,lentil,16330.52,14486.55
+Punjab,Punjab_District,2018,Kharif,pigeonpeas,9272.9,8197.48
+Punjab,Punjab_District,2018,Rabi,mungbean,2096.9,1520.08
+Punjab,Punjab_District,2018,Kharif,blackgram,43656.85,20221.88
+Punjab,Punjab_District,2018,Rabi,mothbeans,12814.81,6599.42
+Punjab,Punjab_District,2018,Rabi,kidneybeans,46684.96,80681.44
+Punjab,Punjab_District,2018,Kharif,pomegranate,4928.82,19750.04
+Punjab,Punjab_District,2018,Rabi,muskmelon,22508.02,353040.92
+Punjab,Punjab_District,2018,Whole Year,apple,40019.75,556085.47
+Rajasthan,Rajasthan_District,2018,Whole Year,rice,49469.13,131143.77
+Rajasthan,Rajasthan_District,2018,Whole Year,maize,34270.5,87591.76
+Rajasthan,Rajasthan_District,2018,Kharif,chickpea,19371.86,22578.4
+Rajasthan,Rajasthan_District,2018,Whole Year,cotton,33469.57,23432.8
+Rajasthan,Rajasthan_District,2018,Whole Year,jute,40252.76,99061.85
+Rajasthan,Rajasthan_District,2018,Rabi,banana,35997.08,1097746.07
+Rajasthan,Rajasthan_District,2018,Whole Year,mango,37446.91,260452.14
+Rajasthan,Rajasthan_District,2018,Whole Year,coconut,14908.62,108095.97
+Rajasthan,Rajasthan_District,2018,Kharif,coffee,11884.91,6194.88
+Rajasthan,Rajasthan_District,2018,Rabi,papaya,44127.86,1667210.11
+Rajasthan,Rajasthan_District,2018,Kharif,grapes,11638.72,186888.64
+Rajasthan,Rajasthan_District,2018,Whole Year,orange,1445.23,17257.78
+Rajasthan,Rajasthan_District,2018,Whole Year,watermelon,9011.37,229559.59
+Rajasthan,Rajasthan_District,2018,Whole Year,lentil,25803.05,16979.46
+Rajasthan,Rajasthan_District,2018,Kharif,pigeonpeas,3267.72,3101.71
+Rajasthan,Rajasthan_District,2018,Kharif,mungbean,44472.2,33477.33
+Rajasthan,Rajasthan_District,2018,Rabi,blackgram,30210.77,27952.1
+Rajasthan,Rajasthan_District,2018,Rabi,mothbeans,26534.7,14148.36
+Rajasthan,Rajasthan_District,2018,Whole Year,kidneybeans,35312.67,39383.38
+Rajasthan,Rajasthan_District,2018,Whole Year,pomegranate,11130.5,70450.16
+Rajasthan,Rajasthan_District,2018,Whole Year,muskmelon,43267.41,913476.87
+Rajasthan,Rajasthan_District,2018,Whole Year,apple,14496.54,99170.51
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,rice,42140.81,93889.48
+Tamil Nadu,Tamil Nadu_District,2018,Rabi,maize,12581.97,29512.45
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,chickpea,46755.17,46382.29
+Tamil Nadu,Tamil Nadu_District,2018,Rabi,cotton,23695.07,8750.78
+Tamil Nadu,Tamil Nadu_District,2018,Kharif,jute,18009.39,41606.12
+Tamil Nadu,Tamil Nadu_District,2018,Rabi,banana,22648.74,715645.48
+Tamil Nadu,Tamil Nadu_District,2018,Kharif,mango,38184.68,214546.26
+Tamil Nadu,Tamil Nadu_District,2018,Rabi,coconut,32263.36,157011.09
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,coffee,5710.49,6720.73
+Tamil Nadu,Tamil Nadu_District,2018,Kharif,papaya,36414.1,1787434.23
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,grapes,37682.3,273816.68
+Tamil Nadu,Tamil Nadu_District,2018,Kharif,orange,19186.59,208306.84
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,watermelon,46236.99,1258032.17
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,lentil,38362.04,35748.1
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,pigeonpeas,37547.75,31134.72
+Tamil Nadu,Tamil Nadu_District,2018,Kharif,mungbean,11019.28,3534.28
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,blackgram,28562.11,32056.13
+Tamil Nadu,Tamil Nadu_District,2018,Kharif,mothbeans,33324.72,16299.28
+Tamil Nadu,Tamil Nadu_District,2018,Rabi,kidneybeans,21216.31,31177.5
+Tamil Nadu,Tamil Nadu_District,2018,Kharif,pomegranate,28549.02,280091.71
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,muskmelon,35568.36,729296.63
+Tamil Nadu,Tamil Nadu_District,2018,Whole Year,apple,2786.11,21864.9
+Uttar Pradesh,Uttar Pradesh_District,2018,Rabi,rice,46685.09,144452.22
+Uttar Pradesh,Uttar Pradesh_District,2018,Kharif,maize,10675.87,36479.09
+Uttar Pradesh,Uttar Pradesh_District,2018,Kharif,chickpea,21723.92,23111.04
+Uttar Pradesh,Uttar Pradesh_District,2018,Whole Year,cotton,39967.78,20397.27
+Uttar Pradesh,Uttar Pradesh_District,2018,Whole Year,jute,19460.99,39948.87
+Uttar Pradesh,Uttar Pradesh_District,2018,Whole Year,banana,2704.52,69064.74
+Uttar Pradesh,Uttar Pradesh_District,2018,Rabi,mango,5138.04,32717.89
+Uttar Pradesh,Uttar Pradesh_District,2018,Whole Year,coconut,3405.14,34776.32
+Uttar Pradesh,Uttar Pradesh_District,2018,Kharif,coffee,36391.61,36540.72
+Uttar Pradesh,Uttar Pradesh_District,2018,Rabi,papaya,9347.17,368182.55
+Uttar Pradesh,Uttar Pradesh_District,2018,Rabi,grapes,47956.59,1076493.52
+Uttar Pradesh,Uttar Pradesh_District,2018,Rabi,orange,19776.11,190920.77
+Uttar Pradesh,Uttar Pradesh_District,2018,Whole Year,watermelon,36237.68,1211023.46
+Uttar Pradesh,Uttar Pradesh_District,2018,Whole Year,lentil,3150.79,3137.59
+Uttar Pradesh,Uttar Pradesh_District,2018,Kharif,pigeonpeas,28537.43,33909.6
+Uttar Pradesh,Uttar Pradesh_District,2018,Kharif,mungbean,14625.14,8896.89
+Uttar Pradesh,Uttar Pradesh_District,2018,Whole Year,blackgram,20444.61,7057.94
+Uttar Pradesh,Uttar Pradesh_District,2018,Whole Year,mothbeans,18309.89,4878.53
+Uttar Pradesh,Uttar Pradesh_District,2018,Rabi,kidneybeans,1833.61,2625.36
+Uttar Pradesh,Uttar Pradesh_District,2018,Kharif,pomegranate,38137.48,355109.14
+Uttar Pradesh,Uttar Pradesh_District,2018,Whole Year,muskmelon,47853.98,746770.96
+Uttar Pradesh,Uttar Pradesh_District,2018,Rabi,apple,25416.65,205558.03
+West Bengal,West Bengal_District,2018,Kharif,rice,1312.06,3570.86
+West Bengal,West Bengal_District,2018,Whole Year,maize,36772.02,111786.31
+West Bengal,West Bengal_District,2018,Whole Year,chickpea,13010.54,7982.44
+West Bengal,West Bengal_District,2018,Kharif,cotton,25542.18,16007.87
+West Bengal,West Bengal_District,2018,Whole Year,jute,45278.22,107518.47
+West Bengal,West Bengal_District,2018,Whole Year,banana,10130.79,261994.42
+West Bengal,West Bengal_District,2018,Kharif,mango,22549.66,210334.39
+West Bengal,West Bengal_District,2018,Rabi,coconut,33163.55,273225.51
+West Bengal,West Bengal_District,2018,Rabi,coffee,44580.96,39339.88
+West Bengal,West Bengal_District,2018,Kharif,papaya,27005.11,1079772.77
+West Bengal,West Bengal_District,2018,Kharif,grapes,26396.61,543167.49
+West Bengal,West Bengal_District,2018,Kharif,orange,24639.33,257204.42
+West Bengal,West Bengal_District,2018,Kharif,watermelon,49558.19,1849269.25
+West Bengal,West Bengal_District,2018,Whole Year,lentil,18123.21,16781.59
+West Bengal,West Bengal_District,2018,Kharif,pigeonpeas,37086.5,38495.03
+West Bengal,West Bengal_District,2018,Kharif,mungbean,31437.29,22221.02
+West Bengal,West Bengal_District,2018,Whole Year,blackgram,5013.22,3905.29
+West Bengal,West Bengal_District,2018,Kharif,mothbeans,36265.44,15758.25
+West Bengal,West Bengal_District,2018,Kharif,kidneybeans,34217.45,37519.28
+West Bengal,West Bengal_District,2018,Whole Year,pomegranate,45338.59,479571.65
+West Bengal,West Bengal_District,2018,Whole Year,muskmelon,42342.44,512036.09
+West Bengal,West Bengal_District,2018,Rabi,apple,13401.56,169248.74
+Andhra Pradesh,Andhra Pradesh_District,2019,Kharif,rice,14887.82,41924.12
+Andhra Pradesh,Andhra Pradesh_District,2019,Whole Year,maize,9184.51,21139.86
+Andhra Pradesh,Andhra Pradesh_District,2019,Rabi,chickpea,32359.37,25527.04
+Andhra Pradesh,Andhra Pradesh_District,2019,Rabi,cotton,6513.19,3684.9
+Andhra Pradesh,Andhra Pradesh_District,2019,Whole Year,jute,27796.42,52699.11
+Andhra Pradesh,Andhra Pradesh_District,2019,Whole Year,banana,3227.35,99357.17
+Andhra Pradesh,Andhra Pradesh_District,2019,Whole Year,mango,406.18,3658.25
+Andhra Pradesh,Andhra Pradesh_District,2019,Rabi,coconut,42982.92,146636.39
+Andhra Pradesh,Andhra Pradesh_District,2019,Rabi,coffee,25300.31,26906.59
+Andhra Pradesh,Andhra Pradesh_District,2019,Kharif,papaya,9643.85,516904.94
+Andhra Pradesh,Andhra Pradesh_District,2019,Rabi,grapes,15239.3,245091.72
+Andhra Pradesh,Andhra Pradesh_District,2019,Kharif,orange,40022.94,172422.31
+Andhra Pradesh,Andhra Pradesh_District,2019,Kharif,watermelon,42186.31,849141.07
+Andhra Pradesh,Andhra Pradesh_District,2019,Rabi,lentil,11299.53,9126.16
+Andhra Pradesh,Andhra Pradesh_District,2019,Kharif,pigeonpeas,30605.4,21290.91
+Andhra Pradesh,Andhra Pradesh_District,2019,Whole Year,mungbean,37958.08,22186.98
+Andhra Pradesh,Andhra Pradesh_District,2019,Whole Year,blackgram,47596.56,35138.17
+Andhra Pradesh,Andhra Pradesh_District,2019,Whole Year,mothbeans,23961.62,11369.86
+Andhra Pradesh,Andhra Pradesh_District,2019,Rabi,kidneybeans,18209.32,21065.2
+Andhra Pradesh,Andhra Pradesh_District,2019,Kharif,pomegranate,25958.9,166606.21
+Andhra Pradesh,Andhra Pradesh_District,2019,Whole Year,muskmelon,41300.01,420033.82
+Andhra Pradesh,Andhra Pradesh_District,2019,Whole Year,apple,22432.37,266940.86
+Bihar,Bihar_District,2019,Whole Year,rice,31154.34,80859.77
+Bihar,Bihar_District,2019,Rabi,maize,36684.74,92358.59
+Bihar,Bihar_District,2019,Kharif,chickpea,21512.31,14421.11
+Bihar,Bihar_District,2019,Whole Year,cotton,5980.89,3245.13
+Bihar,Bihar_District,2019,Whole Year,jute,29420.04,60402.17
+Bihar,Bihar_District,2019,Whole Year,banana,33014.02,701934.56
+Bihar,Bihar_District,2019,Kharif,mango,35358.8,310904.47
+Bihar,Bihar_District,2019,Rabi,coconut,26576.97,141476.91
+Bihar,Bihar_District,2019,Kharif,coffee,13197.83,10207.83
+Bihar,Bihar_District,2019,Whole Year,papaya,27959.36,1370800.69
+Bihar,Bihar_District,2019,Whole Year,grapes,4764.75,100370.24
+Bihar,Bihar_District,2019,Kharif,orange,15895.92,104027.67
+Bihar,Bihar_District,2019,Rabi,watermelon,46372.28,1360552.23
+Bihar,Bihar_District,2019,Rabi,lentil,31347.7,28293.27
+Bihar,Bihar_District,2019,Rabi,pigeonpeas,20236.94,18891.32
+Bihar,Bihar_District,2019,Whole Year,mungbean,19558.49,12029.81
+Bihar,Bihar_District,2019,Rabi,blackgram,3321.11,2168.56
+Bihar,Bihar_District,2019,Kharif,mothbeans,32744.12,16527.78
+Bihar,Bihar_District,2019,Kharif,kidneybeans,31323.2,32690.16
+Bihar,Bihar_District,2019,Whole Year,pomegranate,48978.8,487558.16
+Bihar,Bihar_District,2019,Rabi,muskmelon,39102.98,466740.0
+Bihar,Bihar_District,2019,Whole Year,apple,38466.14,508909.07
+Gujarat,Gujarat_District,2019,Rabi,rice,38086.77,100426.36
+Gujarat,Gujarat_District,2019,Kharif,maize,45343.8,110888.63
+Gujarat,Gujarat_District,2019,Whole Year,chickpea,39840.72,28262.2
+Gujarat,Gujarat_District,2019,Kharif,cotton,42169.52,36506.97
+Gujarat,Gujarat_District,2019,Rabi,jute,13332.07,24341.84
+Gujarat,Gujarat_District,2019,Rabi,banana,20357.62,722846.81
+Gujarat,Gujarat_District,2019,Rabi,mango,37002.93,282749.1
+Gujarat,Gujarat_District,2019,Whole Year,coconut,26752.3,229902.98
+Gujarat,Gujarat_District,2019,Kharif,coffee,30315.66,30096.63
+Gujarat,Gujarat_District,2019,Rabi,papaya,18953.56,657804.69
+Gujarat,Gujarat_District,2019,Whole Year,grapes,1996.26,31031.19
+Gujarat,Gujarat_District,2019,Rabi,orange,17851.38,170980.66
+Gujarat,Gujarat_District,2019,Whole Year,watermelon,10763.65,242613.49
+Gujarat,Gujarat_District,2019,Kharif,lentil,17278.44,23412.46
+Gujarat,Gujarat_District,2019,Kharif,pigeonpeas,44352.73,33781.21
+Gujarat,Gujarat_District,2019,Rabi,mungbean,37862.82,28271.7
+Gujarat,Gujarat_District,2019,Rabi,blackgram,13324.3,10689.06
+Gujarat,Gujarat_District,2019,Whole Year,mothbeans,34674.36,18334.94
+Gujarat,Gujarat_District,2019,Kharif,kidneybeans,32529.54,57463.79
+Gujarat,Gujarat_District,2019,Whole Year,pomegranate,48006.94,398433.59
+Gujarat,Gujarat_District,2019,Rabi,muskmelon,36947.82,431255.4
+Gujarat,Gujarat_District,2019,Kharif,apple,31396.68,441921.77
+Haryana,Haryana_District,2019,Kharif,rice,18993.2,48972.64
+Haryana,Haryana_District,2019,Kharif,maize,38345.21,59238.49
+Haryana,Haryana_District,2019,Whole Year,chickpea,29074.72,26561.16
+Haryana,Haryana_District,2019,Rabi,cotton,18086.56,6258.91
+Haryana,Haryana_District,2019,Kharif,jute,23825.52,47453.23
+Haryana,Haryana_District,2019,Rabi,banana,25621.01,765410.42
+Haryana,Haryana_District,2019,Rabi,mango,3900.8,12366.35
+Haryana,Haryana_District,2019,Kharif,coconut,36216.0,381998.36
+Haryana,Haryana_District,2019,Kharif,coffee,28211.6,16149.01
+Haryana,Haryana_District,2019,Whole Year,papaya,21315.71,610366.73
+Haryana,Haryana_District,2019,Kharif,grapes,17877.41,296238.99
+Haryana,Haryana_District,2019,Kharif,orange,49225.0,388615.04
+Haryana,Haryana_District,2019,Whole Year,watermelon,29125.6,987353.36
+Haryana,Haryana_District,2019,Kharif,lentil,45677.84,51875.42
+Haryana,Haryana_District,2019,Rabi,pigeonpeas,47292.5,29059.93
+Haryana,Haryana_District,2019,Rabi,mungbean,40614.94,25272.91
+Haryana,Haryana_District,2019,Whole Year,blackgram,38421.99,18035.8
+Haryana,Haryana_District,2019,Whole Year,mothbeans,29228.94,12146.42
+Haryana,Haryana_District,2019,Kharif,kidneybeans,45614.6,57089.65
+Haryana,Haryana_District,2019,Rabi,pomegranate,46553.27,420385.82
+Haryana,Haryana_District,2019,Rabi,muskmelon,31190.77,504929.65
+Haryana,Haryana_District,2019,Whole Year,apple,240.91,3239.12
+Karnataka,Karnataka_District,2019,Whole Year,rice,20955.35,58341.45
+Karnataka,Karnataka_District,2019,Kharif,maize,27212.23,72540.38
+Karnataka,Karnataka_District,2019,Whole Year,chickpea,18886.02,11483.01
+Karnataka,Karnataka_District,2019,Whole Year,cotton,22703.75,10842.26
+Karnataka,Karnataka_District,2019,Rabi,jute,15381.68,39905.08
+Karnataka,Karnataka_District,2019,Whole Year,banana,1490.18,51132.28
+Karnataka,Karnataka_District,2019,Rabi,mango,25805.62,172463.56
+Karnataka,Karnataka_District,2019,Kharif,coconut,14381.41,127924.8
+Karnataka,Karnataka_District,2019,Rabi,coffee,1866.13,1588.01
+Karnataka,Karnataka_District,2019,Kharif,papaya,47631.05,2192658.37
+Karnataka,Karnataka_District,2019,Rabi,grapes,1832.82,22128.0
+Karnataka,Karnataka_District,2019,Kharif,orange,46283.19,686038.32
+Karnataka,Karnataka_District,2019,Kharif,watermelon,18766.96,317144.68
+Karnataka,Karnataka_District,2019,Rabi,lentil,12269.03,10504.93
+Karnataka,Karnataka_District,2019,Kharif,pigeonpeas,15932.06,8587.24
+Karnataka,Karnataka_District,2019,Whole Year,mungbean,49296.28,34401.18
+Karnataka,Karnataka_District,2019,Rabi,blackgram,43096.63,26871.34
+Karnataka,Karnataka_District,2019,Whole Year,mothbeans,24732.75,12292.56
+Karnataka,Karnataka_District,2019,Whole Year,kidneybeans,46942.22,39302.87
+Karnataka,Karnataka_District,2019,Kharif,pomegranate,29648.57,241405.75
+Karnataka,Karnataka_District,2019,Kharif,muskmelon,41916.73,726189.85
+Karnataka,Karnataka_District,2019,Kharif,apple,16009.08,190758.44
+Kerala,Kerala_District,2019,Rabi,rice,26726.12,65713.18
+Kerala,Kerala_District,2019,Kharif,maize,24029.35,80830.06
+Kerala,Kerala_District,2019,Whole Year,chickpea,31182.9,40475.81
+Kerala,Kerala_District,2019,Whole Year,cotton,38053.57,11466.18
+Kerala,Kerala_District,2019,Whole Year,jute,6934.95,18771.81
+Kerala,Kerala_District,2019,Kharif,banana,39684.33,1354479.76
+Kerala,Kerala_District,2019,Kharif,mango,25390.48,269716.46
+Kerala,Kerala_District,2019,Rabi,coconut,43789.7,438106.93
+Kerala,Kerala_District,2019,Rabi,coffee,35905.23,24682.29
+Kerala,Kerala_District,2019,Whole Year,papaya,21974.16,819080.25
+Kerala,Kerala_District,2019,Kharif,grapes,28922.02,447456.81
+Kerala,Kerala_District,2019,Rabi,orange,11911.08,96717.33
+Kerala,Kerala_District,2019,Rabi,watermelon,27438.52,511577.92
+Kerala,Kerala_District,2019,Rabi,lentil,22583.32,17113.13
+Kerala,Kerala_District,2019,Whole Year,pigeonpeas,12936.11,10906.17
+Kerala,Kerala_District,2019,Kharif,mungbean,8514.26,7147.92
+Kerala,Kerala_District,2019,Kharif,blackgram,34029.43,19887.14
+Kerala,Kerala_District,2019,Kharif,mothbeans,46481.1,19272.47
+Kerala,Kerala_District,2019,Rabi,kidneybeans,47052.88,73460.59
+Kerala,Kerala_District,2019,Whole Year,pomegranate,24877.09,165062.51
+Kerala,Kerala_District,2019,Kharif,muskmelon,44160.3,589799.15
+Kerala,Kerala_District,2019,Kharif,apple,11103.73,169462.7
+Madhya Pradesh,Madhya Pradesh_District,2019,Kharif,rice,145.6,316.2
+Madhya Pradesh,Madhya Pradesh_District,2019,Rabi,maize,19502.28,57032.84
+Madhya Pradesh,Madhya Pradesh_District,2019,Kharif,chickpea,19291.18,17055.84
+Madhya Pradesh,Madhya Pradesh_District,2019,Kharif,cotton,37806.61,27456.62
+Madhya Pradesh,Madhya Pradesh_District,2019,Kharif,jute,34711.71,67271.48
+Madhya Pradesh,Madhya Pradesh_District,2019,Kharif,banana,29091.62,716576.3
+Madhya Pradesh,Madhya Pradesh_District,2019,Rabi,mango,40804.07,187975.04
+Madhya Pradesh,Madhya Pradesh_District,2019,Whole Year,coconut,24090.87,224261.47
+Madhya Pradesh,Madhya Pradesh_District,2019,Rabi,coffee,2446.35,1810.76
+Madhya Pradesh,Madhya Pradesh_District,2019,Rabi,papaya,618.01,25341.23
+Madhya Pradesh,Madhya Pradesh_District,2019,Whole Year,grapes,39374.03,831741.8
+Madhya Pradesh,Madhya Pradesh_District,2019,Rabi,orange,29214.37,319494.8
+Madhya Pradesh,Madhya Pradesh_District,2019,Kharif,watermelon,25983.9,659990.86
+Madhya Pradesh,Madhya Pradesh_District,2019,Whole Year,lentil,32312.44,33582.86
+Madhya Pradesh,Madhya Pradesh_District,2019,Kharif,pigeonpeas,16962.41,7808.09
+Madhya Pradesh,Madhya Pradesh_District,2019,Rabi,mungbean,49875.17,29269.75
+Madhya Pradesh,Madhya Pradesh_District,2019,Kharif,blackgram,32439.23,24622.22
+Madhya Pradesh,Madhya Pradesh_District,2019,Whole Year,mothbeans,17814.0,7537.24
+Madhya Pradesh,Madhya Pradesh_District,2019,Kharif,kidneybeans,6387.56,8336.2
+Madhya Pradesh,Madhya Pradesh_District,2019,Rabi,pomegranate,1226.9,10071.05
+Madhya Pradesh,Madhya Pradesh_District,2019,Whole Year,muskmelon,21307.53,384030.51
+Madhya Pradesh,Madhya Pradesh_District,2019,Whole Year,apple,17772.25,242941.11
+Maharashtra,Maharashtra_District,2019,Rabi,rice,22878.02,66955.05
+Maharashtra,Maharashtra_District,2019,Whole Year,maize,10012.19,20156.61
+Maharashtra,Maharashtra_District,2019,Rabi,chickpea,45320.11,32600.2
+Maharashtra,Maharashtra_District,2019,Whole Year,cotton,23825.48,15943.31
+Maharashtra,Maharashtra_District,2019,Rabi,jute,49107.38,87736.47
+Maharashtra,Maharashtra_District,2019,Rabi,banana,45427.63,1345717.57
+Maharashtra,Maharashtra_District,2019,Whole Year,mango,16651.2,152550.98
+Maharashtra,Maharashtra_District,2019,Rabi,coconut,48946.01,423361.95
+Maharashtra,Maharashtra_District,2019,Rabi,coffee,36787.22,43443.67
+Maharashtra,Maharashtra_District,2019,Whole Year,papaya,25932.42,1064990.91
+Maharashtra,Maharashtra_District,2019,Whole Year,grapes,17119.03,279666.73
+Maharashtra,Maharashtra_District,2019,Kharif,orange,42751.81,607094.37
+Maharashtra,Maharashtra_District,2019,Kharif,watermelon,23422.08,698989.69
+Maharashtra,Maharashtra_District,2019,Whole Year,lentil,41526.05,31824.49
+Maharashtra,Maharashtra_District,2019,Rabi,pigeonpeas,5574.78,4193.7
+Maharashtra,Maharashtra_District,2019,Whole Year,mungbean,21409.46,15638.68
+Maharashtra,Maharashtra_District,2019,Rabi,blackgram,5847.24,2870.54
+Maharashtra,Maharashtra_District,2019,Rabi,mothbeans,6546.16,3110.57
+Maharashtra,Maharashtra_District,2019,Whole Year,kidneybeans,23646.67,32778.32
+Maharashtra,Maharashtra_District,2019,Whole Year,pomegranate,35239.76,272059.59
+Maharashtra,Maharashtra_District,2019,Kharif,muskmelon,21379.98,342679.24
+Maharashtra,Maharashtra_District,2019,Rabi,apple,2691.15,34435.48
+Punjab,Punjab_District,2019,Whole Year,rice,46811.15,115590.63
+Punjab,Punjab_District,2019,Kharif,maize,1419.43,2755.58
+Punjab,Punjab_District,2019,Kharif,chickpea,23436.06,19826.42
+Punjab,Punjab_District,2019,Kharif,cotton,24632.5,11796.41
+Punjab,Punjab_District,2019,Rabi,jute,46692.19,124915.95
+Punjab,Punjab_District,2019,Whole Year,banana,44489.47,1118478.23
+Punjab,Punjab_District,2019,Kharif,mango,19309.26,110935.84
+Punjab,Punjab_District,2019,Whole Year,coconut,8130.74,52334.21
+Punjab,Punjab_District,2019,Kharif,coffee,30639.09,12400.78
+Punjab,Punjab_District,2019,Rabi,papaya,33620.03,1164936.96
+Punjab,Punjab_District,2019,Rabi,grapes,33894.7,718121.7
+Punjab,Punjab_District,2019,Kharif,orange,38255.66,615168.89
+Punjab,Punjab_District,2019,Whole Year,watermelon,6486.18,188281.9
+Punjab,Punjab_District,2019,Whole Year,lentil,1764.34,1908.22
+Punjab,Punjab_District,2019,Whole Year,pigeonpeas,27408.93,23060.93
+Punjab,Punjab_District,2019,Rabi,mungbean,34586.28,16647.08
+Punjab,Punjab_District,2019,Rabi,blackgram,47777.11,36223.29
+Punjab,Punjab_District,2019,Kharif,mothbeans,8612.27,3747.6
+Punjab,Punjab_District,2019,Rabi,kidneybeans,14030.4,12713.44
+Punjab,Punjab_District,2019,Kharif,pomegranate,16913.15,115516.82
+Punjab,Punjab_District,2019,Whole Year,muskmelon,27540.03,388662.12
+Punjab,Punjab_District,2019,Kharif,apple,15263.08,165480.2
+Rajasthan,Rajasthan_District,2019,Whole Year,rice,42288.91,80322.66
+Rajasthan,Rajasthan_District,2019,Whole Year,maize,13849.67,41846.61
+Rajasthan,Rajasthan_District,2019,Rabi,chickpea,35698.15,52527.59
+Rajasthan,Rajasthan_District,2019,Rabi,cotton,7121.81,1007.22
+Rajasthan,Rajasthan_District,2019,Rabi,jute,8521.29,14619.4
+Rajasthan,Rajasthan_District,2019,Kharif,banana,15377.47,511177.62
+Rajasthan,Rajasthan_District,2019,Whole Year,mango,14103.85,85128.17
+Rajasthan,Rajasthan_District,2019,Rabi,coconut,45260.7,287801.87
+Rajasthan,Rajasthan_District,2019,Kharif,coffee,22764.79,12443.96
+Rajasthan,Rajasthan_District,2019,Whole Year,papaya,26822.09,1098008.07
+Rajasthan,Rajasthan_District,2019,Kharif,grapes,16034.14,357506.08
+Rajasthan,Rajasthan_District,2019,Whole Year,orange,37820.0,323057.99
+Rajasthan,Rajasthan_District,2019,Whole Year,watermelon,37100.14,900935.99
+Rajasthan,Rajasthan_District,2019,Whole Year,lentil,2774.23,2798.5
+Rajasthan,Rajasthan_District,2019,Whole Year,pigeonpeas,39700.78,19818.4
+Rajasthan,Rajasthan_District,2019,Rabi,mungbean,15402.73,12706.49
+Rajasthan,Rajasthan_District,2019,Kharif,blackgram,1527.6,1418.11
+Rajasthan,Rajasthan_District,2019,Rabi,mothbeans,36902.12,21703.38
+Rajasthan,Rajasthan_District,2019,Whole Year,kidneybeans,13592.42,22478.49
+Rajasthan,Rajasthan_District,2019,Rabi,pomegranate,40227.25,312223.88
+Rajasthan,Rajasthan_District,2019,Kharif,muskmelon,2178.71,34083.72
+Rajasthan,Rajasthan_District,2019,Kharif,apple,4430.01,61145.46
+Tamil Nadu,Tamil Nadu_District,2019,Whole Year,rice,36314.55,127775.41
+Tamil Nadu,Tamil Nadu_District,2019,Kharif,maize,46787.34,115916.99
+Tamil Nadu,Tamil Nadu_District,2019,Rabi,chickpea,36782.69,39637.66
+Tamil Nadu,Tamil Nadu_District,2019,Whole Year,cotton,7355.07,3633.37
+Tamil Nadu,Tamil Nadu_District,2019,Kharif,jute,44123.02,94962.52
+Tamil Nadu,Tamil Nadu_District,2019,Whole Year,banana,4462.53,162979.82
+Tamil Nadu,Tamil Nadu_District,2019,Whole Year,mango,30097.17,104347.13
+Tamil Nadu,Tamil Nadu_District,2019,Rabi,coconut,33166.31,324723.65
+Tamil Nadu,Tamil Nadu_District,2019,Rabi,coffee,32309.16,16016.62
+Tamil Nadu,Tamil Nadu_District,2019,Kharif,papaya,23140.08,846719.7
+Tamil Nadu,Tamil Nadu_District,2019,Kharif,grapes,43223.88,895501.8
+Tamil Nadu,Tamil Nadu_District,2019,Rabi,orange,29675.17,189089.67
+Tamil Nadu,Tamil Nadu_District,2019,Whole Year,watermelon,1941.32,44367.73
+Tamil Nadu,Tamil Nadu_District,2019,Kharif,lentil,39163.57,22972.37
+Tamil Nadu,Tamil Nadu_District,2019,Kharif,pigeonpeas,8469.71,6184.93
+Tamil Nadu,Tamil Nadu_District,2019,Kharif,mungbean,16299.94,12015.91
+Tamil Nadu,Tamil Nadu_District,2019,Rabi,blackgram,47237.27,24406.64
+Tamil Nadu,Tamil Nadu_District,2019,Whole Year,mothbeans,16079.31,6551.92
+Tamil Nadu,Tamil Nadu_District,2019,Whole Year,kidneybeans,43401.6,61567.7
+Tamil Nadu,Tamil Nadu_District,2019,Whole Year,pomegranate,13882.21,98834.57
+Tamil Nadu,Tamil Nadu_District,2019,Whole Year,muskmelon,7327.78,153605.19
+Tamil Nadu,Tamil Nadu_District,2019,Kharif,apple,44727.36,589910.95
+Uttar Pradesh,Uttar Pradesh_District,2019,Whole Year,rice,5063.52,9832.1
+Uttar Pradesh,Uttar Pradesh_District,2019,Kharif,maize,42301.87,130446.89
+Uttar Pradesh,Uttar Pradesh_District,2019,Whole Year,chickpea,5514.64,7132.94
+Uttar Pradesh,Uttar Pradesh_District,2019,Whole Year,cotton,40825.45,14846.12
+Uttar Pradesh,Uttar Pradesh_District,2019,Whole Year,jute,30018.04,52021.46
+Uttar Pradesh,Uttar Pradesh_District,2019,Rabi,banana,1253.72,27828.8
+Uttar Pradesh,Uttar Pradesh_District,2019,Rabi,mango,34887.18,241234.94
+Uttar Pradesh,Uttar Pradesh_District,2019,Rabi,coconut,21539.28,153930.72
+Uttar Pradesh,Uttar Pradesh_District,2019,Whole Year,coffee,3539.63,2731.92
+Uttar Pradesh,Uttar Pradesh_District,2019,Kharif,papaya,23487.66,1234724.72
+Uttar Pradesh,Uttar Pradesh_District,2019,Kharif,grapes,30765.51,594605.1
+Uttar Pradesh,Uttar Pradesh_District,2019,Kharif,orange,33207.85,357223.25
+Uttar Pradesh,Uttar Pradesh_District,2019,Rabi,watermelon,42487.29,1295203.88
+Uttar Pradesh,Uttar Pradesh_District,2019,Rabi,lentil,37608.62,27600.44
+Uttar Pradesh,Uttar Pradesh_District,2019,Whole Year,pigeonpeas,10331.17,9964.76
+Uttar Pradesh,Uttar Pradesh_District,2019,Kharif,mungbean,3625.19,2163.8
+Uttar Pradesh,Uttar Pradesh_District,2019,Whole Year,blackgram,13617.54,9014.59
+Uttar Pradesh,Uttar Pradesh_District,2019,Kharif,mothbeans,5389.16,2204.82
+Uttar Pradesh,Uttar Pradesh_District,2019,Kharif,kidneybeans,37169.05,30980.36
+Uttar Pradesh,Uttar Pradesh_District,2019,Whole Year,pomegranate,22166.79,133426.15
+Uttar Pradesh,Uttar Pradesh_District,2019,Whole Year,muskmelon,46128.05,688716.45
+Uttar Pradesh,Uttar Pradesh_District,2019,Kharif,apple,32060.37,401337.85
+West Bengal,West Bengal_District,2019,Whole Year,rice,38301.46,102907.14
+West Bengal,West Bengal_District,2019,Kharif,maize,25483.3,90293.62
+West Bengal,West Bengal_District,2019,Whole Year,chickpea,47186.93,57159.68
+West Bengal,West Bengal_District,2019,Kharif,cotton,4351.95,2645.69
+West Bengal,West Bengal_District,2019,Whole Year,jute,47262.92,88291.31
+West Bengal,West Bengal_District,2019,Whole Year,banana,48097.12,1295785.31
+West Bengal,West Bengal_District,2019,Whole Year,mango,20384.51,134798.03
+West Bengal,West Bengal_District,2019,Rabi,coconut,24873.75,190695.75
+West Bengal,West Bengal_District,2019,Rabi,coffee,7966.88,7232.12
+West Bengal,West Bengal_District,2019,Whole Year,papaya,48904.06,1824977.49
+West Bengal,West Bengal_District,2019,Kharif,grapes,17833.04,477520.72
+West Bengal,West Bengal_District,2019,Rabi,orange,29841.3,262671.24
+West Bengal,West Bengal_District,2019,Kharif,watermelon,41112.78,914979.04
+West Bengal,West Bengal_District,2019,Rabi,lentil,37462.41,31699.06
+West Bengal,West Bengal_District,2019,Kharif,pigeonpeas,27879.16,26333.06
+West Bengal,West Bengal_District,2019,Kharif,mungbean,30387.05,12271.37
+West Bengal,West Bengal_District,2019,Kharif,blackgram,46093.86,25846.64
+West Bengal,West Bengal_District,2019,Rabi,mothbeans,11970.5,4697.36
+West Bengal,West Bengal_District,2019,Kharif,kidneybeans,47297.32,25848.32
+West Bengal,West Bengal_District,2019,Whole Year,pomegranate,36566.62,396158.91
+West Bengal,West Bengal_District,2019,Kharif,muskmelon,18747.57,244440.4
+West Bengal,West Bengal_District,2019,Kharif,apple,5355.13,69731.19
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,rice,24139.04,63647.87
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,maize,11537.43,34788.08
+Andhra Pradesh,Andhra Pradesh_District,2020,Whole Year,chickpea,25688.42,31086.13
+Andhra Pradesh,Andhra Pradesh_District,2020,Whole Year,cotton,28671.67,18036.4
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,jute,24220.97,61877.38
+Andhra Pradesh,Andhra Pradesh_District,2020,Rabi,banana,33940.72,1111013.03
+Andhra Pradesh,Andhra Pradesh_District,2020,Rabi,mango,40985.48,404461.34
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,coconut,42046.55,326730.9
+Andhra Pradesh,Andhra Pradesh_District,2020,Whole Year,coffee,5563.94,3836.67
+Andhra Pradesh,Andhra Pradesh_District,2020,Rabi,papaya,46713.21,1711469.63
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,grapes,36871.73,609435.24
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,orange,29988.36,372240.77
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,watermelon,24554.79,590785.03
+Andhra Pradesh,Andhra Pradesh_District,2020,Rabi,lentil,42092.0,28799.15
+Andhra Pradesh,Andhra Pradesh_District,2020,Whole Year,pigeonpeas,2828.33,1885.81
+Andhra Pradesh,Andhra Pradesh_District,2020,Whole Year,mungbean,41893.31,23912.31
+Andhra Pradesh,Andhra Pradesh_District,2020,Whole Year,blackgram,36319.2,26077.57
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,mothbeans,38019.76,13804.97
+Andhra Pradesh,Andhra Pradesh_District,2020,Rabi,kidneybeans,7511.04,9985.12
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,pomegranate,622.03,5362.67
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,muskmelon,15884.31,107609.66
+Andhra Pradesh,Andhra Pradesh_District,2020,Kharif,apple,42567.34,435068.1
+Bihar,Bihar_District,2020,Rabi,rice,34688.18,63822.19
+Bihar,Bihar_District,2020,Rabi,maize,21280.16,71569.21
+Bihar,Bihar_District,2020,Whole Year,chickpea,22729.98,27105.88
+Bihar,Bihar_District,2020,Kharif,cotton,16683.35,15124.11
+Bihar,Bihar_District,2020,Kharif,jute,48113.26,114870.07
+Bihar,Bihar_District,2020,Whole Year,banana,24494.1,621461.27
+Bihar,Bihar_District,2020,Rabi,mango,45181.14,448355.79
+Bihar,Bihar_District,2020,Kharif,coconut,40238.27,373909.25
+Bihar,Bihar_District,2020,Kharif,coffee,20219.44,13384.8
+Bihar,Bihar_District,2020,Kharif,papaya,16072.82,625987.58
+Bihar,Bihar_District,2020,Kharif,grapes,25016.0,619753.62
+Bihar,Bihar_District,2020,Whole Year,orange,23856.21,303366.96
+Bihar,Bihar_District,2020,Whole Year,watermelon,33540.32,631405.51
+Bihar,Bihar_District,2020,Rabi,lentil,2336.69,1381.35
+Bihar,Bihar_District,2020,Kharif,pigeonpeas,25779.4,13473.85
+Bihar,Bihar_District,2020,Whole Year,mungbean,40476.27,28003.53
+Bihar,Bihar_District,2020,Kharif,blackgram,33888.64,22475.85
+Bihar,Bihar_District,2020,Whole Year,mothbeans,771.27,183.75
+Bihar,Bihar_District,2020,Rabi,kidneybeans,27021.66,26529.7
+Bihar,Bihar_District,2020,Rabi,pomegranate,32582.03,293404.5
+Bihar,Bihar_District,2020,Whole Year,muskmelon,15016.69,227632.2
+Bihar,Bihar_District,2020,Rabi,apple,4873.97,55406.38
+Gujarat,Gujarat_District,2020,Rabi,rice,21554.0,50675.94
+Gujarat,Gujarat_District,2020,Kharif,maize,40581.81,153009.38
+Gujarat,Gujarat_District,2020,Rabi,chickpea,12679.05,17518.48
+Gujarat,Gujarat_District,2020,Kharif,cotton,39891.47,17456.33
+Gujarat,Gujarat_District,2020,Whole Year,jute,26440.22,41241.38
+Gujarat,Gujarat_District,2020,Rabi,banana,8366.47,374039.38
+Gujarat,Gujarat_District,2020,Kharif,mango,28233.95,211813.11
+Gujarat,Gujarat_District,2020,Rabi,coconut,48438.59,332870.86
+Gujarat,Gujarat_District,2020,Kharif,coffee,40634.21,23269.27
+Gujarat,Gujarat_District,2020,Kharif,papaya,38306.85,1469096.61
+Gujarat,Gujarat_District,2020,Kharif,grapes,1166.46,23407.65
+Gujarat,Gujarat_District,2020,Rabi,orange,43874.89,321828.2
+Gujarat,Gujarat_District,2020,Whole Year,watermelon,47634.0,1332431.37
+Gujarat,Gujarat_District,2020,Rabi,lentil,7114.73,5645.56
+Gujarat,Gujarat_District,2020,Whole Year,pigeonpeas,11161.91,8850.11
+Gujarat,Gujarat_District,2020,Whole Year,mungbean,34002.09,23437.31
+Gujarat,Gujarat_District,2020,Rabi,blackgram,23662.3,12960.02
+Gujarat,Gujarat_District,2020,Rabi,mothbeans,21671.69,7300.69
+Gujarat,Gujarat_District,2020,Whole Year,kidneybeans,22955.49,34294.4
+Gujarat,Gujarat_District,2020,Kharif,pomegranate,11486.83,65567.06
+Gujarat,Gujarat_District,2020,Whole Year,muskmelon,31866.05,486942.23
+Gujarat,Gujarat_District,2020,Kharif,apple,27243.81,317060.27
+Haryana,Haryana_District,2020,Rabi,rice,13385.0,28210.53
+Haryana,Haryana_District,2020,Rabi,maize,22722.44,51909.95
+Haryana,Haryana_District,2020,Whole Year,chickpea,21861.8,23393.94
+Haryana,Haryana_District,2020,Whole Year,cotton,46709.65,9572.96
+Haryana,Haryana_District,2020,Rabi,jute,20747.28,46286.93
+Haryana,Haryana_District,2020,Kharif,banana,48539.0,1717921.45
+Haryana,Haryana_District,2020,Rabi,mango,16505.98,160603.15
+Haryana,Haryana_District,2020,Whole Year,coconut,12405.0,134710.08
+Haryana,Haryana_District,2020,Whole Year,coffee,19431.13,18416.94
+Haryana,Haryana_District,2020,Kharif,papaya,25095.04,1272722.31
+Haryana,Haryana_District,2020,Kharif,grapes,5387.12,116107.59
+Haryana,Haryana_District,2020,Rabi,orange,30251.53,278339.52
+Haryana,Haryana_District,2020,Kharif,watermelon,10720.68,198129.11
+Haryana,Haryana_District,2020,Whole Year,lentil,37086.63,29042.86
+Haryana,Haryana_District,2020,Whole Year,pigeonpeas,31843.71,23888.39
+Haryana,Haryana_District,2020,Whole Year,mungbean,1030.3,554.32
+Haryana,Haryana_District,2020,Kharif,blackgram,28238.97,9922.19
+Haryana,Haryana_District,2020,Rabi,mothbeans,6190.11,2989.42
+Haryana,Haryana_District,2020,Rabi,kidneybeans,23186.35,32512.43
+Haryana,Haryana_District,2020,Whole Year,pomegranate,40135.8,466685.13
+Haryana,Haryana_District,2020,Kharif,muskmelon,20228.5,195445.28
+Haryana,Haryana_District,2020,Rabi,apple,39354.58,265826.41
+Karnataka,Karnataka_District,2020,Whole Year,rice,24543.33,61948.73
+Karnataka,Karnataka_District,2020,Kharif,maize,23329.68,61081.04
+Karnataka,Karnataka_District,2020,Whole Year,chickpea,44950.41,51389.1
+Karnataka,Karnataka_District,2020,Rabi,cotton,22993.43,13323.7
+Karnataka,Karnataka_District,2020,Whole Year,jute,22570.18,57454.13
+Karnataka,Karnataka_District,2020,Rabi,banana,38149.82,970339.2
+Karnataka,Karnataka_District,2020,Whole Year,mango,21227.63,104143.74
+Karnataka,Karnataka_District,2020,Kharif,coconut,22977.34,143084.23
+Karnataka,Karnataka_District,2020,Rabi,coffee,36366.34,35128.44
+Karnataka,Karnataka_District,2020,Rabi,papaya,13892.03,302878.22
+Karnataka,Karnataka_District,2020,Kharif,grapes,21065.85,269718.98
+Karnataka,Karnataka_District,2020,Kharif,orange,10912.49,119276.62
+Karnataka,Karnataka_District,2020,Rabi,watermelon,7410.4,192592.52
+Karnataka,Karnataka_District,2020,Kharif,lentil,734.15,456.76
+Karnataka,Karnataka_District,2020,Rabi,pigeonpeas,26612.45,16458.91
+Karnataka,Karnataka_District,2020,Kharif,mungbean,1652.52,1101.33
+Karnataka,Karnataka_District,2020,Kharif,blackgram,2527.21,1359.65
+Karnataka,Karnataka_District,2020,Kharif,mothbeans,20626.87,8989.28
+Karnataka,Karnataka_District,2020,Kharif,kidneybeans,32510.61,46319.61
+Karnataka,Karnataka_District,2020,Kharif,pomegranate,16597.21,111303.79
+Karnataka,Karnataka_District,2020,Whole Year,muskmelon,5933.39,79680.66
+Karnataka,Karnataka_District,2020,Rabi,apple,7569.13,115183.53
+Kerala,Kerala_District,2020,Kharif,rice,42290.11,133747.85
+Kerala,Kerala_District,2020,Whole Year,maize,21375.35,88226.2
+Kerala,Kerala_District,2020,Kharif,chickpea,10857.28,7931.29
+Kerala,Kerala_District,2020,Kharif,cotton,43953.39,33130.15
+Kerala,Kerala_District,2020,Rabi,jute,6819.73,16086.98
+Kerala,Kerala_District,2020,Whole Year,banana,37924.25,1164831.32
+Kerala,Kerala_District,2020,Whole Year,mango,39846.63,241429.32
+Kerala,Kerala_District,2020,Kharif,coconut,20585.34,185418.88
+Kerala,Kerala_District,2020,Whole Year,coffee,20722.83,24406.8
+Kerala,Kerala_District,2020,Whole Year,papaya,42989.87,2057829.52
+Kerala,Kerala_District,2020,Rabi,grapes,1675.38,37249.82
+Kerala,Kerala_District,2020,Rabi,orange,17552.33,178541.49
+Kerala,Kerala_District,2020,Rabi,watermelon,18307.91,442402.48
+Kerala,Kerala_District,2020,Kharif,lentil,28552.24,33472.43
+Kerala,Kerala_District,2020,Kharif,pigeonpeas,31094.52,28653.24
+Kerala,Kerala_District,2020,Whole Year,mungbean,19963.56,17347.91
+Kerala,Kerala_District,2020,Rabi,blackgram,18232.69,12587.54
+Kerala,Kerala_District,2020,Rabi,mothbeans,7157.4,3457.8
+Kerala,Kerala_District,2020,Kharif,kidneybeans,11791.79,13396.56
+Kerala,Kerala_District,2020,Whole Year,pomegranate,19547.68,173902.95
+Kerala,Kerala_District,2020,Whole Year,muskmelon,9121.91,154851.15
+Kerala,Kerala_District,2020,Whole Year,apple,40098.96,741550.48
+Madhya Pradesh,Madhya Pradesh_District,2020,Rabi,rice,24949.26,39814.5
+Madhya Pradesh,Madhya Pradesh_District,2020,Kharif,maize,40959.87,101474.93
+Madhya Pradesh,Madhya Pradesh_District,2020,Rabi,chickpea,16626.1,17745.64
+Madhya Pradesh,Madhya Pradesh_District,2020,Whole Year,cotton,11508.49,6686.2
+Madhya Pradesh,Madhya Pradesh_District,2020,Whole Year,jute,21245.97,44509.2
+Madhya Pradesh,Madhya Pradesh_District,2020,Kharif,banana,35709.06,1006133.99
+Madhya Pradesh,Madhya Pradesh_District,2020,Rabi,mango,15936.34,99731.89
+Madhya Pradesh,Madhya Pradesh_District,2020,Kharif,coconut,15297.54,139373.99
+Madhya Pradesh,Madhya Pradesh_District,2020,Kharif,coffee,27073.98,20931.46
+Madhya Pradesh,Madhya Pradesh_District,2020,Whole Year,papaya,35807.67,1266851.83
+Madhya Pradesh,Madhya Pradesh_District,2020,Rabi,grapes,35979.16,890382.11
+Madhya Pradesh,Madhya Pradesh_District,2020,Whole Year,orange,49099.82,758589.92
+Madhya Pradesh,Madhya Pradesh_District,2020,Whole Year,watermelon,46802.08,1293963.87
+Madhya Pradesh,Madhya Pradesh_District,2020,Rabi,lentil,33675.59,30302.93
+Madhya Pradesh,Madhya Pradesh_District,2020,Rabi,pigeonpeas,10245.12,8793.24
+Madhya Pradesh,Madhya Pradesh_District,2020,Rabi,mungbean,44166.62,28439.9
+Madhya Pradesh,Madhya Pradesh_District,2020,Kharif,blackgram,45857.11,40619.32
+Madhya Pradesh,Madhya Pradesh_District,2020,Whole Year,mothbeans,33643.55,16846.51
+Madhya Pradesh,Madhya Pradesh_District,2020,Rabi,kidneybeans,32378.49,39565.89
+Madhya Pradesh,Madhya Pradesh_District,2020,Rabi,pomegranate,45740.55,397788.78
+Madhya Pradesh,Madhya Pradesh_District,2020,Whole Year,muskmelon,29772.28,408892.36
+Madhya Pradesh,Madhya Pradesh_District,2020,Kharif,apple,2949.67,30797.92
+Maharashtra,Maharashtra_District,2020,Kharif,rice,33687.94,86092.66
+Maharashtra,Maharashtra_District,2020,Whole Year,maize,39459.42,127772.18
+Maharashtra,Maharashtra_District,2020,Rabi,chickpea,42962.22,54631.65
+Maharashtra,Maharashtra_District,2020,Whole Year,cotton,15145.91,8595.19
+Maharashtra,Maharashtra_District,2020,Rabi,jute,27421.23,55041.62
+Maharashtra,Maharashtra_District,2020,Rabi,banana,34148.77,1183389.09
+Maharashtra,Maharashtra_District,2020,Whole Year,mango,15491.4,145723.03
+Maharashtra,Maharashtra_District,2020,Rabi,coconut,771.28,6643.96
+Maharashtra,Maharashtra_District,2020,Kharif,coffee,18900.77,14910.1
+Maharashtra,Maharashtra_District,2020,Kharif,papaya,18113.54,564133.41
+Maharashtra,Maharashtra_District,2020,Whole Year,grapes,48268.32,645493.01
+Maharashtra,Maharashtra_District,2020,Kharif,orange,31880.04,256186.97
+Maharashtra,Maharashtra_District,2020,Whole Year,watermelon,22457.8,523035.58
+Maharashtra,Maharashtra_District,2020,Rabi,lentil,22403.64,14446.67
+Maharashtra,Maharashtra_District,2020,Kharif,pigeonpeas,45083.0,41252.98
+Maharashtra,Maharashtra_District,2020,Kharif,mungbean,38250.07,23901.81
+Maharashtra,Maharashtra_District,2020,Kharif,blackgram,14914.66,8989.58
+Maharashtra,Maharashtra_District,2020,Whole Year,mothbeans,23440.46,8207.01
+Maharashtra,Maharashtra_District,2020,Rabi,kidneybeans,7862.41,11992.38
+Maharashtra,Maharashtra_District,2020,Kharif,pomegranate,26583.65,118698.12
+Maharashtra,Maharashtra_District,2020,Kharif,muskmelon,16323.83,307994.21
+Maharashtra,Maharashtra_District,2020,Whole Year,apple,26519.63,220898.65
+Punjab,Punjab_District,2020,Kharif,rice,46345.7,93475.76
+Punjab,Punjab_District,2020,Kharif,maize,16070.19,43933.86
+Punjab,Punjab_District,2020,Whole Year,chickpea,17640.3,6438.69
+Punjab,Punjab_District,2020,Kharif,cotton,45109.13,19114.88
+Punjab,Punjab_District,2020,Kharif,jute,24501.75,63733.85
+Punjab,Punjab_District,2020,Whole Year,banana,31127.03,979884.14
+Punjab,Punjab_District,2020,Kharif,mango,23887.35,165025.32
+Punjab,Punjab_District,2020,Whole Year,coconut,6532.81,31855.75
+Punjab,Punjab_District,2020,Kharif,coffee,34899.02,25934.37
+Punjab,Punjab_District,2020,Rabi,papaya,4593.13,234804.87
+Punjab,Punjab_District,2020,Kharif,grapes,1928.72,43825.37
+Punjab,Punjab_District,2020,Kharif,orange,35670.08,339274.49
+Punjab,Punjab_District,2020,Kharif,watermelon,35951.47,1072335.0
+Punjab,Punjab_District,2020,Whole Year,lentil,42853.24,35525.24
+Punjab,Punjab_District,2020,Kharif,pigeonpeas,24856.68,21794.45
+Punjab,Punjab_District,2020,Whole Year,mungbean,15310.15,6154.05
+Punjab,Punjab_District,2020,Whole Year,blackgram,48797.71,34730.59
+Punjab,Punjab_District,2020,Whole Year,mothbeans,5278.93,2769.61
+Punjab,Punjab_District,2020,Rabi,kidneybeans,3426.47,3794.85
+Punjab,Punjab_District,2020,Kharif,pomegranate,49607.78,306071.26
+Punjab,Punjab_District,2020,Kharif,muskmelon,32182.11,384270.94
+Punjab,Punjab_District,2020,Rabi,apple,46461.15,487960.04
+Rajasthan,Rajasthan_District,2020,Rabi,rice,3183.83,6917.23
+Rajasthan,Rajasthan_District,2020,Rabi,maize,47578.28,150021.61
+Rajasthan,Rajasthan_District,2020,Whole Year,chickpea,37071.63,49809.2
+Rajasthan,Rajasthan_District,2020,Rabi,cotton,20167.71,3154.48
+Rajasthan,Rajasthan_District,2020,Kharif,jute,9992.75,23021.65
+Rajasthan,Rajasthan_District,2020,Whole Year,banana,41012.06,1067386.01
+Rajasthan,Rajasthan_District,2020,Rabi,mango,13288.1,50558.95
+Rajasthan,Rajasthan_District,2020,Kharif,coconut,8806.97,50272.52
+Rajasthan,Rajasthan_District,2020,Rabi,coffee,21094.8,21514.16
+Rajasthan,Rajasthan_District,2020,Rabi,papaya,15142.1,571473.46
+Rajasthan,Rajasthan_District,2020,Whole Year,grapes,31246.36,529246.8
+Rajasthan,Rajasthan_District,2020,Kharif,orange,28618.91,241346.61
+Rajasthan,Rajasthan_District,2020,Rabi,watermelon,9477.28,272240.13
+Rajasthan,Rajasthan_District,2020,Whole Year,lentil,3031.88,1775.25
+Rajasthan,Rajasthan_District,2020,Whole Year,pigeonpeas,23138.15,11411.33
+Rajasthan,Rajasthan_District,2020,Rabi,mungbean,21425.31,10537.32
+Rajasthan,Rajasthan_District,2020,Whole Year,blackgram,11861.06,6565.37
+Rajasthan,Rajasthan_District,2020,Whole Year,mothbeans,28315.26,13822.01
+Rajasthan,Rajasthan_District,2020,Kharif,kidneybeans,7725.72,4783.39
+Rajasthan,Rajasthan_District,2020,Kharif,pomegranate,9554.49,58748.34
+Rajasthan,Rajasthan_District,2020,Whole Year,muskmelon,22929.4,310119.8
+Rajasthan,Rajasthan_District,2020,Whole Year,apple,21565.49,120908.67
+Tamil Nadu,Tamil Nadu_District,2020,Whole Year,rice,6710.86,15167.93
+Tamil Nadu,Tamil Nadu_District,2020,Rabi,maize,9940.49,22786.52
+Tamil Nadu,Tamil Nadu_District,2020,Rabi,chickpea,40655.73,30400.41
+Tamil Nadu,Tamil Nadu_District,2020,Kharif,cotton,21441.12,10770.08
+Tamil Nadu,Tamil Nadu_District,2020,Kharif,jute,44839.7,102049.6
+Tamil Nadu,Tamil Nadu_District,2020,Kharif,banana,20973.12,537798.96
+Tamil Nadu,Tamil Nadu_District,2020,Whole Year,mango,31629.39,249263.71
+Tamil Nadu,Tamil Nadu_District,2020,Rabi,coconut,24628.73,183290.83
+Tamil Nadu,Tamil Nadu_District,2020,Rabi,coffee,22717.27,25723.5
+Tamil Nadu,Tamil Nadu_District,2020,Rabi,papaya,17143.36,747888.86
+Tamil Nadu,Tamil Nadu_District,2020,Whole Year,grapes,36401.39,884447.55
+Tamil Nadu,Tamil Nadu_District,2020,Kharif,orange,40376.5,362708.17
+Tamil Nadu,Tamil Nadu_District,2020,Rabi,watermelon,49994.51,1105254.64
+Tamil Nadu,Tamil Nadu_District,2020,Kharif,lentil,42756.48,41024.76
+Tamil Nadu,Tamil Nadu_District,2020,Rabi,pigeonpeas,39374.1,29181.39
+Tamil Nadu,Tamil Nadu_District,2020,Whole Year,mungbean,25126.2,13281.99
+Tamil Nadu,Tamil Nadu_District,2020,Kharif,blackgram,16648.84,11946.08
+Tamil Nadu,Tamil Nadu_District,2020,Rabi,mothbeans,4711.58,1435.92
+Tamil Nadu,Tamil Nadu_District,2020,Rabi,kidneybeans,28031.76,23366.4
+Tamil Nadu,Tamil Nadu_District,2020,Kharif,pomegranate,960.67,11143.78
+Tamil Nadu,Tamil Nadu_District,2020,Kharif,muskmelon,42749.21,663662.15
+Tamil Nadu,Tamil Nadu_District,2020,Kharif,apple,954.11,9017.8
+Uttar Pradesh,Uttar Pradesh_District,2020,Rabi,rice,18070.76,53648.31
+Uttar Pradesh,Uttar Pradesh_District,2020,Rabi,maize,40670.67,100481.8
+Uttar Pradesh,Uttar Pradesh_District,2020,Kharif,chickpea,34324.51,35263.25
+Uttar Pradesh,Uttar Pradesh_District,2020,Whole Year,cotton,26419.69,18363.61
+Uttar Pradesh,Uttar Pradesh_District,2020,Whole Year,jute,45464.1,130532.2
+Uttar Pradesh,Uttar Pradesh_District,2020,Kharif,banana,27547.84,666332.79
+Uttar Pradesh,Uttar Pradesh_District,2020,Whole Year,mango,27092.66,182305.83
+Uttar Pradesh,Uttar Pradesh_District,2020,Whole Year,coconut,17537.56,152697.45
+Uttar Pradesh,Uttar Pradesh_District,2020,Rabi,coffee,27926.79,22556.01
+Uttar Pradesh,Uttar Pradesh_District,2020,Rabi,papaya,36936.14,1585462.77
+Uttar Pradesh,Uttar Pradesh_District,2020,Rabi,grapes,7416.5,101630.94
+Uttar Pradesh,Uttar Pradesh_District,2020,Rabi,orange,21442.77,189932.73
+Uttar Pradesh,Uttar Pradesh_District,2020,Kharif,watermelon,33530.57,953452.36
+Uttar Pradesh,Uttar Pradesh_District,2020,Whole Year,lentil,31175.11,22993.95
+Uttar Pradesh,Uttar Pradesh_District,2020,Kharif,pigeonpeas,27131.98,20982.96
+Uttar Pradesh,Uttar Pradesh_District,2020,Kharif,mungbean,9935.57,5070.59
+Uttar Pradesh,Uttar Pradesh_District,2020,Whole Year,blackgram,47647.25,27388.96
+Uttar Pradesh,Uttar Pradesh_District,2020,Kharif,mothbeans,7933.19,3909.63
+Uttar Pradesh,Uttar Pradesh_District,2020,Rabi,kidneybeans,34821.93,63870.58
+Uttar Pradesh,Uttar Pradesh_District,2020,Kharif,pomegranate,31292.7,158313.65
+Uttar Pradesh,Uttar Pradesh_District,2020,Rabi,muskmelon,41884.92,642823.85
+Uttar Pradesh,Uttar Pradesh_District,2020,Kharif,apple,25070.3,287573.84
+West Bengal,West Bengal_District,2020,Whole Year,rice,44789.25,159942.91
+West Bengal,West Bengal_District,2020,Rabi,maize,45736.89,143548.81
+West Bengal,West Bengal_District,2020,Rabi,chickpea,31135.54,16419.54
+West Bengal,West Bengal_District,2020,Whole Year,cotton,39327.29,26204.07
+West Bengal,West Bengal_District,2020,Kharif,jute,4192.9,9117.86
+West Bengal,West Bengal_District,2020,Whole Year,banana,48669.74,1782587.75
+West Bengal,West Bengal_District,2020,Kharif,mango,45235.25,286742.55
+West Bengal,West Bengal_District,2020,Whole Year,coconut,21638.05,234030.54
+West Bengal,West Bengal_District,2020,Kharif,coffee,2295.25,1140.42
+West Bengal,West Bengal_District,2020,Kharif,papaya,25399.02,1062249.58
+West Bengal,West Bengal_District,2020,Whole Year,grapes,24709.71,333168.57
+West Bengal,West Bengal_District,2020,Kharif,orange,18164.67,228890.34
+West Bengal,West Bengal_District,2020,Rabi,watermelon,22704.81,501998.44
+West Bengal,West Bengal_District,2020,Rabi,lentil,22488.33,15946.2
+West Bengal,West Bengal_District,2020,Rabi,pigeonpeas,22793.8,17589.49
+West Bengal,West Bengal_District,2020,Whole Year,mungbean,21209.74,16103.58
+West Bengal,West Bengal_District,2020,Rabi,blackgram,48175.78,26503.35
+West Bengal,West Bengal_District,2020,Whole Year,mothbeans,3045.52,1663.73
+West Bengal,West Bengal_District,2020,Rabi,kidneybeans,27273.22,22167.77
+West Bengal,West Bengal_District,2020,Rabi,pomegranate,47165.97,245602.0
+West Bengal,West Bengal_District,2020,Kharif,muskmelon,21244.53,298314.65
+West Bengal,West Bengal_District,2020,Rabi,apple,5841.74,57561.33
+Andhra Pradesh,Andhra Pradesh_District,2021,Whole Year,rice,12428.46,30198.88
+Andhra Pradesh,Andhra Pradesh_District,2021,Kharif,maize,47952.33,144900.31
+Andhra Pradesh,Andhra Pradesh_District,2021,Kharif,chickpea,2123.15,1034.34
+Andhra Pradesh,Andhra Pradesh_District,2021,Kharif,cotton,35056.68,9428.7
+Andhra Pradesh,Andhra Pradesh_District,2021,Kharif,jute,14017.87,36002.42
+Andhra Pradesh,Andhra Pradesh_District,2021,Whole Year,banana,9778.76,280391.18
+Andhra Pradesh,Andhra Pradesh_District,2021,Rabi,mango,24361.31,201867.3
+Andhra Pradesh,Andhra Pradesh_District,2021,Rabi,coconut,19510.02,165197.56
+Andhra Pradesh,Andhra Pradesh_District,2021,Kharif,coffee,1098.3,1379.84
+Andhra Pradesh,Andhra Pradesh_District,2021,Whole Year,papaya,6805.95,319842.92
+Andhra Pradesh,Andhra Pradesh_District,2021,Whole Year,grapes,34652.68,534067.68
+Andhra Pradesh,Andhra Pradesh_District,2021,Whole Year,orange,30562.47,335510.58
+Andhra Pradesh,Andhra Pradesh_District,2021,Rabi,watermelon,29117.69,547451.32
+Andhra Pradesh,Andhra Pradesh_District,2021,Rabi,lentil,43572.11,33488.19
+Andhra Pradesh,Andhra Pradesh_District,2021,Rabi,pigeonpeas,11118.94,6834.72
+Andhra Pradesh,Andhra Pradesh_District,2021,Kharif,mungbean,48101.18,41393.34
+Andhra Pradesh,Andhra Pradesh_District,2021,Kharif,blackgram,17855.11,10197.93
+Andhra Pradesh,Andhra Pradesh_District,2021,Kharif,mothbeans,2113.09,812.41
+Andhra Pradesh,Andhra Pradesh_District,2021,Rabi,kidneybeans,15177.42,17927.12
+Andhra Pradesh,Andhra Pradesh_District,2021,Whole Year,pomegranate,4159.99,23720.62
+Andhra Pradesh,Andhra Pradesh_District,2021,Whole Year,muskmelon,11153.19,164680.85
+Andhra Pradesh,Andhra Pradesh_District,2021,Rabi,apple,14196.22,206174.35
+Bihar,Bihar_District,2021,Whole Year,rice,23300.48,40840.27
+Bihar,Bihar_District,2021,Kharif,maize,40228.93,77475.56
+Bihar,Bihar_District,2021,Rabi,chickpea,22641.78,19777.02
+Bihar,Bihar_District,2021,Kharif,cotton,8960.74,3746.08
+Bihar,Bihar_District,2021,Rabi,jute,48558.92,85828.46
+Bihar,Bihar_District,2021,Rabi,banana,22387.33,670160.72
+Bihar,Bihar_District,2021,Whole Year,mango,36806.25,263203.28
+Bihar,Bihar_District,2021,Rabi,coconut,41083.92,310682.86
+Bihar,Bihar_District,2021,Kharif,coffee,36885.25,20792.21
+Bihar,Bihar_District,2021,Rabi,papaya,44708.03,1906112.31
+Bihar,Bihar_District,2021,Whole Year,grapes,42469.07,1202216.04
+Bihar,Bihar_District,2021,Kharif,orange,39941.48,307497.69
+Bihar,Bihar_District,2021,Rabi,watermelon,8983.89,261501.92
+Bihar,Bihar_District,2021,Whole Year,lentil,17178.0,8631.92
+Bihar,Bihar_District,2021,Whole Year,pigeonpeas,14540.22,3958.15
+Bihar,Bihar_District,2021,Whole Year,mungbean,10036.97,5756.03
+Bihar,Bihar_District,2021,Whole Year,blackgram,11543.06,7691.97
+Bihar,Bihar_District,2021,Whole Year,mothbeans,30777.79,9444.13
+Bihar,Bihar_District,2021,Rabi,kidneybeans,11763.01,15748.25
+Bihar,Bihar_District,2021,Whole Year,pomegranate,48694.79,416584.13
+Bihar,Bihar_District,2021,Whole Year,muskmelon,46767.22,831253.75
+Bihar,Bihar_District,2021,Whole Year,apple,17562.59,213775.95
+Gujarat,Gujarat_District,2021,Rabi,rice,40903.05,111314.78
+Gujarat,Gujarat_District,2021,Whole Year,maize,4282.42,10274.87
+Gujarat,Gujarat_District,2021,Whole Year,chickpea,32346.82,40570.02
+Gujarat,Gujarat_District,2021,Whole Year,cotton,33044.45,15749.79
+Gujarat,Gujarat_District,2021,Whole Year,jute,9678.18,20948.76
+Gujarat,Gujarat_District,2021,Kharif,banana,6154.54,179809.75
+Gujarat,Gujarat_District,2021,Whole Year,mango,30697.5,221560.33
+Gujarat,Gujarat_District,2021,Kharif,coconut,41264.26,484097.24
+Gujarat,Gujarat_District,2021,Whole Year,coffee,37548.82,32025.39
+Gujarat,Gujarat_District,2021,Kharif,papaya,28672.12,1235496.43
+Gujarat,Gujarat_District,2021,Kharif,grapes,22713.72,403948.6
+Gujarat,Gujarat_District,2021,Rabi,orange,2099.48,24739.83
+Gujarat,Gujarat_District,2021,Kharif,watermelon,16287.3,289496.49
+Gujarat,Gujarat_District,2021,Rabi,lentil,17143.63,13208.03
+Gujarat,Gujarat_District,2021,Whole Year,pigeonpeas,9482.82,7044.47
+Gujarat,Gujarat_District,2021,Kharif,mungbean,34766.16,22693.87
+Gujarat,Gujarat_District,2021,Kharif,blackgram,11910.89,8014.03
+Gujarat,Gujarat_District,2021,Kharif,mothbeans,30644.65,15592.61
+Gujarat,Gujarat_District,2021,Rabi,kidneybeans,9686.77,15410.11
+Gujarat,Gujarat_District,2021,Rabi,pomegranate,13677.65,122893.22
+Gujarat,Gujarat_District,2021,Rabi,muskmelon,13018.12,209666.92
+Gujarat,Gujarat_District,2021,Kharif,apple,31815.81,422721.3
+Haryana,Haryana_District,2021,Rabi,rice,33257.68,56833.96
+Haryana,Haryana_District,2021,Kharif,maize,19864.54,53811.21
+Haryana,Haryana_District,2021,Kharif,chickpea,47381.9,46503.18
+Haryana,Haryana_District,2021,Whole Year,cotton,39851.05,22293.56
+Haryana,Haryana_District,2021,Kharif,jute,7773.76,15131.19
+Haryana,Haryana_District,2021,Kharif,banana,30656.13,718961.35
+Haryana,Haryana_District,2021,Whole Year,mango,15271.44,142894.85
+Haryana,Haryana_District,2021,Rabi,coconut,21184.4,142088.44
+Haryana,Haryana_District,2021,Rabi,coffee,46868.35,34599.84
+Haryana,Haryana_District,2021,Rabi,papaya,19823.05,725568.35
+Haryana,Haryana_District,2021,Kharif,grapes,25219.12,590580.62
+Haryana,Haryana_District,2021,Whole Year,orange,44428.54,483507.58
+Haryana,Haryana_District,2021,Rabi,watermelon,16238.05,399531.42
+Haryana,Haryana_District,2021,Kharif,lentil,31146.19,39202.33
+Haryana,Haryana_District,2021,Whole Year,pigeonpeas,7326.61,6923.84
+Haryana,Haryana_District,2021,Whole Year,mungbean,35877.23,24428.37
+Haryana,Haryana_District,2021,Kharif,blackgram,31337.99,27044.46
+Haryana,Haryana_District,2021,Rabi,mothbeans,29082.13,8274.85
+Haryana,Haryana_District,2021,Rabi,kidneybeans,38692.04,54829.82
+Haryana,Haryana_District,2021,Whole Year,pomegranate,5407.24,55512.09
+Haryana,Haryana_District,2021,Whole Year,muskmelon,18296.15,286720.73
+Haryana,Haryana_District,2021,Kharif,apple,19379.92,210040.3
+Karnataka,Karnataka_District,2021,Rabi,rice,5247.95,11106.21
+Karnataka,Karnataka_District,2021,Whole Year,maize,9907.19,25183.65
+Karnataka,Karnataka_District,2021,Kharif,chickpea,3513.37,3610.87
+Karnataka,Karnataka_District,2021,Rabi,cotton,36967.38,12989.72
+Karnataka,Karnataka_District,2021,Rabi,jute,25559.07,62287.09
+Karnataka,Karnataka_District,2021,Rabi,banana,16589.43,612472.34
+Karnataka,Karnataka_District,2021,Whole Year,mango,35147.8,318538.83
+Karnataka,Karnataka_District,2021,Whole Year,coconut,24078.2,165379.11
+Karnataka,Karnataka_District,2021,Whole Year,coffee,47911.94,24489.44
+Karnataka,Karnataka_District,2021,Whole Year,papaya,11809.83,507075.81
+Karnataka,Karnataka_District,2021,Whole Year,grapes,16646.62,353721.47
+Karnataka,Karnataka_District,2021,Kharif,orange,40417.95,364513.48
+Karnataka,Karnataka_District,2021,Whole Year,watermelon,1002.76,18628.57
+Karnataka,Karnataka_District,2021,Kharif,lentil,26480.5,14755.99
+Karnataka,Karnataka_District,2021,Kharif,pigeonpeas,26897.82,25355.77
+Karnataka,Karnataka_District,2021,Whole Year,mungbean,34450.64,24657.43
+Karnataka,Karnataka_District,2021,Kharif,blackgram,46799.45,34944.29
+Karnataka,Karnataka_District,2021,Rabi,mothbeans,18463.37,8597.75
+Karnataka,Karnataka_District,2021,Kharif,kidneybeans,18997.72,26381.74
+Karnataka,Karnataka_District,2021,Rabi,pomegranate,18766.42,193719.77
+Karnataka,Karnataka_District,2021,Rabi,muskmelon,40626.41,811659.17
+Karnataka,Karnataka_District,2021,Kharif,apple,49865.87,608858.91
+Kerala,Kerala_District,2021,Whole Year,rice,19476.35,49955.42
+Kerala,Kerala_District,2021,Rabi,maize,37691.08,106621.97
+Kerala,Kerala_District,2021,Whole Year,chickpea,11717.23,6309.09
+Kerala,Kerala_District,2021,Whole Year,cotton,44654.28,20064.78
+Kerala,Kerala_District,2021,Whole Year,jute,43206.09,128464.39
+Kerala,Kerala_District,2021,Kharif,banana,18061.45,409513.79
+Kerala,Kerala_District,2021,Whole Year,mango,37282.86,172650.92
+Kerala,Kerala_District,2021,Rabi,coconut,40108.71,432989.75
+Kerala,Kerala_District,2021,Whole Year,coffee,20107.69,9551.52
+Kerala,Kerala_District,2021,Whole Year,papaya,35867.29,972024.12
+Kerala,Kerala_District,2021,Whole Year,grapes,26473.48,573080.73
+Kerala,Kerala_District,2021,Whole Year,orange,32435.64,235149.47
+Kerala,Kerala_District,2021,Rabi,watermelon,10114.51,137657.27
+Kerala,Kerala_District,2021,Rabi,lentil,33792.24,20978.62
+Kerala,Kerala_District,2021,Whole Year,pigeonpeas,7446.58,6153.81
+Kerala,Kerala_District,2021,Rabi,mungbean,26719.08,15517.87
+Kerala,Kerala_District,2021,Rabi,blackgram,25264.93,19899.36
+Kerala,Kerala_District,2021,Whole Year,mothbeans,39840.6,17018.21
+Kerala,Kerala_District,2021,Kharif,kidneybeans,15268.55,13475.36
+Kerala,Kerala_District,2021,Whole Year,pomegranate,29172.54,91254.47
+Kerala,Kerala_District,2021,Rabi,muskmelon,31524.93,431350.57
+Kerala,Kerala_District,2021,Kharif,apple,40299.48,450007.33
+Madhya Pradesh,Madhya Pradesh_District,2021,Kharif,rice,40283.74,86021.55
+Madhya Pradesh,Madhya Pradesh_District,2021,Kharif,maize,26732.87,79008.99
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,chickpea,45577.48,45845.85
+Madhya Pradesh,Madhya Pradesh_District,2021,Kharif,cotton,16125.27,14336.61
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,jute,20837.6,42558.72
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,banana,40011.19,1170934.22
+Madhya Pradesh,Madhya Pradesh_District,2021,Kharif,mango,40556.6,350606.18
+Madhya Pradesh,Madhya Pradesh_District,2021,Whole Year,coconut,13687.84,148299.8
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,coffee,12465.64,10619.65
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,papaya,22056.67,689549.62
+Madhya Pradesh,Madhya Pradesh_District,2021,Kharif,grapes,29233.54,575126.91
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,orange,15911.33,155868.46
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,watermelon,13542.08,431203.6
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,lentil,20853.12,19264.2
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,pigeonpeas,44519.7,34010.34
+Madhya Pradesh,Madhya Pradesh_District,2021,Kharif,mungbean,9016.28,4894.53
+Madhya Pradesh,Madhya Pradesh_District,2021,Whole Year,blackgram,33358.66,19024.9
+Madhya Pradesh,Madhya Pradesh_District,2021,Kharif,mothbeans,29383.5,15313.96
+Madhya Pradesh,Madhya Pradesh_District,2021,Rabi,kidneybeans,18358.05,27147.28
+Madhya Pradesh,Madhya Pradesh_District,2021,Whole Year,pomegranate,27548.69,239167.09
+Madhya Pradesh,Madhya Pradesh_District,2021,Whole Year,muskmelon,31432.86,467313.84
+Madhya Pradesh,Madhya Pradesh_District,2021,Whole Year,apple,40483.19,399174.29
+Maharashtra,Maharashtra_District,2021,Whole Year,rice,23176.52,42896.34
+Maharashtra,Maharashtra_District,2021,Kharif,maize,12670.66,36783.86
+Maharashtra,Maharashtra_District,2021,Kharif,chickpea,7834.56,6657.37
+Maharashtra,Maharashtra_District,2021,Whole Year,cotton,7543.87,4150.13
+Maharashtra,Maharashtra_District,2021,Whole Year,jute,39862.17,74759.9
+Maharashtra,Maharashtra_District,2021,Rabi,banana,22235.13,748229.53
+Maharashtra,Maharashtra_District,2021,Whole Year,mango,44695.94,405624.96
+Maharashtra,Maharashtra_District,2021,Rabi,coconut,24793.82,270649.27
+Maharashtra,Maharashtra_District,2021,Kharif,coffee,9252.39,4626.89
+Maharashtra,Maharashtra_District,2021,Whole Year,papaya,32595.39,1414435.05
+Maharashtra,Maharashtra_District,2021,Kharif,grapes,40376.86,651444.48
+Maharashtra,Maharashtra_District,2021,Kharif,orange,18495.22,217220.19
+Maharashtra,Maharashtra_District,2021,Whole Year,watermelon,48476.31,988987.45
+Maharashtra,Maharashtra_District,2021,Whole Year,lentil,29486.64,16070.34
+Maharashtra,Maharashtra_District,2021,Whole Year,pigeonpeas,21578.05,18156.02
+Maharashtra,Maharashtra_District,2021,Kharif,mungbean,22029.44,11010.08
+Maharashtra,Maharashtra_District,2021,Whole Year,blackgram,20296.28,18032.37
+Maharashtra,Maharashtra_District,2021,Whole Year,mothbeans,4403.38,1613.3
+Maharashtra,Maharashtra_District,2021,Whole Year,kidneybeans,27019.57,28623.88
+Maharashtra,Maharashtra_District,2021,Rabi,pomegranate,20086.29,183057.89
+Maharashtra,Maharashtra_District,2021,Whole Year,muskmelon,21437.13,229402.0
+Maharashtra,Maharashtra_District,2021,Kharif,apple,8241.97,156825.05
+Punjab,Punjab_District,2021,Rabi,rice,25845.76,74936.72
+Punjab,Punjab_District,2021,Kharif,maize,37285.55,130367.03
+Punjab,Punjab_District,2021,Whole Year,chickpea,6813.76,4923.88
+Punjab,Punjab_District,2021,Whole Year,cotton,49433.95,13376.66
+Punjab,Punjab_District,2021,Rabi,jute,7431.29,19118.82
+Punjab,Punjab_District,2021,Kharif,banana,11884.64,439761.98
+Punjab,Punjab_District,2021,Rabi,mango,2594.43,20761.17
+Punjab,Punjab_District,2021,Rabi,coconut,41507.0,304918.43
+Punjab,Punjab_District,2021,Kharif,coffee,46286.47,44560.99
+Punjab,Punjab_District,2021,Whole Year,papaya,42874.56,2205866.04
+Punjab,Punjab_District,2021,Whole Year,grapes,36706.07,789632.66
+Punjab,Punjab_District,2021,Kharif,orange,16433.34,177855.62
+Punjab,Punjab_District,2021,Kharif,watermelon,12229.73,336239.3
+Punjab,Punjab_District,2021,Whole Year,lentil,6515.35,4323.94
+Punjab,Punjab_District,2021,Rabi,pigeonpeas,44505.77,33932.32
+Punjab,Punjab_District,2021,Rabi,mungbean,18405.56,9072.3
+Punjab,Punjab_District,2021,Kharif,blackgram,18573.03,9170.49
+Punjab,Punjab_District,2021,Whole Year,mothbeans,11132.68,4458.66
+Punjab,Punjab_District,2021,Whole Year,kidneybeans,47705.0,64174.26
+Punjab,Punjab_District,2021,Whole Year,pomegranate,31551.99,242632.09
+Punjab,Punjab_District,2021,Rabi,muskmelon,478.22,6351.77
+Punjab,Punjab_District,2021,Whole Year,apple,46529.93,510098.67
+Rajasthan,Rajasthan_District,2021,Kharif,rice,41121.8,138280.78
+Rajasthan,Rajasthan_District,2021,Rabi,maize,6935.12,25316.24
+Rajasthan,Rajasthan_District,2021,Kharif,chickpea,27914.04,44392.66
+Rajasthan,Rajasthan_District,2021,Whole Year,cotton,34572.21,14674.19
+Rajasthan,Rajasthan_District,2021,Rabi,jute,27957.1,67333.41
+Rajasthan,Rajasthan_District,2021,Whole Year,banana,35176.75,1158877.81
+Rajasthan,Rajasthan_District,2021,Rabi,mango,26762.3,188207.89
+Rajasthan,Rajasthan_District,2021,Rabi,coconut,19547.73,150987.08
+Rajasthan,Rajasthan_District,2021,Kharif,coffee,16187.93,19109.36
+Rajasthan,Rajasthan_District,2021,Kharif,papaya,28186.1,590952.45
+Rajasthan,Rajasthan_District,2021,Whole Year,grapes,19922.61,518948.48
+Rajasthan,Rajasthan_District,2021,Rabi,orange,26031.94,327494.88
+Rajasthan,Rajasthan_District,2021,Whole Year,watermelon,49465.72,1473180.78
+Rajasthan,Rajasthan_District,2021,Whole Year,lentil,22800.33,14158.09
+Rajasthan,Rajasthan_District,2021,Kharif,pigeonpeas,13461.92,15968.49
+Rajasthan,Rajasthan_District,2021,Whole Year,mungbean,36175.52,23251.97
+Rajasthan,Rajasthan_District,2021,Kharif,blackgram,15015.34,6983.89
+Rajasthan,Rajasthan_District,2021,Kharif,mothbeans,35026.56,10655.18
+Rajasthan,Rajasthan_District,2021,Whole Year,kidneybeans,14132.35,12415.95
+Rajasthan,Rajasthan_District,2021,Rabi,pomegranate,30367.56,262452.72
+Rajasthan,Rajasthan_District,2021,Whole Year,muskmelon,8038.18,121273.04
+Rajasthan,Rajasthan_District,2021,Whole Year,apple,36549.36,513356.37
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,rice,40904.67,83955.08
+Tamil Nadu,Tamil Nadu_District,2021,Whole Year,maize,42516.91,90555.38
+Tamil Nadu,Tamil Nadu_District,2021,Whole Year,chickpea,44676.82,35918.59
+Tamil Nadu,Tamil Nadu_District,2021,Whole Year,cotton,10596.0,6535.85
+Tamil Nadu,Tamil Nadu_District,2021,Whole Year,jute,17337.67,35789.89
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,banana,31424.86,1082904.14
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,mango,3742.35,29049.91
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,coconut,7209.34,74836.17
+Tamil Nadu,Tamil Nadu_District,2021,Whole Year,coffee,8142.54,5124.56
+Tamil Nadu,Tamil Nadu_District,2021,Kharif,papaya,15371.1,610709.36
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,grapes,1538.8,37170.22
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,orange,20038.06,276514.58
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,watermelon,19624.22,652436.64
+Tamil Nadu,Tamil Nadu_District,2021,Whole Year,lentil,41243.73,35134.3
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,pigeonpeas,11257.95,8508.03
+Tamil Nadu,Tamil Nadu_District,2021,Whole Year,mungbean,45690.12,17321.49
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,blackgram,48366.79,37180.67
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,mothbeans,5303.03,2603.39
+Tamil Nadu,Tamil Nadu_District,2021,Kharif,kidneybeans,43643.1,66279.81
+Tamil Nadu,Tamil Nadu_District,2021,Whole Year,pomegranate,15786.68,94594.41
+Tamil Nadu,Tamil Nadu_District,2021,Rabi,muskmelon,17095.33,220351.48
+Tamil Nadu,Tamil Nadu_District,2021,Kharif,apple,44724.69,219403.16
+Uttar Pradesh,Uttar Pradesh_District,2021,Whole Year,rice,46272.09,95410.95
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,maize,44356.96,99099.99
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,chickpea,6337.3,8012.49
+Uttar Pradesh,Uttar Pradesh_District,2021,Whole Year,cotton,36603.49,26835.93
+Uttar Pradesh,Uttar Pradesh_District,2021,Rabi,jute,25801.55,61800.69
+Uttar Pradesh,Uttar Pradesh_District,2021,Rabi,banana,46727.63,1814156.78
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,mango,34055.03,312784.63
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,coconut,2449.65,14107.34
+Uttar Pradesh,Uttar Pradesh_District,2021,Whole Year,coffee,44326.37,39424.59
+Uttar Pradesh,Uttar Pradesh_District,2021,Rabi,papaya,34671.09,1437588.77
+Uttar Pradesh,Uttar Pradesh_District,2021,Rabi,grapes,13964.81,258425.92
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,orange,37201.29,496409.35
+Uttar Pradesh,Uttar Pradesh_District,2021,Rabi,watermelon,39492.0,909908.92
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,lentil,8575.3,3571.41
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,pigeonpeas,5600.35,4048.6
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,mungbean,17072.22,6794.78
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,blackgram,1573.0,625.17
+Uttar Pradesh,Uttar Pradesh_District,2021,Whole Year,mothbeans,32183.63,14642.48
+Uttar Pradesh,Uttar Pradesh_District,2021,Kharif,kidneybeans,16565.93,18585.82
+Uttar Pradesh,Uttar Pradesh_District,2021,Whole Year,pomegranate,25103.53,170980.67
+Uttar Pradesh,Uttar Pradesh_District,2021,Whole Year,muskmelon,47056.15,556986.29
+Uttar Pradesh,Uttar Pradesh_District,2021,Rabi,apple,27652.22,240558.47
+West Bengal,West Bengal_District,2021,Whole Year,rice,43005.85,104363.25
+West Bengal,West Bengal_District,2021,Whole Year,maize,1536.99,4730.88
+West Bengal,West Bengal_District,2021,Rabi,chickpea,34627.46,23039.7
+West Bengal,West Bengal_District,2021,Whole Year,cotton,39711.06,22024.8
+West Bengal,West Bengal_District,2021,Whole Year,jute,13309.29,26402.76
+West Bengal,West Bengal_District,2021,Whole Year,banana,24740.95,686936.69
+West Bengal,West Bengal_District,2021,Rabi,mango,23331.11,111615.75
+West Bengal,West Bengal_District,2021,Whole Year,coconut,43933.91,471892.88
+West Bengal,West Bengal_District,2021,Whole Year,coffee,46277.29,45117.58
+West Bengal,West Bengal_District,2021,Rabi,papaya,10234.42,369711.94
+West Bengal,West Bengal_District,2021,Kharif,grapes,7675.81,111995.98
+West Bengal,West Bengal_District,2021,Whole Year,orange,40122.98,467596.89
+West Bengal,West Bengal_District,2021,Kharif,watermelon,12642.48,303768.04
+West Bengal,West Bengal_District,2021,Whole Year,lentil,16798.99,8172.98
+West Bengal,West Bengal_District,2021,Rabi,pigeonpeas,3595.86,2081.06
+West Bengal,West Bengal_District,2021,Rabi,mungbean,2344.1,1734.85
+West Bengal,West Bengal_District,2021,Kharif,blackgram,30699.82,19961.89
+West Bengal,West Bengal_District,2021,Kharif,mothbeans,35929.94,15632.47
+West Bengal,West Bengal_District,2021,Whole Year,kidneybeans,30818.1,27921.12
+West Bengal,West Bengal_District,2021,Kharif,pomegranate,10639.57,97855.35
+West Bengal,West Bengal_District,2021,Kharif,muskmelon,3123.74,22120.16
+West Bengal,West Bengal_District,2021,Kharif,apple,16602.72,189280.41
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,rice,33996.0,53547.59
+Andhra Pradesh,Andhra Pradesh_District,2022,Kharif,maize,42856.19,126164.82
+Andhra Pradesh,Andhra Pradesh_District,2022,Kharif,chickpea,33313.68,30769.06
+Andhra Pradesh,Andhra Pradesh_District,2022,Rabi,cotton,49410.95,28205.23
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,jute,31554.92,83837.6
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,banana,14830.31,454957.66
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,mango,32704.55,265450.89
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,coconut,49480.98,420899.15
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,coffee,21413.75,8537.08
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,papaya,21698.27,987800.02
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,grapes,37964.09,597813.06
+Andhra Pradesh,Andhra Pradesh_District,2022,Kharif,orange,8872.52,123553.08
+Andhra Pradesh,Andhra Pradesh_District,2022,Rabi,watermelon,31109.0,728662.29
+Andhra Pradesh,Andhra Pradesh_District,2022,Kharif,lentil,40296.54,36082.44
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,pigeonpeas,43511.43,43079.14
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,mungbean,10697.5,3977.61
+Andhra Pradesh,Andhra Pradesh_District,2022,Kharif,blackgram,20173.35,5671.5
+Andhra Pradesh,Andhra Pradesh_District,2022,Kharif,mothbeans,36861.24,8699.23
+Andhra Pradesh,Andhra Pradesh_District,2022,Kharif,kidneybeans,38774.5,81361.97
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,pomegranate,38010.09,279185.35
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,muskmelon,21677.55,378390.29
+Andhra Pradesh,Andhra Pradesh_District,2022,Whole Year,apple,40704.79,636710.88
+Bihar,Bihar_District,2022,Whole Year,rice,610.16,1780.14
+Bihar,Bihar_District,2022,Rabi,maize,6022.17,19747.8
+Bihar,Bihar_District,2022,Rabi,chickpea,41459.27,22230.52
+Bihar,Bihar_District,2022,Rabi,cotton,33951.26,11073.36
+Bihar,Bihar_District,2022,Kharif,jute,15601.27,34362.56
+Bihar,Bihar_District,2022,Kharif,banana,37255.16,1032773.78
+Bihar,Bihar_District,2022,Whole Year,mango,7706.91,79185.36
+Bihar,Bihar_District,2022,Whole Year,coconut,15527.46,83043.45
+Bihar,Bihar_District,2022,Rabi,coffee,10260.78,9341.68
+Bihar,Bihar_District,2022,Rabi,papaya,6002.52,200646.09
+Bihar,Bihar_District,2022,Rabi,grapes,1650.91,32279.6
+Bihar,Bihar_District,2022,Rabi,orange,4715.33,46093.85
+Bihar,Bihar_District,2022,Kharif,watermelon,27647.96,636944.85
+Bihar,Bihar_District,2022,Rabi,lentil,34420.26,29534.25
+Bihar,Bihar_District,2022,Rabi,pigeonpeas,20215.16,13419.67
+Bihar,Bihar_District,2022,Rabi,mungbean,1395.1,871.06
+Bihar,Bihar_District,2022,Kharif,blackgram,40095.73,32666.46
+Bihar,Bihar_District,2022,Rabi,mothbeans,22319.9,4231.82
+Bihar,Bihar_District,2022,Whole Year,kidneybeans,20808.59,30620.4
+Bihar,Bihar_District,2022,Rabi,pomegranate,1453.94,13388.65
+Bihar,Bihar_District,2022,Rabi,muskmelon,396.41,6508.82
+Bihar,Bihar_District,2022,Kharif,apple,44938.13,265635.28
+Gujarat,Gujarat_District,2022,Rabi,rice,37947.04,105071.01
+Gujarat,Gujarat_District,2022,Whole Year,maize,49857.34,151924.85
+Gujarat,Gujarat_District,2022,Kharif,chickpea,24338.03,18168.31
+Gujarat,Gujarat_District,2022,Rabi,cotton,871.07,487.25
+Gujarat,Gujarat_District,2022,Kharif,jute,23843.28,57680.31
+Gujarat,Gujarat_District,2022,Whole Year,banana,49842.71,1338261.94
+Gujarat,Gujarat_District,2022,Kharif,mango,37383.5,200840.27
+Gujarat,Gujarat_District,2022,Rabi,coconut,16746.84,91441.34
+Gujarat,Gujarat_District,2022,Kharif,coffee,10177.35,11021.09
+Gujarat,Gujarat_District,2022,Rabi,papaya,36235.97,1880029.25
+Gujarat,Gujarat_District,2022,Kharif,grapes,28916.81,514650.06
+Gujarat,Gujarat_District,2022,Rabi,orange,13133.42,107456.15
+Gujarat,Gujarat_District,2022,Kharif,watermelon,40175.52,1121181.91
+Gujarat,Gujarat_District,2022,Whole Year,lentil,4269.78,4573.05
+Gujarat,Gujarat_District,2022,Rabi,pigeonpeas,34531.24,26970.16
+Gujarat,Gujarat_District,2022,Rabi,mungbean,26549.62,12470.77
+Gujarat,Gujarat_District,2022,Rabi,blackgram,12957.33,7501.13
+Gujarat,Gujarat_District,2022,Kharif,mothbeans,6350.01,2753.73
+Gujarat,Gujarat_District,2022,Whole Year,kidneybeans,7777.08,11414.88
+Gujarat,Gujarat_District,2022,Kharif,pomegranate,5729.09,60310.24
+Gujarat,Gujarat_District,2022,Whole Year,muskmelon,28186.04,448435.66
+Gujarat,Gujarat_District,2022,Rabi,apple,12039.84,167275.18
+Haryana,Haryana_District,2022,Whole Year,rice,45523.36,55166.47
+Haryana,Haryana_District,2022,Rabi,maize,33602.31,93259.02
+Haryana,Haryana_District,2022,Whole Year,chickpea,32410.72,31850.88
+Haryana,Haryana_District,2022,Whole Year,cotton,35469.09,15577.81
+Haryana,Haryana_District,2022,Rabi,jute,19387.92,35155.6
+Haryana,Haryana_District,2022,Rabi,banana,15489.71,623535.75
+Haryana,Haryana_District,2022,Kharif,mango,27737.7,231683.4
+Haryana,Haryana_District,2022,Rabi,coconut,43127.2,407555.98
+Haryana,Haryana_District,2022,Whole Year,coffee,10665.13,8698.95
+Haryana,Haryana_District,2022,Rabi,papaya,18039.51,860744.42
+Haryana,Haryana_District,2022,Kharif,grapes,3297.87,82370.52
+Haryana,Haryana_District,2022,Kharif,orange,1304.7,16317.48
+Haryana,Haryana_District,2022,Kharif,watermelon,32837.69,754807.33
+Haryana,Haryana_District,2022,Rabi,lentil,23879.25,20592.6
+Haryana,Haryana_District,2022,Kharif,pigeonpeas,46941.68,40533.69
+Haryana,Haryana_District,2022,Kharif,mungbean,32561.0,20801.22
+Haryana,Haryana_District,2022,Kharif,blackgram,36274.58,25441.62
+Haryana,Haryana_District,2022,Whole Year,mothbeans,29474.01,9602.4
+Haryana,Haryana_District,2022,Whole Year,kidneybeans,33288.5,46439.81
+Haryana,Haryana_District,2022,Rabi,pomegranate,41244.46,451409.68
+Haryana,Haryana_District,2022,Whole Year,muskmelon,9795.41,115306.67
+Haryana,Haryana_District,2022,Rabi,apple,40419.71,655532.67
+Karnataka,Karnataka_District,2022,Kharif,rice,8899.61,25325.71
+Karnataka,Karnataka_District,2022,Kharif,maize,44741.45,96906.38
+Karnataka,Karnataka_District,2022,Kharif,chickpea,45280.57,52526.26
+Karnataka,Karnataka_District,2022,Rabi,cotton,45054.15,19622.58
+Karnataka,Karnataka_District,2022,Rabi,jute,15273.08,35457.15
+Karnataka,Karnataka_District,2022,Whole Year,banana,24087.48,609144.17
+Karnataka,Karnataka_District,2022,Kharif,mango,17938.01,83543.8
+Karnataka,Karnataka_District,2022,Whole Year,coconut,36934.05,357252.3
+Karnataka,Karnataka_District,2022,Kharif,coffee,28956.89,31034.8
+Karnataka,Karnataka_District,2022,Whole Year,papaya,13141.15,666922.59
+Karnataka,Karnataka_District,2022,Kharif,grapes,7633.24,53931.09
+Karnataka,Karnataka_District,2022,Whole Year,orange,46096.89,478326.15
+Karnataka,Karnataka_District,2022,Kharif,watermelon,24233.37,505666.97
+Karnataka,Karnataka_District,2022,Whole Year,lentil,4520.1,3154.41
+Karnataka,Karnataka_District,2022,Rabi,pigeonpeas,47630.66,29750.51
+Karnataka,Karnataka_District,2022,Whole Year,mungbean,28341.48,14446.18
+Karnataka,Karnataka_District,2022,Whole Year,blackgram,35720.48,26519.07
+Karnataka,Karnataka_District,2022,Rabi,mothbeans,16542.06,8243.49
+Karnataka,Karnataka_District,2022,Rabi,kidneybeans,48587.87,39657.36
+Karnataka,Karnataka_District,2022,Kharif,pomegranate,41963.03,475965.08
+Karnataka,Karnataka_District,2022,Kharif,muskmelon,8357.24,131733.3
+Karnataka,Karnataka_District,2022,Rabi,apple,10794.96,115444.27
+Kerala,Kerala_District,2022,Whole Year,rice,47856.85,103588.59
+Kerala,Kerala_District,2022,Kharif,maize,3543.02,13324.52
+Kerala,Kerala_District,2022,Rabi,chickpea,23004.43,21310.65
+Kerala,Kerala_District,2022,Rabi,cotton,30507.8,10291.52
+Kerala,Kerala_District,2022,Whole Year,jute,2129.31,4195.87
+Kerala,Kerala_District,2022,Kharif,banana,45964.7,1395707.97
+Kerala,Kerala_District,2022,Whole Year,mango,48266.8,310366.65
+Kerala,Kerala_District,2022,Whole Year,coconut,21338.77,232159.74
+Kerala,Kerala_District,2022,Rabi,coffee,43490.51,44573.15
+Kerala,Kerala_District,2022,Kharif,papaya,19512.21,819557.09
+Kerala,Kerala_District,2022,Rabi,grapes,5251.33,130063.66
+Kerala,Kerala_District,2022,Whole Year,orange,42165.73,422898.89
+Kerala,Kerala_District,2022,Kharif,watermelon,15822.75,333524.49
+Kerala,Kerala_District,2022,Kharif,lentil,44061.98,43684.96
+Kerala,Kerala_District,2022,Whole Year,pigeonpeas,32180.43,14463.65
+Kerala,Kerala_District,2022,Kharif,mungbean,21218.09,5570.44
+Kerala,Kerala_District,2022,Kharif,blackgram,7928.78,4716.01
+Kerala,Kerala_District,2022,Whole Year,mothbeans,18544.31,10310.93
+Kerala,Kerala_District,2022,Rabi,kidneybeans,22290.6,34643.44
+Kerala,Kerala_District,2022,Kharif,pomegranate,13194.12,77523.02
+Kerala,Kerala_District,2022,Rabi,muskmelon,29724.12,464636.83
+Kerala,Kerala_District,2022,Kharif,apple,41235.09,462849.75
+Madhya Pradesh,Madhya Pradesh_District,2022,Rabi,rice,12230.2,22897.72
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,maize,36708.15,130447.65
+Madhya Pradesh,Madhya Pradesh_District,2022,Rabi,chickpea,34404.24,30615.71
+Madhya Pradesh,Madhya Pradesh_District,2022,Whole Year,cotton,16656.0,5927.35
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,jute,29474.05,76786.92
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,banana,6334.63,239555.52
+Madhya Pradesh,Madhya Pradesh_District,2022,Whole Year,mango,40669.69,275776.37
+Madhya Pradesh,Madhya Pradesh_District,2022,Rabi,coconut,6814.24,56275.3
+Madhya Pradesh,Madhya Pradesh_District,2022,Rabi,coffee,22325.89,17342.21
+Madhya Pradesh,Madhya Pradesh_District,2022,Whole Year,papaya,8680.21,375258.99
+Madhya Pradesh,Madhya Pradesh_District,2022,Whole Year,grapes,1050.7,18977.26
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,orange,7562.31,105197.48
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,watermelon,197.06,4699.63
+Madhya Pradesh,Madhya Pradesh_District,2022,Rabi,lentil,7017.72,4257.63
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,pigeonpeas,29370.38,25726.06
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,mungbean,28666.3,13074.25
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,blackgram,21574.01,14517.33
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,mothbeans,11367.45,5207.16
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,kidneybeans,26209.36,30561.99
+Madhya Pradesh,Madhya Pradesh_District,2022,Whole Year,pomegranate,9316.05,72317.01
+Madhya Pradesh,Madhya Pradesh_District,2022,Rabi,muskmelon,6758.78,120317.12
+Madhya Pradesh,Madhya Pradesh_District,2022,Kharif,apple,38479.87,468805.29
+Maharashtra,Maharashtra_District,2022,Kharif,rice,27961.21,82727.21
+Maharashtra,Maharashtra_District,2022,Kharif,maize,14594.81,31673.54
+Maharashtra,Maharashtra_District,2022,Kharif,chickpea,20227.11,19213.16
+Maharashtra,Maharashtra_District,2022,Whole Year,cotton,35840.67,18825.6
+Maharashtra,Maharashtra_District,2022,Whole Year,jute,41755.1,76895.06
+Maharashtra,Maharashtra_District,2022,Whole Year,banana,18447.14,411974.24
+Maharashtra,Maharashtra_District,2022,Kharif,mango,35895.35,197505.02
+Maharashtra,Maharashtra_District,2022,Rabi,coconut,45750.05,377775.18
+Maharashtra,Maharashtra_District,2022,Kharif,coffee,15033.2,9417.71
+Maharashtra,Maharashtra_District,2022,Whole Year,papaya,2304.4,62278.06
+Maharashtra,Maharashtra_District,2022,Rabi,grapes,32214.3,685360.99
+Maharashtra,Maharashtra_District,2022,Kharif,orange,10866.45,149715.37
+Maharashtra,Maharashtra_District,2022,Rabi,watermelon,33124.39,810772.24
+Maharashtra,Maharashtra_District,2022,Whole Year,lentil,14644.51,9291.28
+Maharashtra,Maharashtra_District,2022,Rabi,pigeonpeas,28707.58,20413.64
+Maharashtra,Maharashtra_District,2022,Rabi,mungbean,18431.11,13995.11
+Maharashtra,Maharashtra_District,2022,Whole Year,blackgram,38735.09,22638.23
+Maharashtra,Maharashtra_District,2022,Rabi,mothbeans,35945.55,13795.21
+Maharashtra,Maharashtra_District,2022,Whole Year,kidneybeans,30506.46,32202.05
+Maharashtra,Maharashtra_District,2022,Rabi,pomegranate,48141.26,439581.58
+Maharashtra,Maharashtra_District,2022,Kharif,muskmelon,10560.21,160921.72
+Maharashtra,Maharashtra_District,2022,Rabi,apple,11103.97,153092.15
+Punjab,Punjab_District,2022,Kharif,rice,1938.52,5622.28
+Punjab,Punjab_District,2022,Rabi,maize,20073.13,55671.93
+Punjab,Punjab_District,2022,Whole Year,chickpea,26630.23,37596.22
+Punjab,Punjab_District,2022,Whole Year,cotton,47728.54,18003.8
+Punjab,Punjab_District,2022,Whole Year,jute,48751.28,142986.36
+Punjab,Punjab_District,2022,Kharif,banana,14253.07,456940.6
+Punjab,Punjab_District,2022,Kharif,mango,6727.8,31809.73
+Punjab,Punjab_District,2022,Kharif,coconut,32539.63,273650.68
+Punjab,Punjab_District,2022,Kharif,coffee,36743.4,32017.73
+Punjab,Punjab_District,2022,Whole Year,papaya,15376.98,739063.42
+Punjab,Punjab_District,2022,Kharif,grapes,35378.63,828446.88
+Punjab,Punjab_District,2022,Whole Year,orange,30732.74,226899.62
+Punjab,Punjab_District,2022,Kharif,watermelon,31121.56,542765.68
+Punjab,Punjab_District,2022,Whole Year,lentil,39225.47,41474.86
+Punjab,Punjab_District,2022,Rabi,pigeonpeas,43151.86,51567.21
+Punjab,Punjab_District,2022,Whole Year,mungbean,14023.42,8707.7
+Punjab,Punjab_District,2022,Whole Year,blackgram,3946.2,3138.14
+Punjab,Punjab_District,2022,Rabi,mothbeans,48575.99,25595.74
+Punjab,Punjab_District,2022,Rabi,kidneybeans,9220.74,16070.74
+Punjab,Punjab_District,2022,Rabi,pomegranate,20960.46,200081.52
+Punjab,Punjab_District,2022,Whole Year,muskmelon,35512.35,474550.97
+Punjab,Punjab_District,2022,Whole Year,apple,10902.27,119494.05
+Rajasthan,Rajasthan_District,2022,Rabi,rice,3763.1,7367.65
+Rajasthan,Rajasthan_District,2022,Kharif,maize,23360.41,67465.28
+Rajasthan,Rajasthan_District,2022,Rabi,chickpea,38829.69,18943.13
+Rajasthan,Rajasthan_District,2022,Whole Year,cotton,18851.52,7465.49
+Rajasthan,Rajasthan_District,2022,Kharif,jute,30145.57,77229.03
+Rajasthan,Rajasthan_District,2022,Kharif,banana,6252.29,192644.88
+Rajasthan,Rajasthan_District,2022,Kharif,mango,45346.97,308590.39
+Rajasthan,Rajasthan_District,2022,Kharif,coconut,49435.01,455785.48
+Rajasthan,Rajasthan_District,2022,Kharif,coffee,43362.3,40721.53
+Rajasthan,Rajasthan_District,2022,Rabi,papaya,47930.73,2350624.0
+Rajasthan,Rajasthan_District,2022,Rabi,grapes,34407.13,700831.9
+Rajasthan,Rajasthan_District,2022,Whole Year,orange,18872.67,239485.86
+Rajasthan,Rajasthan_District,2022,Kharif,watermelon,41697.96,1181480.64
+Rajasthan,Rajasthan_District,2022,Kharif,lentil,35716.09,24174.25
+Rajasthan,Rajasthan_District,2022,Whole Year,pigeonpeas,23174.42,20605.59
+Rajasthan,Rajasthan_District,2022,Kharif,mungbean,15950.24,11216.23
+Rajasthan,Rajasthan_District,2022,Whole Year,blackgram,29474.02,13033.86
+Rajasthan,Rajasthan_District,2022,Rabi,mothbeans,13663.64,2893.35
+Rajasthan,Rajasthan_District,2022,Whole Year,kidneybeans,45681.04,60532.39
+Rajasthan,Rajasthan_District,2022,Rabi,pomegranate,38349.12,275710.92
+Rajasthan,Rajasthan_District,2022,Kharif,muskmelon,43591.6,523009.88
+Rajasthan,Rajasthan_District,2022,Whole Year,apple,28195.8,384978.12
+Tamil Nadu,Tamil Nadu_District,2022,Whole Year,rice,14088.23,41297.21
+Tamil Nadu,Tamil Nadu_District,2022,Whole Year,maize,33789.43,70836.8
+Tamil Nadu,Tamil Nadu_District,2022,Whole Year,chickpea,36748.33,29852.13
+Tamil Nadu,Tamil Nadu_District,2022,Kharif,cotton,43875.74,29071.76
+Tamil Nadu,Tamil Nadu_District,2022,Kharif,jute,29655.74,78407.05
+Tamil Nadu,Tamil Nadu_District,2022,Whole Year,banana,11873.04,376334.56
+Tamil Nadu,Tamil Nadu_District,2022,Whole Year,mango,2779.8,25408.96
+Tamil Nadu,Tamil Nadu_District,2022,Rabi,coconut,36803.26,403479.82
+Tamil Nadu,Tamil Nadu_District,2022,Kharif,coffee,10450.64,9404.99
+Tamil Nadu,Tamil Nadu_District,2022,Whole Year,papaya,22850.99,1227299.69
+Tamil Nadu,Tamil Nadu_District,2022,Kharif,grapes,41221.47,363023.03
+Tamil Nadu,Tamil Nadu_District,2022,Kharif,orange,5724.12,59421.98
+Tamil Nadu,Tamil Nadu_District,2022,Whole Year,watermelon,39958.84,971430.67
+Tamil Nadu,Tamil Nadu_District,2022,Rabi,lentil,21931.26,13965.4
+Tamil Nadu,Tamil Nadu_District,2022,Kharif,pigeonpeas,37863.18,29267.54
+Tamil Nadu,Tamil Nadu_District,2022,Whole Year,mungbean,9467.96,4032.56
+Tamil Nadu,Tamil Nadu_District,2022,Rabi,blackgram,11277.29,6691.55
+Tamil Nadu,Tamil Nadu_District,2022,Whole Year,mothbeans,31235.02,11401.1
+Tamil Nadu,Tamil Nadu_District,2022,Rabi,kidneybeans,36725.97,41405.52
+Tamil Nadu,Tamil Nadu_District,2022,Kharif,pomegranate,6970.38,78073.16
+Tamil Nadu,Tamil Nadu_District,2022,Kharif,muskmelon,4534.18,79015.35
+Tamil Nadu,Tamil Nadu_District,2022,Rabi,apple,34484.57,443360.31
+Uttar Pradesh,Uttar Pradesh_District,2022,Rabi,rice,36209.56,102967.52
+Uttar Pradesh,Uttar Pradesh_District,2022,Whole Year,maize,33224.57,86648.19
+Uttar Pradesh,Uttar Pradesh_District,2022,Rabi,chickpea,46918.71,54046.47
+Uttar Pradesh,Uttar Pradesh_District,2022,Whole Year,cotton,6767.04,2050.55
+Uttar Pradesh,Uttar Pradesh_District,2022,Rabi,jute,20170.43,46545.31
+Uttar Pradesh,Uttar Pradesh_District,2022,Kharif,banana,41914.46,992095.99
+Uttar Pradesh,Uttar Pradesh_District,2022,Kharif,mango,30081.74,174882.94
+Uttar Pradesh,Uttar Pradesh_District,2022,Whole Year,coconut,48615.05,195556.38
+Uttar Pradesh,Uttar Pradesh_District,2022,Rabi,coffee,25063.42,18082.91
+Uttar Pradesh,Uttar Pradesh_District,2022,Rabi,papaya,32122.36,1273164.54
+Uttar Pradesh,Uttar Pradesh_District,2022,Rabi,grapes,39117.22,963225.18
+Uttar Pradesh,Uttar Pradesh_District,2022,Whole Year,orange,5797.35,54883.05
+Uttar Pradesh,Uttar Pradesh_District,2022,Kharif,watermelon,11709.08,267420.88
+Uttar Pradesh,Uttar Pradesh_District,2022,Rabi,lentil,35994.67,29915.94
+Uttar Pradesh,Uttar Pradesh_District,2022,Kharif,pigeonpeas,40083.8,38333.41
+Uttar Pradesh,Uttar Pradesh_District,2022,Rabi,mungbean,40474.25,24689.68
+Uttar Pradesh,Uttar Pradesh_District,2022,Whole Year,blackgram,30440.9,9466.35
+Uttar Pradesh,Uttar Pradesh_District,2022,Rabi,mothbeans,16682.6,7147.82
+Uttar Pradesh,Uttar Pradesh_District,2022,Kharif,kidneybeans,24768.41,38842.55
+Uttar Pradesh,Uttar Pradesh_District,2022,Whole Year,pomegranate,25391.25,299369.29
+Uttar Pradesh,Uttar Pradesh_District,2022,Whole Year,muskmelon,33704.85,363446.61
+Uttar Pradesh,Uttar Pradesh_District,2022,Whole Year,apple,21210.06,338818.38
+West Bengal,West Bengal_District,2022,Whole Year,rice,5786.99,12241.03
+West Bengal,West Bengal_District,2022,Kharif,maize,3960.1,9295.76
+West Bengal,West Bengal_District,2022,Kharif,chickpea,315.86,104.38
+West Bengal,West Bengal_District,2022,Rabi,cotton,25972.65,15522.1
+West Bengal,West Bengal_District,2022,Whole Year,jute,25095.45,50265.04
+West Bengal,West Bengal_District,2022,Kharif,banana,29902.65,810202.72
+West Bengal,West Bengal_District,2022,Kharif,mango,20044.12,126298.78
+West Bengal,West Bengal_District,2022,Rabi,coconut,15994.03,153559.92
+West Bengal,West Bengal_District,2022,Kharif,coffee,29022.92,26974.96
+West Bengal,West Bengal_District,2022,Whole Year,papaya,47560.41,2493946.93
+West Bengal,West Bengal_District,2022,Whole Year,grapes,8196.75,181770.64
+West Bengal,West Bengal_District,2022,Kharif,orange,28453.74,236634.86
+West Bengal,West Bengal_District,2022,Kharif,watermelon,32673.18,994819.52
+West Bengal,West Bengal_District,2022,Kharif,lentil,9429.48,3510.26
+West Bengal,West Bengal_District,2022,Rabi,pigeonpeas,34968.17,34156.8
+West Bengal,West Bengal_District,2022,Whole Year,mungbean,39530.9,31886.18
+West Bengal,West Bengal_District,2022,Whole Year,blackgram,17590.46,10654.68
+West Bengal,West Bengal_District,2022,Kharif,mothbeans,42649.29,12943.23
+West Bengal,West Bengal_District,2022,Kharif,kidneybeans,25581.87,19279.96
+West Bengal,West Bengal_District,2022,Whole Year,pomegranate,30234.43,221006.68
+West Bengal,West Bengal_District,2022,Whole Year,muskmelon,42889.06,688930.41
+West Bengal,West Bengal_District,2022,Kharif,apple,25890.86,244269.97
